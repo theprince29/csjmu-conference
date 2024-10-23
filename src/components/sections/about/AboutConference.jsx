@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutConference = () => {
   return (
-    <section className="bg-gray-50 p-8 text-left rounded-lg shadow-md">
+    <section className="bg-gray-100 p-8 text-left mt-4 rounded-lg shadow-md">
       <h2 className="text-3xl font-bold text-left mb-6 text-dark">
         About the Conference
       </h2>
