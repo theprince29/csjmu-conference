@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-primary text-white w-full py-4 shadow-md">
+    <nav className="bg-primary text-white w-full py-4 shadow-md rounded">
       <div className="container mx-auto flex justify-between items-center px-4">
         {/* Hamburger Menu for Mobile */}
         <div className="md:hidden">
