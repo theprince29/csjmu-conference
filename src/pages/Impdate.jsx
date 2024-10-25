@@ -3,7 +3,7 @@ import React from 'react'
 const Impdate = () => {
   return (
     <div className='mb-4'>
-      <div className="max-w-4xl mx-auto mt-12 text-center">
+      <div className="max-w-4xl mx-auto mt-4 text-center">
         <h1 className="text-4xl font-bold text-third mb-8">IMPORTANT DATES</h1>
         <table className="table-auto w-full text-left bg-white border-collapse shadow-lg">
             <thead className="bg-third text-white">
