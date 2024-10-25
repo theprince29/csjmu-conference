@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import Dropdown from '../dropdown/Dropdown';
 
-const Navbar = ({isSticky}) => {
+const Navbar = ({ isSticky }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -8,11 +9,11 @@ const Navbar = ({isSticky}) => {
   };
 
   return (
-    <nav className={`${isSticky ? 'fixed top-0 left-0 z-50':''} bg-primary text-white w-full py-4 shadow-md rounded`}>
+    <nav className={`${isSticky ? 'fixed top-0 left-0 z-50' : ''} bg-primary text-white w-full py-4 shadow-md rounded`}>
       <div className="container mx-auto flex justify-between items-center px-4">
         {/* Hamburger Menu for Mobile */}
         <div className="md:hidden">
-          <button onClick={toggleMenu} className="focus:outline-none">
+          <button onClick={toggleMenu} className="focus:outline-none" aria-label="Toggle Menu">
             <svg
               className="w-6 h-6"
               fill="none"
@@ -44,7 +45,10 @@ const Navbar = ({isSticky}) => {
           <a href="/" className="hover:text-secondary transition duration-300 ease-in-out">HOME</a>
           <a href="/call-for-papers" className="hover:text-secondary transition duration-300 ease-in-out">CALL FOR PAPERS</a>
           <a href="/important-dates" className="hover:text-secondary transition duration-300 ease-in-out">IMPORTANT DATES</a>
-          <a href="/committee" className="hover:text-yellow-500 transition duration-300 ease-in-out">COMMITTEE</a>
+          <Dropdown 
+            name={'COMMITTEE'} 
+            items={[{ itemName: "Committee Member", link: "/committee" }, { itemName: "Advisory Committee", link: "/advisorycommittee" }]} 
+          />
           <a href="/author-info" className="hover:text-secondary transition duration-300 ease-in-out">AUTHOR INFO</a>
           <a href="/program" className="hover:text-secondary transition duration-300 ease-in-out">PROGRAM</a>
           <a href="/publications" className="hover:text-secondary transition duration-300 ease-in-out">PUBLICATIONS</a>
@@ -53,8 +57,6 @@ const Navbar = ({isSticky}) => {
           <a href="/nearby-attractions" className="hover:text-secondary transition duration-300 ease-in-out">NEARBY ATTRACTIONS</a>
           <a href="/contact-us" className="hover:text-secondary transition duration-300 ease-in-out">CONTACT US</a>
         </div>
-
-     
       </div>
     </nav>
   );
