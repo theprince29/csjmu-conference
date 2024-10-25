@@ -43,7 +43,7 @@ const Navbar = ({ isSticky }) => {
           </div>
 
           {/* Left: Links Section */}
-          <div className={`hidden md:flex space-x-6 justify-around text-base font-semibold ${isOpen ? "hidden" : "block"}`}>
+          <div className={`hidden md:flex space-x-4 justify-around text-base font-semibold ${isOpen ? "hidden" : "block"}`}>
             <Link to="/" className="hover:text-secondary transition duration-300 ease-in-out">Home</Link>
             <Link to="/call-for-papers" className="hover:text-secondary transition duration-300 ease-in-out">Call for Papers</Link>
             <Link to="/important-dates" className="hover:text-secondary transition duration-300 ease-in-out">Important Dates</Link>
