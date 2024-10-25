@@ -1,9 +1,12 @@
 import React from "react";
-
+import banner from '../../assets/CSJMU.png'
 const Header = () => {
   return (
     <header className=" header bg-white text-dark py-8 px-4 pb-0">
       <div className="max-w-4xl mx-auto text-center">
+      <div className="flex justify-center items-center">
+          <img src={banner} alt="" className="h-full w-full object-contain rounded-xl" />
+      </div>
         <h1 className="text-3xl font-bold mb-4">
           "International Conference on Recent Advances in Emerging Computing and
           Communication Technologies"

@@ -17,6 +17,7 @@ import Willbesoon from './components/sections/about/Willbesoon';
 import Contactus from './pages/Contactus';
 import Gallery from './pages/Gallery';
 import Markey from './components/markey/Markey';
+import TouristSpots from './pages/TouristSpots';
 function App() {
   const [isSticky, setIsSticky] = useState(false);
 
@@ -47,7 +48,7 @@ function App() {
         <Route path="/publications" element={<Publication/>} />
         <Route path="/speakers" element={<Willbesoon/>} />
         <Route path="/gallery" element={<Gallery/>} />
-        <Route path="/nearby-attractions" element={<Willbesoon/>} />
+        <Route path="/nearby-attractions" element={<TouristSpots/>} />
         <Route path="/contact-us" element={<Contactus/>} />
         
       </Routes>
