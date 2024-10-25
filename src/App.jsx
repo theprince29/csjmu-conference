@@ -9,7 +9,9 @@ import Home from './pages/Home'; // Ensure you have this component
 import Committee from './pages/Committee';
 import AdvisoryCommittee from './pages/AdvisoryCommittee';
 import Dropdown from './components/dropdown/Dropdown';
-
+import CallForPaper from './pages/callForPaper';
+import Impdate from './pages/Impdate';
+import AuthorInfo from './pages/AuthorInfo';
 
 function App() {
   const [isSticky, setIsSticky] = useState(false);
@@ -33,6 +35,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/committee" element={<Committee/>} />
         <Route path="/advisorycommittee" element={<AdvisoryCommittee/>} />
+        <Route path="/call-for-papers" element={<CallForPaper/>} />
+        <Route path="/important-dates" element={<Impdate/>} />
+        <Route path="/author-info" element={<AuthorInfo/>} />
         
       </Routes>
       <Footer />

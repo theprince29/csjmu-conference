@@ -5,7 +5,8 @@ export default {
     extend: {
       colors: {
         primary: "#cf2e2e", // Red
-        secondary: "#FFD700", // Gold
+        secondary: "#FFD700",// Gold
+        third:"#1B305C", // new blue
       },
       fontFamily: {
         sans: ["Arial", "Helvetica", "sans-serif"], // Adjust based on CSJMU font
