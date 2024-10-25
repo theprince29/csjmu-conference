@@ -9,7 +9,7 @@ import Home from './pages/Home'; // Ensure you have this component
 import Committee from './pages/Committee';
 import AdvisoryCommittee from './pages/AdvisoryCommittee';
 import Dropdown from './components/dropdown/Dropdown';
-import CallForPaper from './pages/callForPaper';
+import CallForPaper from './pages/CallForPaper';
 import Impdate from './pages/Impdate';
 import AuthorInfo from './pages/AuthorInfo';
 import Registration from './pages/Registration';
