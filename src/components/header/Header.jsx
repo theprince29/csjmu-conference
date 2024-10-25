@@ -10,19 +10,16 @@ const Header = () => {
           <br />
           <span className="text-primary"> (ICRAECCT) - 2025 </span>
           <br />
-          <span className="text-2xl">School of Engineering and Technology (UIET)</span>
         </h1>
-        <div>
-          <h2 className="italic pb-4 text-purple-800 font-bold">
+        <div >
+          {/* <h2 className="italic pb-4 text-purple-800 font-bold">
             <span className="text-lg">International Conference</span> <br />
              on 
              <br />
              <span className="text-lg">Recent Advances in Emerging Computing</span>
             <span className="text-lg">and Communication Technologies</span>
-          </h2>
-          <p className="text-md text-purple-700 underline mb-4">
-            Conference Date: 11th & 12th April, 2025
-          </p>
+          </h2> */}
+
           <p className="font-semibold text-purple-700 text-lg">
             Jointly organized by:
           </p>
@@ -30,7 +27,17 @@ const Header = () => {
             <li>Department of Computer Application</li>
             <li>Department of Computer Science & Engineering</li>
             <li>Department of Electronics and Communication Engineering</li>
+            <li>
+              <span className="text-2xl">
+                School of Engineering and Technology (UIET)
+              </span>
+            </li>
           </ul>
+          <div className="text-2xl  bg-primary">
+            <p className="text-md text-white mb-4">
+              Conference Date: 11th & 12th April, 2025
+            </p>
+          </div>
         </div>
       </div>
     </header>

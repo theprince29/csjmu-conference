@@ -1,6 +1,7 @@
 import React from "react";
 import { Menu, MenuButton, MenuItems, MenuItem } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import { Link } from 'react-router-dom'; // Import Link
 
 const Dropdown = ({ name, items }) => {
   return (
@@ -22,12 +23,12 @@ const Dropdown = ({ name, items }) => {
         <div className="py-1">
           {items.map((t, index) => (
             <MenuItem key={index}>
-              <a
-                href={t.link}
-                className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
+              <Link
+                to={t.link} // Use Link instead of a
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 focus:bg-gray-100 focus:text-gray-900"
               >
                 {t.itemName}
-              </a>
+              </Link>
             </MenuItem>
           ))}
         </div>

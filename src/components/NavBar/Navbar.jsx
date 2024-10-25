@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; 
 import Dropdown from '../dropdown/Dropdown';
 
 const Navbar = ({ isSticky }) => {
@@ -42,20 +43,23 @@ const Navbar = ({ isSticky }) => {
 
         {/* Left: Links Section */}
         <div className={`flex flex-col md:flex-row md:space-x-8 text-xs md:text-base ${isOpen ? 'block' : 'hidden'} md:block`}>
-          <a href="/" className="hover:text-secondary transition duration-300 ease-in-out">HOME</a>
-          <a href="/call-for-papers" className="hover:text-secondary transition duration-300 ease-in-out">CALL FOR PAPERS</a>
-          <a href="/important-dates" className="hover:text-secondary transition duration-300 ease-in-out">IMPORTANT DATES</a>
+          <Link to="/" className="hover:text-secondary transition duration-300 ease-in-out">HOME</Link>
+          <Link to="/call-for-papers" className="hover:text-secondary transition duration-300 ease-in-out">CALL FOR PAPERS</Link>
+          <Link to="/important-dates" className="hover:text-secondary transition duration-300 ease-in-out">IMPORTANT DATES</Link>
           <Dropdown 
             name={'COMMITTEE'} 
-            items={[{ itemName: "Committee Member", link: "/committee" }, { itemName: "Advisory Committee", link: "/advisorycommittee" }]} 
+            items={[
+              { itemName: "Committee Member", link: "/committee" }, 
+              { itemName: "Advisory Committee", link: "/advisorycommittee" }
+            ]} 
           />
-          <a href="/author-info" className="hover:text-secondary transition duration-300 ease-in-out">AUTHOR INFO</a>
-          <a href="/program" className="hover:text-secondary transition duration-300 ease-in-out">PROGRAM</a>
-          <a href="/publications" className="hover:text-secondary transition duration-300 ease-in-out">PUBLICATIONS</a>
-          <a href="/speakers" className="hover:text-secondary transition duration-300 ease-in-out">SPEAKERS</a>
-          <a href="/gallery" className="hover:text-secondary transition duration-300 ease-in-out">GALLERY</a>
-          <a href="/nearby-attractions" className="hover:text-secondary transition duration-300 ease-in-out">NEARBY ATTRACTIONS</a>
-          <a href="/contact-us" className="hover:text-secondary transition duration-300 ease-in-out">CONTACT US</a>
+          <Link to="/author-info" className="hover:text-secondary transition duration-300 ease-in-out">AUTHOR INFO</Link>
+          <Link to="/program" className="hover:text-secondary transition duration-300 ease-in-out">PROGRAM</Link>
+          <Link to="/publications" className="hover:text-secondary transition duration-300 ease-in-out">PUBLICATIONS</Link>
+          <Link to="/speakers" className="hover:text-secondary transition duration-300 ease-in-out">SPEAKERS</Link>
+          <Link to="/gallery" className="hover:text-secondary transition duration-300 ease-in-out">GALLERY</Link>
+          <Link to="/nearby-attractions" className="hover:text-secondary transition duration-300 ease-in-out">NEARBY ATTRACTIONS</Link>
+          <Link to="/contact-us" className="hover:text-secondary transition duration-300 ease-in-out">CONTACT US</Link>
         </div>
       </div>
     </nav>
