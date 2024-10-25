@@ -5,10 +5,9 @@ import './App.css';
 import Navbar from './components/NavBar/Navbar';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
-import Home from './pages/Home'; // Ensure you have this component
+import Home from './pages/Home'; 
 import Committee from './pages/Committee';
 import AdvisoryCommittee from './pages/AdvisoryCommittee';
-import Dropdown from './components/dropdown/Dropdown';
 import CallForPaper from './pages/CallForPaper';
 import Impdate from './pages/Impdate';
 import AuthorInfo from './pages/AuthorInfo';
@@ -16,6 +15,8 @@ import Registration from './pages/Registration';
 import Publication from './pages/Publication';
 import Willbesoon from './components/sections/about/Willbesoon';
 import Contactus from './pages/Contactus';
+import Gallery from './pages/Gallery';
+import Markey from './components/markey/Markey';
 function App() {
   const [isSticky, setIsSticky] = useState(false);
 
@@ -33,6 +34,7 @@ function App() {
   return (
     <Router>
       <Header />
+      <Markey/>
       <Navbar isSticky={isSticky} />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -44,7 +46,7 @@ function App() {
         <Route path="/registration" element={<Registration/>} />
         <Route path="/publications" element={<Publication/>} />
         <Route path="/speakers" element={<Willbesoon/>} />
-        <Route path="/gallery" element={<Willbesoon/>} />
+        <Route path="/gallery" element={<Gallery/>} />
         <Route path="/nearby-attractions" element={<Willbesoon/>} />
         <Route path="/contact-us" element={<Contactus/>} />
         

@@ -25,8 +25,8 @@ const Carousel = () => {
         className="progress-slide-carousel"
       >
         <SwiperSlide>
-          <div className="bg-indigo-50 rounded-2xl h-96 flex justify-center items-center">
-            <span className="text-3xl font-semibold text-indigo-600">Slide 1</span>
+          <div className="bg-indigo-50 rounded-2xl h-96 flex justify-center items-center slide-1">
+            
           </div>
         </SwiperSlide>
         <SwiperSlide>

@@ -1,0 +1,16 @@
+@keyframes marquee {
+    0% {
+      transform: translate(-100%, 0); /* Start off-screen to the left */
+    }
+    50% {
+      transform: translate(100%, 0); /* Move off-screen to the right */
+    }
+    100% {
+      transform: translate(-100%, 0); /* Return to start position off-screen left */
+    }
+  }
+  
+  .animate-marquee {
+    animation: marquee 10s linear infinite; /* Adjust speed as needed */
+  }
+  

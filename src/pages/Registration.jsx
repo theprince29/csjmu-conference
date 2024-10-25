@@ -79,6 +79,44 @@ const Registration = () => {
             </tbody>
           </table>
         </div>
+        <div class="max-w-md mx-auto bg-gray-100 border-4 border-third p-6 rounded-lg text-dark mt-10">
+          <div class="bg-third text-center text-white py-3 text-xl font-bold rounded-md">
+            Mode of Payment
+          </div>
+          <div class="flex flex-col md:flex-row justify-between items-start mt-6">
+            <div class="text-left space-y-2">
+              <p>
+                <strong>
+                  Registration fee can be paid through Google Pay.
+                </strong>
+              </p>
+              <p>
+                Name of Account Holder: <strong>ICRAECCT</strong>
+              </p>
+              <p>
+                Account Number: <strong>xxxx xxxx xxxx xxxx</strong>
+              </p>
+              <p>
+                Bank Name: <strong>Bank of Broada</strong>
+              </p>
+              <p>
+                Branch: <strong>CSJM University</strong>
+              </p>
+              <p>
+                IFSC: <strong>BARBOCSUKAN</strong>
+              </p>
+            </div>
+            <div class="text-center flex flex-col items-center mt-4 md:mt-0 md:ml-4">
+              <p>Scan to pay</p>
+              <img
+                class="mt-2"
+                src="public/images/qr-code.jpg"
+                alt="QR Code"
+              />
+            </div>
+          </div>
+        </div>
+
         <div className="mt-4">
           <a
             href="https://forms.gle/Gz7WHUXZuiW1Snnk6"

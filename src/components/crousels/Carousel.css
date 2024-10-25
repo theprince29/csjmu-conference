@@ -9,3 +9,10 @@
   .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
     background: #cf2e2e !important; /* Customize the fill color */
   }
+
+  .slide-1 {
+    background-image: url(https://csjmu.ac.in/eventsimages/2024/convo39/convo-39-01.jpg);
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    /* aspect-ratio: 16 / 9; Adjust to your preferred aspect ratio */
+  }
