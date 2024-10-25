@@ -3,8 +3,8 @@ import React from "react";
 const CallForPaper = () => {
   return (
     <div className="bg-gray-100 text-left p-6 md:p-12 lg:p-16">
-      <h1 className="text-3xl font-bold text-center text-blue-700 mb-8">
-        Call for Paper
+      <h1 className="text-4xl font-bold text-center text-third mb-8">
+        CALL FOR PAPER
       </h1>
       <div className="space-y-8">
         <div className="text-center">

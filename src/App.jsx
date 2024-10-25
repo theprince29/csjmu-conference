@@ -12,7 +12,10 @@ import Dropdown from './components/dropdown/Dropdown';
 import CallForPaper from './pages/callForPaper';
 import Impdate from './pages/Impdate';
 import AuthorInfo from './pages/AuthorInfo';
-
+import Registration from './pages/Registration';
+import Publication from './pages/Publication';
+import Willbesoon from './components/sections/about/Willbesoon';
+import Contactus from './pages/Contactus';
 function App() {
   const [isSticky, setIsSticky] = useState(false);
 
@@ -38,6 +41,12 @@ function App() {
         <Route path="/call-for-papers" element={<CallForPaper/>} />
         <Route path="/important-dates" element={<Impdate/>} />
         <Route path="/author-info" element={<AuthorInfo/>} />
+        <Route path="/registration" element={<Registration/>} />
+        <Route path="/publications" element={<Publication/>} />
+        <Route path="/speakers" element={<Willbesoon/>} />
+        <Route path="/gallery" element={<Willbesoon/>} />
+        <Route path="/nearby-attractions" element={<Willbesoon/>} />
+        <Route path="/contact-us" element={<Contactus/>} />
         
       </Routes>
       <Footer />

@@ -3,8 +3,8 @@ import React from "react";
 const AdvisoryCommittee = () => {
   return (
     <div className="bg-gray-100 text-left p-6 md:p-12 lg:p-16">
-      <h1 className="text-3xl font-bold text-center text-blue-700 mb-8">
-        Advisory Committee Members
+      <h1 className="text-4xl font-bold text-center text-third mb-8">
+        ADVISORY COMMITTEE MEMBERS
       </h1>
 
       <div className="space-y-8">

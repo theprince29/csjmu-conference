@@ -54,7 +54,7 @@ const Navbar = ({ isSticky }) => {
             ]} 
           />
           <Link to="/author-info" className="hover:text-secondary transition duration-300 ease-in-out">AUTHOR INFO</Link>
-          <Link to="/program" className="hover:text-secondary transition duration-300 ease-in-out">PROGRAM</Link>
+          <Link to="/registration" className="hover:text-secondary transition duration-300 ease-in-out">REGISTRATION</Link>
           <Link to="/publications" className="hover:text-secondary transition duration-300 ease-in-out">PUBLICATIONS</Link>
           <Link to="/speakers" className="hover:text-secondary transition duration-300 ease-in-out">SPEAKERS</Link>
           <Link to="/gallery" className="hover:text-secondary transition duration-300 ease-in-out">GALLERY</Link>
