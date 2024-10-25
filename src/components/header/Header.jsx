@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="bg-white text-dark py-8 px-4">
+    <header className=" header bg-white text-dark py-8 px-4">
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-3xl font-bold mb-4">
           "International Conference on Recent Advances in Emerging Computing and

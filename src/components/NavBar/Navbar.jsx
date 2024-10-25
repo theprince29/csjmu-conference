@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Navbar = () => {
+const Navbar = ({isSticky}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-primary text-white w-full py-4 shadow-md rounded">
+    <nav className={`${isSticky ? 'fixed top-0 left-0 z-50':''} bg-primary text-white w-full py-4 shadow-md rounded`}>
       <div className="container mx-auto flex justify-between items-center px-4">
         {/* Hamburger Menu for Mobile */}
         <div className="md:hidden">

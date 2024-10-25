@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 
 
 import './App.css'
@@ -9,12 +9,24 @@ import AboutConference from './components/sections/about/AboutConference'
 import AboutUniversity from './components/sections/about/AboutUniversity'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [isSticky, setIsSticky] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      
+      setIsSticky(window.scrollY > document.querySelector('.header').offsetHeight)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
 
   return (
     <>
       <Header/>
-      <Navbar/>
+      <Navbar isSticky={isSticky} />
       <Carousel/>
       <AboutConference/>
       <AboutUniversity/>
