@@ -6,7 +6,7 @@ function TouristSpots() {
   return (
     <>
       <div className='mt-8 mb-16'>
-        <h1 className="text-4xl font-bold leading-none tracking-tight text-red-600 md:text-5xl lg:text-6xl underline">Attactions nearby</h1>
+      <h1 className="text-4xl font-bold text-third mb-8">ATTRACTION NEARBY</h1>
       </div>
       <div className='flex justify-evenly flex-wrap'>
         <Card images={"/images/taj.png"} title="Agara" desc = "The Taj Mahal in Agra, India, is a white marble mausoleum built by Emperor Shah Jahan in 1653 in memory of his wife, Mumtaz Mahal. Renowned for its beauty and symmetry, it symbolizes eternal love and blends Islamic, Persian, and Indian architectural styles. A UNESCO World Heritage Site, it attracts millions of visitors each year." />

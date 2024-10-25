@@ -1,12 +1,16 @@
 import React from "react";
-import banner from '../../assets/CSJMU.png'
+import banner from "../../assets/CSJMU.png";
 const Header = () => {
   return (
     <header className=" header bg-white text-dark py-8 px-4 pb-0">
       <div className="max-w-4xl mx-auto text-center">
-      <div className="flex justify-center items-center">
-          <img src={banner} alt="" className="h-full w-full object-contain rounded-xl" />
-      </div>
+        <div className="flex justify-center items-center">
+          <img
+            src={banner}
+            alt=""
+            className="h-full w-full object-contain rounded-xl"
+          />
+        </div>
         <h1 className="text-3xl font-bold mb-4">
           "International Conference on Recent Advances in Emerging Computing and
           Communication Technologies"
@@ -31,15 +35,17 @@ const Header = () => {
             <li>Department of Computer Science & Engineering</li>
             <li>Department of Electronics and Communication Engineering</li>
             <li>
-              <span className="text-2xl">
+              <span className="text-2xl mb-2">
                 School of Engineering and Technology (UIET)
               </span>
             </li>
           </ul>
-          <div className="text-2xl  bg-primary">
-            <p className="text-md text-white ">
-              Conference Date: 11th & 12th April, 2025
-            </p>
+          <div className="flex justify-center">
+            <div className="text-2xl p-2 bg-secondary rounded ">
+              <p className="text-md text-third font-semibold ">
+              Conference Date: 11<sup>th</sup> & 12<sup>th</sup> April, 2025
+              </p>
+            </div>
           </div>
         </div>
       </div>
