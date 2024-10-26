@@ -44,7 +44,7 @@ function App() {
         <Route path="/advisorycommittee" element={<AdvisoryCommittee/>} />
         <Route path="/call-for-papers" element={<CallForPaper/>} />
         <Route path="/important-dates" element={<Impdate/>} />
-        <Route path="/author-guidelines" element={<AuthorInfo/>} />
+        <Route path="/crc-guidelines" element={<AuthorInfo/>} />
         <Route path="/registration" element={<Registration/>} />
         <Route path="/publications" element={<Publication/>} />
         <Route path="/speakers" element={<Willbesoon/>} />
