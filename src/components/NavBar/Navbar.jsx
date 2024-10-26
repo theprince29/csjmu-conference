@@ -96,7 +96,7 @@ const Navbar = ({ isSticky }) => {
                   { itemName: "Advisory Committee", link: "/advisorycommittee" }
                 ]} 
               />
-              <Link to="/author-info" className="hover:text-secondary transition duration-300 ease-in-out" onClick={toggleMenu}>Author Info</Link>
+              <Link to="/author-guidelines" className="hover:text-secondary transition duration-300 ease-in-out" onClick={toggleMenu}>Author Guidelines</Link>
               <Link to="/registration" className="hover:text-secondary transition duration-300 ease-in-out" onClick={toggleMenu}>Registration</Link>
               <Link to="/publications" className="hover:text-secondary transition duration-300 ease-in-out" onClick={toggleMenu}>Publications</Link>
               <Link to="/speakers" className="hover:text-secondary transition duration-300 ease-in-out" onClick={toggleMenu}>Speakers</Link>
