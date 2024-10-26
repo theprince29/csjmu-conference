@@ -2,11 +2,11 @@ import React from 'react';
 
 const AboutConference = () => {
   return (
-    <section className="bg-gray-100 p-8 text-left mt-4 rounded-lg shadow-md">
-      <h2 className="text-3xl font-bold text-left mb-6 text-dark">
+    <section className="bg-gray-100  p-8 text-left mt-4 rounded-lg shadow-md">
+      <h2 className="text-3xl font-bold text-left mb-6 text-primary">
         About the Conference
       </h2>
-      <div className="text-lg text-gray-700">
+      <div className="text-lg text-dark">
         <p className="mb-4">
           Chhatrapati Shahu Ji Maharaj University (CSJMU), Kanpur, is proud to announce an 
           International Conference on <strong>Recent Advances in Emerging Computing and 

@@ -18,6 +18,7 @@ import Contactus from './pages/Contactus';
 import Gallery from './pages/Gallery';
 import Markey from './components/markey/Markey';
 import TouristSpots from './pages/TouristSpots';
+import NotFound from './components/sections/notfound/NotFound';
 function App() {
   const [isSticky, setIsSticky] = useState(false);
 
@@ -50,7 +51,7 @@ function App() {
         <Route path="/gallery" element={<Gallery/>} />
         <Route path="/nearby-attractions" element={<TouristSpots/>} />
         <Route path="/contact-us" element={<Contactus/>} />
-        
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </Router>

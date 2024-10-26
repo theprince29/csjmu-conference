@@ -3,7 +3,7 @@ import React from 'react';
 const AboutUniversity = () => {
   return (
     <section className="bg-gray-100 p-8 text-left mt-4 rounded-lg shadow-md">
-      <h2 className="text-3xl font-bold text-left mb-6 text-dark">
+      <h2 className="text-3xl font-bold text-left mb-6 text-primary">
         About the University
       </h2>
       <div className="text-lg text-left text-gray-700">
@@ -41,7 +41,7 @@ const AboutUniversity = () => {
         </p>
       </div>
 
-      <h3 className="text-2xl text-left font-semibold text-dark mt-8 mb-4">About UIET</h3>
+      <h3 className="text-2xl text-left font-semibold text-third mt-8 mb-4">About UIET</h3>
       <div className="text-lg text-left text-gray-700">
         <p>
           The University Institute of Engineering & Technology (UIET) at Chhatrapati Shahu Ji 
