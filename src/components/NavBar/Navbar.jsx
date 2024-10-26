@@ -55,7 +55,7 @@ const Navbar = ({ isSticky }) => {
               ]} 
             />
             <Dropdown 
-              name={'Author-Info'} 
+              name={'Author Info'} 
               items={[
                 { itemName: "CRC Info", link: "/crc-guidelines" }, 
                 { itemName: "Submission Guideline", link: "#" }
@@ -103,7 +103,7 @@ const Navbar = ({ isSticky }) => {
                 ]} 
               />
               <Dropdown 
-                name={'Author-Info'} 
+                name={'Author Info'} 
                 items={[
                   { itemName: "CRC Info", link: "/crc-guidelines" }, 
                   { itemName: "Submission Guideline", link: "#" }
