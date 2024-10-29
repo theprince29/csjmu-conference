@@ -30,7 +30,15 @@ const Navbar = ({ isSticky }) => {
           {/* Left: Links Section */}
           <div className={`hidden md:flex space-x-4 justify-around text-base font-semibold ${isOpen ? "hidden" : "block"}`}>
             <Link to="/" className={`${isActive('/') ? 'text-secondary' : 'hover:text-secondary'} transition duration-300 ease-in-out`}>Home</Link>
-            <Link to="/call-for-papers" className={`${isActive('/call-for-papers') ? 'text-secondary' : 'hover:text-secondary'} transition duration-300 ease-in-out`}>Call for Papers</Link>
+            {/* <Link to="/call-for-papers" className={`${isActive('/call-for-papers') ? 'text-secondary' : 'hover:text-secondary'} transition duration-300 ease-in-out`}>Call for Papers</Link> */}
+           <Dropdown 
+              name={'Paper'} 
+              items={[
+                {itemName:"Call For Papers",link:"/call-for-papers"},
+                { itemName: "Call For special Sessions", link: "/call-for-special-sessions" },
+                
+              ]} 
+            />
             <Link to="/important-dates" className={`${isActive('/important-dates') ? 'text-secondary' : 'hover:text-secondary'} transition duration-300 ease-in-out`}>Important Dates</Link>
             <Dropdown 
               name={'Committee'} 
@@ -78,7 +86,15 @@ const Navbar = ({ isSticky }) => {
             </button>
             <div className="flex flex-col space-y-4 text-lg font-semibold">
               <Link to="/" className="hover:text-secondary transition duration-300 ease-in-out" onClick={toggleMenu}>Home</Link>
-              <Link to="/call-for-papers" className="hover:text-secondary transition duration-300 ease-in-out" onClick={toggleMenu}>Call for Papers</Link>
+              {/* <Link to="/call-for-papers" className="hover:text-secondary transition duration-300 ease-in-out" onClick={toggleMenu}>Call for Papers</Link> */}
+             <Dropdown 
+              name={'Paper'} 
+              items={[
+                {itemName:"Call For Papers",link:"/call-for-papers"},
+                { itemName: "Call For special Sessions", link: "/call-for-special-sessions" },
+                
+              ]} 
+            />
               <Link to="/important-dates" className="hover:text-secondary transition duration-300 ease-in-out" onClick={toggleMenu}>Important Dates</Link>
               <Dropdown 
                 name={'Committee'} 
