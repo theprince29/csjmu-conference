@@ -59,7 +59,7 @@ const Committee = () => {
             Organizing Chair
           </h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Prof. Robins Porwal</li>
+            <li>Prof. Rabins Porwal</li>
             <li>Dr. Alok Kumar</li>
             <li>Dr. Ajeet Kumar Srivastava</li>
           </ul>
@@ -99,7 +99,7 @@ const Committee = () => {
             Event Management Committee
           </h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li> Prof. Robins Porwal</li>
+            <li> Prof. Rabins Porwal</li>
             <li>Dr. Ajay Tiwari</li>
             <li>Dr Arpita Singh</li>
             <li>Mr. Atul Agnihotri</li>
@@ -158,7 +158,7 @@ const Committee = () => {
             Publication and Printing
           </h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Prof. Robins Porwal</li>
+            <li>Prof. Rabins Porwal</li>
             <li>Dr. Vineeta Singh</li>
             <li>Dr. Ompal</li>
             <li>Mr. Somesh K Malhotra</li>
