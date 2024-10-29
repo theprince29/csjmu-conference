@@ -37,7 +37,7 @@ const Navbar = ({ isSticky }) => {
               items={[
                 {itemName:"Steering Committee",link:"#"},
                 { itemName: "Advisory Committee", link: "/advisorycommittee" },
-                { itemName: "Committee Member", link: "/committee" }, 
+                { itemName: "Teachnical Committee", link: "/committee" }, 
               ]} 
             />
             <Dropdown 
@@ -85,7 +85,7 @@ const Navbar = ({ isSticky }) => {
                 items={[
                   {itemName:"Steering Committee",link:"#"},
                   { itemName: "Advisory Committee", link: "/advisorycommittee" },
-                  { itemName: "Committee Member", link: "/committee" }, 
+                  { itemName: "Technical Committee", link: "/committee" }, 
                 ]} 
               />
               <Dropdown 
