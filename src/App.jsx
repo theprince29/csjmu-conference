@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 import './App.css';
 import Navbar from './components/NavBar/Navbar';
@@ -19,7 +20,10 @@ import Gallery from './pages/Gallery';
 import Markey from './components/markey/Markey';
 import TouristSpots from './pages/TouristSpots';
 import NotFound from './components/sections/notfound/NotFound';
-function App() {
+import CountdownTimer from './components/countdown/CountdownTimer';
+
+function AppContent() {
+  const location = useLocation();
   const [isSticky, setIsSticky] = useState(false);
 
   useEffect(() => {
@@ -34,26 +38,41 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <>
       <Header />
+      <div className="flex justify-center mt-0">
+        <CountdownTimer/>
+      </div>
       <Markey/>
       <Navbar isSticky={isSticky} />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/committee" element={<Committee/>} />
-        <Route path="/advisorycommittee" element={<AdvisoryCommittee/>} />
-        <Route path="/call-for-papers" element={<CallForPaper/>} />
-        <Route path="/important-dates" element={<Impdate/>} />
-        <Route path="/crc-guidelines" element={<AuthorInfo/>} />
-        <Route path="/registration" element={<Registration/>} />
-        <Route path="/publications" element={<Publication/>} />
-        <Route path="/speakers" element={<Willbesoon/>} />
-        <Route path="/gallery" element={<Gallery/>} />
-        <Route path="/nearby-attractions" element={<TouristSpots/>} />
-        <Route path="/contact-us" element={<Contactus/>} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+      <TransitionGroup>
+        <CSSTransition key={location.key} classNames="fade" timeout={300}>
+          <Routes location={location}>
+            <Route path="/" element={<Home />} />
+            <Route path="/committee" element={<Committee/>} />
+            <Route path="/advisorycommittee" element={<AdvisoryCommittee/>} />
+            <Route path="/call-for-papers" element={<CallForPaper/>} />
+            <Route path="/important-dates" element={<Impdate/>} />
+            <Route path="/crc-guidelines" element={<AuthorInfo/>} />
+            <Route path="/registration" element={<Registration/>} />
+            <Route path="/publications" element={<Publication/>} />
+            <Route path="/speakers" element={<Willbesoon/>} />
+            <Route path="/gallery" element={<Gallery/>} />
+            <Route path="/nearby-attractions" element={<TouristSpots/>} />
+            <Route path="/contact-us" element={<Contactus/>} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </CSSTransition>
+      </TransitionGroup>
       <Footer />
+    </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <AppContent />
     </Router>
   );
 }

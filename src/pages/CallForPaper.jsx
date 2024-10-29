@@ -6,7 +6,7 @@ const CallForPaper = () => {
       <h1 className="text-4xl font-bold text-center text-third mb-8">
         CALL FOR PAPER
       </h1>
-      <div className="space-y-8">
+      <div className="space-y-4">
         <div className="text-center">
           <a className="text-2xl underline" href="https://forms.gle/yHQCmGUhhSe4zPiL9" target="_blank">
             Click here to submit your paper 

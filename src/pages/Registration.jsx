@@ -111,7 +111,7 @@ const Registration = () => {
               <p>Scan to pay</p>
               <img
                 className="mt-2 h-48"
-                src="public/images/qr-code.jpg"
+                src="/images/qr-code.jpg"
                 alt="QR Code"
               />
             </div>

@@ -1,0 +1,10 @@
+/* Card.css */
+.card-desc {
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Adjust this number to set maximum lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 5.5rem; /* Set a fixed height to help with alignment */
+  }
+  

@@ -5,7 +5,7 @@ const Impdate = () => {
     <div className='mb-4'>
       <div className="max-w-4xl mx-auto mt-4 text-center px-4">
         <h1 className="text-3xl sm:text-4xl font-bold text-third mb-8">IMPORTANT DATES</h1>
-        <table className="table-auto w-full text-left bg-white border-collapse shadow-lg">
+        <table className="table-auto w-full text-left py-4 mb-8 bg-white border-collapse shadow-lg">
           <thead className="bg-third text-white">
             <tr>
               <th className="px-4 py-2 sm:px-6 sm:py-4 text-lg sm:text-xl font-semibold border border-gray-300">EVENTS</th>

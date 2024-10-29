@@ -2,6 +2,7 @@ import Card from '../components/card/Card'
 import React from 'react'
 
 
+
 function TouristSpots() {
   return (
     <>
