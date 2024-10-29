@@ -6,7 +6,7 @@ const AboutUniversity = () => {
       <h2 className="text-3xl font-bold text-left mb-6 text-primary">
         About the University
       </h2>
-      <div className="text-lg text-left text-gray-700">
+      <div className="text-lg text-justify text-gray-700">
         <p>
           Chhatrapati Shahu Ji Maharaj University Kanpur, a premier landmark of higher education in 
           Uttar Pradesh, is named after the great social reformer Chhatrapati Shahu Maharaj, 

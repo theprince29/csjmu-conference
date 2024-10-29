@@ -2,15 +2,15 @@ import React from 'react';
 
 const AboutConference = () => {
   return (
-    <section className="bg-gray-100 p-8 text-left mt-4 rounded-lg shadow-md">
+    <section className="bg-gray-100 p-8 text-justify mt-4 rounded-lg shadow-md">
       <h2 className="text-3xl font-bold text-left mb-6 text-primary">
         About the Conference
       </h2>
       <div className="text-lg text-dark">
         <p className="mb-4">
           Chhatrapati Shahu Ji Maharaj University (CSJMU), Kanpur, is delighted to announce the 
-          <strong>International Conference on Recent Advances in Emerging Computing and Communication 
-          Technologies (IC-RAECCT)</strong>, to be held on April 11th-12th, 2025, at our campus.
+          <strong><em> International Conference on Recent Advances in Emerging Computing and Communication 
+          Technologies (IC-RAECCT)</em></strong>, to be held on April 11th-12th, 2025, at our campus.
         </p>
         <p className="mb-4">
           Jointly organized by the Department of Computer Applications, the Department of Computer 
