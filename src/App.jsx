@@ -49,7 +49,7 @@ function AppContent() {
         <CSSTransition key={location.key} classNames="fade" timeout={300}>
           <Routes location={location}>
             <Route path="/" element={<Home />} />
-            <Route path="/committee" element={<Committee/>} />
+            <Route path="/steering-committee" element={<Committee/>} />
             <Route path="/advisorycommittee" element={<AdvisoryCommittee/>} />
             <Route path="/call-for-papers" element={<CallForPaper/>} />
             <Route path="/important-dates" element={<Impdate/>} />
