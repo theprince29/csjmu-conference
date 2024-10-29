@@ -37,14 +37,14 @@ const Navbar = ({ isSticky }) => {
               items={[
                 {itemName:"Steering Committee",link:"/steering-committee"},
                 { itemName: "Advisory Committee", link: "/advisorycommittee" },
-                { itemName: "Teachnical Committee", link: "#" }, 
+                { itemName: "Teachnical Committee", link: "technical-program-committee" }, 
               ]} 
             />
             <Dropdown 
               name={'Author Info'} 
               items={[
                 { itemName: "CRC Info", link: "/crc-guidelines" }, 
-                { itemName: "Submission Guideline", link: "#" }
+                { itemName: "Submission Guideline", link: "/submission-guidelines" }
               ]} 
             />
             <Link to="/registration" className={`${isActive('/registration') ? 'text-secondary' : 'hover:text-secondary'} transition duration-300 ease-in-out`}>Registration</Link>
@@ -85,14 +85,14 @@ const Navbar = ({ isSticky }) => {
                 items={[
                   {itemName:"Steering Committee",link:"/steering-committee"},
                   { itemName: "Advisory Committee", link: "/advisorycommittee" },
-                  { itemName: "Technical Committee", link: "#" }, 
+                  { itemName: "Technical Committee", link: "technical-program-committee" }, 
                 ]} 
               />
               <Dropdown 
                 name={'Author Info'} 
                 items={[
                   { itemName: "CRC Info", link: "/crc-guidelines" }, 
-                  { itemName: "Submission Guideline", link: "#" }
+                  { itemName: "Submission Guideline", link: "/submission-guidelines" }
                 ]} 
               />
               <Link to="/registration" className="hover:text-secondary transition duration-300 ease-in-out" onClick={toggleMenu}>Registration</Link>

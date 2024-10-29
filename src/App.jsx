@@ -21,7 +21,8 @@ import Markey from './components/markey/Markey';
 import TouristSpots from './pages/TouristSpots';
 import NotFound from './components/sections/notfound/NotFound';
 import CountdownTimer from './components/countdown/CountdownTimer';
-
+import SubmissionGuide from './pages/SubmissinGuide';
+import TechnicalProgramCommittee from './pages/TechnicalProgramCommittee';
 function AppContent() {
   const location = useLocation();
   const [isSticky, setIsSticky] = useState(false);
@@ -54,6 +55,8 @@ function AppContent() {
             <Route path="/call-for-papers" element={<CallForPaper/>} />
             <Route path="/important-dates" element={<Impdate/>} />
             <Route path="/crc-guidelines" element={<AuthorInfo/>} />
+            <Route path="/submission-guidelines" element={<SubmissionGuide/>} />
+            <Route path="/technical-program-committee" element={<TechnicalProgramCommittee/>} />
             <Route path="/registration" element={<Registration/>} />
             <Route path="/publications" element={<Publication/>} />
             <Route path="/speakers" element={<Willbesoon/>} />

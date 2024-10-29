@@ -3,8 +3,8 @@ import React from 'react';
 const TechnicalProgramCommittee = () => {
   return (
     <div className="bg-gray-100 text-left p-6 md:p-12 lg:p-16">
-      <h1 className="text-4xl font-bold text-center text-third mb-8">Technical Program Committee</h1>
-      <ul className="space-y-2 text-gray-700">
+      <h1 className="text-4xl font-bold text-center text-third mb-8 uppercase">Technical Program Committee</h1>
+      <ul  className=" list-disc space-y-2 text-gray-700 text-left">
         <li>Prof Anita Yadav, HBTU, Kanpur</li>
         <li>Prof Vandana Dixit Kaushik, HBTU, Kanpur</li>
         <li>Prof A K Shankhwar, HBTU, Kanpur</li>
