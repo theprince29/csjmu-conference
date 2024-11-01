@@ -1,12 +1,15 @@
 import React from "react";
-
+import { DocumentArrowDownIcon } from '@heroicons/react/20/solid';
 const CallForSpecialSessions = () => {
   return (
     <div className="bg-gray-100 p-8 text-justify mt-4 rounded-lg shadow-md  list-inside">
-      <h1 className="text-2xl text-center font-semibold mb-8 text-third">
+      <h1 className="text-2xl text-center font-semibold mb-8 text-third uppercase">
         Call for Special Sessions
       </h1>
       <div className="mt-4 px-16 text-md text-gray-700">
+        <h3 className="text-200 font-semibold mb-4">
+          Invitation to Conduct Special Session in ICRAECCT-2025.
+        </h3>
         <h3 className="text-200 font-semibold mb-4">Dear Sir/ Mam</h3>
         <h3 className="text-200 font-semibold mb-4">
           Greeting from ICRAECCT-2025!!!!!!!
@@ -50,7 +53,10 @@ const CallForSpecialSessions = () => {
           delivering their lectures on latest innovative technologies in the
           conference.
         </p>
-        <p className="mb-4"> 6. Easy accessibility of the well-connected conference venue.</p>
+        <p className="mb-4">
+          {" "}
+          6. Easy accessibility of the well-connected conference venue.
+        </p>
         <p className="mb-4">
           If you are interested to conduct a special session, kindly mail us the
           special session proposal at icraecct@csjmu.ac.in latest by 30th
@@ -67,6 +73,17 @@ const CallForSpecialSessions = () => {
         <p className="mb-4 font-semibold "> Sincerely,</p>
         <p className="mb-4 font-semibold "> Organizer and Convener</p>
         <p className="font-semibold "> ICRAECCT-2025 </p>
+      </div>
+      <div className="px-16 mt-2">
+        <a
+          href="/docs/Special-session-CFP-Template-(ICRAECCT-2025).docx"
+          download
+          className="inline-block px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-300"
+        >
+          <span className="flex">Special session CFP Template
+          <DocumentArrowDownIcon className="h-5 w-5 ml-2" />
+          </span>
+        </a>
       </div>
     </div>
   );

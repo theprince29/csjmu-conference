@@ -4,7 +4,7 @@ const CallForPaper = () => {
   return (
     <div className="bg-gray-100 text-left p-6 ">
       <h1 className="text-4xl font-bold text-center text-third mb-8">
-        CALL FOR PAPER
+        CALL FOR PAPERS
       </h1>
       <div className="space-y-4">
         <div className="text-center">
