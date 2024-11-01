@@ -30,7 +30,7 @@ function AppContent() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsSticky(window.scrollY > document.querySelector('.header').offsetHeight);
+      setIsSticky(window.scrollY > document.querySelector('.header').offsetHeight   && window.innerWidth > 1024);
     };
 
     window.addEventListener('scroll', handleScroll);

@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "../../assets/CSJMU.png";
+
 
 const Header = () => {
   return (
@@ -11,7 +11,7 @@ const Header = () => {
             alt="University Logo 1"
             className="w-20 h-20 object-contain mb-4 sm:mb-0 sm:mr-4"
           />
-          <div className="text-center sm:text-left">
+          <div className="text-center sm:text-center">
             <h1 className="text-2xl font-bold text-black">
               Chhatrapati Shahu Ji Maharaj University, Kanpur
             </h1>
