@@ -7,7 +7,7 @@ const Dropdown = ({ name, items }) => {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <MenuButton className="inline-flex w-full justify-center gap-x-1.5 bg-primary  text-sm text-white">
+        <MenuButton className="inline-flex w-full justify-center gap-x-1.5 bg-primary hover:text-secondary text-sm text-white">
           {name}
           <ChevronDownIcon
             aria-hidden="true"
