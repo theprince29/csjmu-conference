@@ -76,12 +76,16 @@ const Navbar = ({ isSticky }) => {
             </Link>
             {/* <Link to="/call-for-papers" className={`${isActive('/call-for-papers') ? 'text-secondary' : 'hover:text-secondary'} transition duration-300 ease-in-out`}>Call for Papers</Link> */}
             <Dropdown
-              name={"Paper"}
+              name={"Calls"}
               items={[
                 { itemName: "Call For Papers", link: "/call-for-papers" },
                 {
-                  itemName: "Call For special Sessions",
+                  itemName: "Call For Special Sessions",
                   link: "/call-for-special-sessions",
+                },
+                {
+                  itemName: "Call for Sponsorship",
+                  link: "#",
                 },
               ]}
             />
@@ -224,7 +228,7 @@ const Navbar = ({ isSticky }) => {
                   onClick={() => toggleDropdown(setIsPaperOpen)}
                   className="hover:text-secondary flex justify-between transition duration-300"
                 >
-                  <span>Paper</span>
+                  <span>Calls</span>
                   <ChevronDownIcon
                     aria-hidden="true"
                     className="ml-4 h-5 w-5 text-white-400"
@@ -246,6 +250,13 @@ const Navbar = ({ isSticky }) => {
                       onClick={toggleMenu}
                     >
                       Call For Special Sessions
+                    </Link></li>
+                    <li><Link
+                      to="#"
+                      className="hover:text-secondary  transition duration-300"
+                      onClick={toggleMenu}
+                    >
+                      Call for Sponsorship
                     </Link></li>
                   </ul>
                 )}
