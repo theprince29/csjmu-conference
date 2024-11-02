@@ -41,8 +41,8 @@ const AboutUniversity = () => {
         </p>
       </div>
 
-      <h3 className="text-2xl text-left font-semibold text-third mt-8 mb-4">About UIET</h3>
-      <div className="text-lg text-left text-gray-700">
+      <h3 className="text-3xl text-left font-semibold text-primary mt-8 mb-4">About UIET</h3>
+      <div className="text-lg text-gray-700 text-justify ">
         <p>
           The University Institute of Engineering & Technology (UIET) at Chhatrapati Shahu Ji 
           Maharaj University, Kanpur, is a prominent institution dedicated to producing skilled 

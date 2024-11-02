@@ -19,7 +19,7 @@ const Impdate = () => {
             </tr>
             <tr className='bg-gray-200'>
               <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">Notification of Tentative Acceptance:</td>
-              <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">20 November 2024</td>
+              <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">20  December 2024</td>
             </tr>
             <tr>
               <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">Last Date for Final Paper Submission:</td>

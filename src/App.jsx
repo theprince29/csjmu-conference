@@ -23,6 +23,7 @@ import NotFound from './components/sections/notfound/NotFound';
 import CountdownTimer from './components/countdown/CountdownTimer';
 import SubmissionGuide from './pages/SubmissinGuide';
 import TechnicalProgramCommittee from './pages/TechnicalProgramCommittee';
+import CallForSpecialSessions from './pages/CallForSpecialSessions';
 function AppContent() {
   const location = useLocation();
   const [isSticky, setIsSticky] = useState(false);
@@ -53,6 +54,7 @@ function AppContent() {
             <Route path="/steering-committee" element={<Committee/>} />
             <Route path="/advisorycommittee" element={<AdvisoryCommittee/>} />
             <Route path="/call-for-papers" element={<CallForPaper/>} />
+            <Route path="/call-for-special-sessions" element={<CallForSpecialSessions/>} />
             <Route path="/important-dates" element={<Impdate/>} />
             <Route path="/crc-guidelines" element={<AuthorInfo/>} />
             <Route path="/submission-guidelines" element={<SubmissionGuide/>} />
