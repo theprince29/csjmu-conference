@@ -78,7 +78,7 @@ const CallForSpecialSessions = () => {
         <a
           href="/docs/Special-session-CFP-Template-(ICRAECCT-2025).docx"
           download
-          className="inline-block px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-300"
+          className="inline-block px-4 py-2 bg-third text-white rounded hover:bg-third-600 transition duration-300"
         >
           <span className="flex">Special session CFP Template
           <DocumentArrowDownIcon className="h-5 w-5 ml-2" />

@@ -236,15 +236,15 @@ const Navbar = ({ isSticky }) => {
                 </button>
 
                 {isPaperOpen && (
-                  <ul className="list ml-4 text-sm">
-                    <li><Link
+                  <ul className="list bg-primary-600 p-2 rounded ml-4 text-sm">
+                    <li className="pb-2"><Link
                       to="/call-for-papers"
                       className="hover:text-secondary  transition duration-300"
                       onClick={toggleMenu}
                     >
                       Call For Papers
                     </Link></li>
-                    <li><Link
+                    <li className="pb-2"><Link
                       to="/call-for-special-sessions"
                       className="hover:text-secondary  transition duration-300"
                       onClick={toggleMenu}
@@ -286,17 +286,17 @@ const Navbar = ({ isSticky }) => {
                   />
                 </button>
                 {isCommitteeOpen && (
-                  <ul className="list ml-4 text-sm">
-                    <li>
+                  <ul className="list ml-4 bg-primary-600 p-2 rounded  text-sm">
+                    <li className="pb-2">
                     <Link
                       to="/steering-committee"
-                      className="hover:text-secondary transition duration-300"
+                      className="hover:text-secondary transition duration-300 "
                       onClick={toggleMenu}
                     >
                       Steering Committee
                     </Link>
                     </li>
-                    <li>
+                    <li className="pb-2">
                     <Link
                       to="/advisory-committee"
                       className="hover:text-secondary transition duration-300"
@@ -330,8 +330,8 @@ const Navbar = ({ isSticky }) => {
                   />
                 </button>
                 {isAuthorInfoOpen && (
-                  <ul className="list  ml-4  text-sm">
-                    <li>
+                  <ul className="list bg-primary-600 ml-4 rounded p-2 text-sm">
+                    <li className="pb-2">
                     <Link
                       to="/crc-guidelines"
                       className="hover:text-secondary transition duration-300"
