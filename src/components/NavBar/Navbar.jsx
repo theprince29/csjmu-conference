@@ -115,7 +115,7 @@ const Navbar = ({ isSticky }) => {
               items={[
                 { itemName: "CRC Info", link: "/crc-guidelines" },
                 {
-                  itemName: "Submission Guideline",
+                  itemName: "Submission Guidelines",
                   link: "/submission-guidelines",
                 },
               ]}
@@ -345,7 +345,7 @@ const Navbar = ({ isSticky }) => {
                       className={"hover:text-secondary transition duration-300"}
                       onClick={toggleMenu}
                     >
-                      Submission Guideline
+                      Submission Guidelines
                     </Link></li>
                   </ul>
                 )}

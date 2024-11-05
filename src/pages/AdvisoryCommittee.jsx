@@ -19,9 +19,19 @@ const AdvisoryCommittee = () => {
                   Prof (Dr.) Valentina Emilia Balas, Aurel Vlaicu University of
                   Arad / Academy of Romanian Scientists, ROMANIA
                 </li>
+                <li>Prof. Simanta Mitra, Iowa State University, USA</li>
+                <li>
+                  Prof. Syed Akhter Hossain, Faculty of Science &Information
+                  Technology (FSIT) Daffodil International University (DIU),
+                  Bangladesh
+                </li>
                 <li>
                   Dr. Hari Mohan Pandey, Computer Science Department (Data
                   Science and AI), Bournemouth University, UK
+                </li>
+                <li>
+                  Dr Muhammad Anshari bin Ali, Universiti Brunei Darussalam,
+                  Brunei
                 </li>
                 <li>
                   Dr. Nahed Tawfik, Computers and Systems Department,
@@ -34,8 +44,8 @@ const AdvisoryCommittee = () => {
                 </li>
                 <li>
                   Dr. Naqqash Dilshad, College of AI Convergence, Department of
-                  Computer Science and Engineering, Sejong University, Seoul,
-                  05006, South Korea
+                  Computer Science and Engineering, Sejong University, South
+                  Korea
                 </li>
                 <li>
                   Dr. Mukhalad Al-nasrwai, Al-Furat Al-Awsat Technical
@@ -65,6 +75,18 @@ const AdvisoryCommittee = () => {
                 <li>
                   Dr. Nuno Mateus-Coelho, Lusófona University, Porto, Portugal
                 </li>
+                <li>
+                  Dr. Parvez Ali, Qassim University, Unaizah, Saudi Arabia
+                </li>
+                <li>
+                  Dr.Hari Mohan Gaur, Frankfurt Institute for Advanced Studies,
+                  Goethe-Uni Frankfurt , Germany.
+                </li>
+                <li>
+                  Dr. Dzati Athiar Ramli, School of Electrical & Electronic
+                  Engineering, Universiti Sains, Malaysia
+                </li>
+                <li>Dr. Shilpa Mehta, Freelancer Researcher, New Zealand</li>
               </ul>
             </div>
 
@@ -74,68 +96,40 @@ const AdvisoryCommittee = () => {
               </h2>
               <ul className="list-disc list-inside text-gray-700">
                 <li>
-                  Prof. (Dr.) Ravinder Singh Sawhney, Guru Nanak Dev University,
-                  Amritsar, Punjab, India
+                  Prof. (Dr.) Phalguni Gupta, Vice Chancellor GLA University
+                  Mathura
                 </li>
-                <li>Dr. Deepak Gupta, MNNIT Allahabad, India</li>
-                <li>Prof. Pabitra Mitra, IIT Kharagpur, India</li>
-                <li>Dr. Anshul Verma, IIT BHU</li>
-                <li>
-                  Dr. Zeeshan Ali Siddiqui, Department of Computer Science and
-                  Engineering, Faculty of Engineering and Technology, University
-                  of Lucknow, Lucknow
-                </li>
-                <li>
-                  Mr. Kural, Central Drug Research Institute, Lucknow, India
-                </li>
-                <li>Prof. Manish Gaur, IIIT Una, India</li>
-                <li>Dr. Durgesh Singh, IIIT Jabalpur, M.P. India</li>
-                <li>
-                  Dr. Shrawan Trivedi, Rajiv Gandhi Institute of Petroleum
-                  Technology, Amethi, India
-                </li>
-                <li>
-                  Prof (Dr.) Vishal Singh Chandel, Rajkiya Engineering College,
-                  Ambedkar Nagar, U.P. India
-                </li>
-                <li>
-                  Prof (Dr.) Ashok Kumar Shankhwa, Harcourt Butler Technical
-                  University, India
-                </li>
-                <li>
-                  Dr. Raghvendra Kumar Chaudhary, Indian Institute of Technology
-                  (IIT) Kanpur, India
-                </li>
+                <li>Prof.(Dr.) Pabitra Mitra, IIT Kharagpur, India</li>
+                <li>Prof. (Dr.) Surya Prakash, IIT Indore, India</li>
+                <li>Prof. (Dr.) Manish Gaur, IIIT Una, India</li>
+                <li>Prof. (Dr.) Vineet Kansal, IET Lucknow, India</li>
                 <li>
                   Dr. Abhay Srivastava, Space & Atmospheric Science Division
                   (SASD), North Eastern Space Applications Centre (NESAC),
-                  Department of Space, Government of India, Umiam -793103
-                  (Meghalaya)
-                </li>
-                <li>Dr. Anand Handa, C3i Hub, IIT Kanpur</li>
-                <li>Dr. Vivek Srivastava, REC Kannauj, India</li>
-                <li>
-                  Prof. Manoj Diwakar, Graphic Era Deemed to be University,
-                  India
-                </li>
-                <li>Dr. Pronaya Bhattacharya, Amity University Kolkata</li>
-                <li>Dr. Kapil Joshi, Uttaranchal University, India</li>
-                <li>Prof. Vineet Kansal, IET Lucknow, India</li>
-                <li>
-                  Dr. Shrawan Trivedi, Department of Management Studies, Rajiv
-                  Gandhi Institute of Petroleum Technology, India
+                  Department of Space, Government of India, Meghalaya
                 </li>
                 <li>
-                  Dr. Siddharth Singh, Department of Electronics and
-                  Communication Engineering, Faculty of Engineering and
-                  Technology, University of Lucknow, Lucknow
+                  Prof.(Dr.) Brijesh Kumar, Indira Gandhi Delhi Technical
+                  University For Women, Delhi
                 </li>
                 <li>
-                  Prof (Dr.) M Hima Bindu, Department of Computer Science and
+                  Prof. (Dr.) Ravinder Singh Sawhney, Guru Nanak Dev University,
+                  Amritsar, Punjab, India
+                </li>
+                <li>
+                  Prof. (Dr.) Vishal Singh Chandel, Rajkiya Engineering College,
+                  Ambedkar Nagar, U.P. India
+                </li>
+                <li>
+                  Prof. (Dr.) Ashok Kumar Shankhwa, Harcourt Butler Technical
+                  University, India
+                </li>
+                <li>
+                  Prof. (Dr.) M Hima Bindu, Department of Computer Science and
                   Applications, North Orissa University, India
                 </li>
                 <li>
-                  Prof (Dr.) Deepa Raj, School of Information Science and
+                  Prof. (Dr.) Deepa Raj, School of Information Science and
                   Technology, Baba Saheb Bhimrao Ambedkar University, Lucknow (A
                   Central University)
                 </li>
@@ -144,8 +138,81 @@ const AdvisoryCommittee = () => {
                   University, Lucknow (A Central University)
                 </li>
                 <li>
-                  Mr. Ravendra Ratan Singh Jandail, South Asian University Delhi
+                  Prof. (Dr.) Ajai Jain, Institute of Engineering and
+                  Technology, JK Lakshmipat University, Jaipur.
                 </li>
+                <li>
+                  Prof. (Dr.) Renu Jain, Institute of Engineering and
+                  Technology, JK Lakshmipat University, Jaipur.
+                </li>
+                <li>
+                  Prof.(Dr.) Ajai Jain, Institute of Engineering and Technology,
+                  JK Lakshmipat University, Jaipur
+                </li>
+                <li>
+                  Prof. (Dr.) R. K. Dwivedi, Director, Teerthanker Mahaveer
+                  University, Moradabad
+                </li>
+                <li>
+                  Prof. (Dr.) Renu Jain, Institute of Engineering and
+                  Technology, JK Lakshmipat University, Jaipur
+                </li>
+                <li>
+                  Prof. (Dr.) Brijesh Kumar, Professor & Director (Planning),
+                  Indira Gandhi Delhi Technical University For Women, Delhi
+                </li>
+                <li>Dr. Anand Handa, C3i Hub, IIT Kanpur</li>
+                <li>
+                  Prof. (Dr.) R. K. Dwivedi, Director, Teerthanker Mahaveer
+                  University, Moradabad
+                </li>
+                <li>
+                  Prof. (Dr.) Prashant Kumar Mishra, Pranveer Singh Institute of
+                  Technology, Kanpur
+                </li>
+                <li>
+                  Prof. (Dr.) Manoj Diwakar, Graphic Era Deemed to be
+                  University, India
+                </li>
+                <li>
+                  Dr. Pramod Kumar Yadav, National Institute of Technology
+                  Srinagar
+                </li>
+                <li>
+                  Dr. Raghvendra Kumar Chaudhary, Indian Institute of Technology
+                  (IIT) Kanpur, India
+                </li>
+                <li>
+                  Dr. Pramod Kumar Yadav, National Institute of Technology
+                  Srinagar
+                </li>
+                <li>Dr. Deepak Gupta, MNNIT Allahabad, India</li>
+                <li>Dr. Anshul Verma, IIT BHU</li>
+                <li>
+                  Mr. Kural, Chief scientist, Central Drug Research Institute,
+                  Lucknow, India
+                </li>
+                <li>Dr. Durgesh Singh, IIIT Jabalpur, M.P. India</li>
+                <li>
+                  Dr. Ajay Narayan Shukla, Graphic Era Hill University, Dehradun
+                </li>
+                <li>
+                  Dr. Manoj Kumar Misra, Director, Allenhouse Institute of
+                  Technology, Kanpur
+                </li>
+                <li>
+                  Dr. Shrawan Trivedi, Rajiv Gandhi Institute of Petroleum
+                  Technology, Amethi, India
+                </li>
+                <li>
+                  Dr. Manoj Kumar Misra, Director, Allenhouse Institute of
+                  Technology, Kanpur
+                </li>
+                <li>
+                  Dr. Ajay Narayan Shukla, Graphic Era Hill University, Dehradun
+                </li>
+                <li>Dr Binu Dennis, Resbee Info Technologies, India</li>
+                <li>Dr B R Rajakumar, Resbee Info Technologies, India</li>
               </ul>
             </div>
           </div>

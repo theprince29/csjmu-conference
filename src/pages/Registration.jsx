@@ -76,15 +76,26 @@ const Registration = () => {
                   USD $350
                 </td>
               </tr>
-              <tr>
+              <tr className="bg-gray-200">
                 <td className="px-2 py-3 sm:px-6 sm:py-4 text-left border border-gray-300 text-xs sm:text-sm">
-                  Foreign Participant (online mode)
+                  Foreign Participant (research scholar/student) (online mode)
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
                   USD $100
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
                   USD $150
+                </td>
+              </tr>
+              <tr>
+                <td className="px-2 py-3 sm:px-6 sm:py-4 text-left border border-gray-300 text-xs sm:text-sm">
+                Foreign participant (Industry Expert/ Academician) online
+                </td>
+                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
+                  USD $200
+                </td>
+                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
+                  USD $250
                 </td>
               </tr>
             </tbody>
