@@ -18,7 +18,7 @@ const Header = () => {
             <p className="text-gray-600 text-base">
               Uttar Pradesh State University (Formerly Kanpur University, Kanpur)
             </p>
-            <h3 className="text-gray-600 text-base font-semibold">UGC Category - I</h3>
+            <h3 className="text-gray-600 text-base font-semibold"><span className="bg-primary-600 text-white p-1 rounded-sm">UGC Category - I</span></h3>
           </div>
           <img
             src="images/logo_naac.jpg"
