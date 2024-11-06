@@ -1,6 +1,8 @@
-import React from 'react';
+import React,{useState} from 'react';
 
 const AboutUniversity = () => {
+  const [showFullContent, setShowFullContent] = useState(false);
+  const [showFullContentuiet, setShowFullContentuiet] = useState(false);
   return (
     <section className="bg-gray-100 p-8 text-left mt-4 rounded-lg shadow-md">
       <h2 className="text-3xl font-bold text-left mb-6 text-primary">
@@ -16,6 +18,7 @@ const AboutUniversity = () => {
           each individual student and nurture them to achieve their full potential and evolve as 
           a responsible global citizen.
         </p>
+        <div className={`${showFullContent ? 'block' : 'hidden'} md:block`}>
         <p className='mb-2'>
           Chhatrapati Shahu Ji Maharaj University (CSJM University), also known as Kanpur University, 
           is a prominent public state university located in Kanpur, Uttar Pradesh. Established in 1966, 
@@ -39,6 +42,14 @@ const AboutUniversity = () => {
           proximity to industries, providing students with ample opportunities for internships and 
           practical experience.
         </p>
+        </div>
+        {/* Read More / Show Less button */}
+        <button
+          onClick={() => setShowFullContent(!showFullContent)}
+          className="text-primary font-semibold hover:underline mt-2 md:hidden"
+        >
+          {showFullContent ? 'Show Less' : 'Read More'}
+        </button>
       </div>
 
       <h3 className="text-3xl text-left font-semibold text-primary mt-8 mb-4">About UIET</h3>
@@ -52,6 +63,7 @@ const AboutUniversity = () => {
           and Mechanical Engineering. It also offers career-oriented courses like Bachelor of Computer 
           Application (BCA), Master of Computer Application (MCA), and various diploma and vocational programs.
         </p>
+        <div className={`${showFullContentuiet ? 'block' : 'hidden'} md:block`}>
         <p className='mb-2'>
           The institute’s curriculum is designed to meet industry standards, with regular updates and a 
           focus on practical skills. Its qualified faculty ensures that students receive both theoretical 
@@ -61,6 +73,14 @@ const AboutUniversity = () => {
           personal development. With excellent infrastructure, including specialized labs and a dedicated library 
           section, UIET prepares its students to excel in the rapidly evolving field of engineering and technology.
         </p>
+        </div>
+        {/* Read More / Show Less button */}
+        <button
+          onClick={() => setShowFullContentuiet(!showFullContentuiet)}
+          className="text-primary font-semibold hover:underline mt-2 md:hidden"
+        >
+          {showFullContentuiet ? 'Show Less' : 'Read More'}
+        </button>
       </div>
     </section>
   );
