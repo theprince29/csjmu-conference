@@ -103,7 +103,7 @@ const Navbar = ({ isSticky }) => {
               name={"Committee"}
               items={[
                 { itemName: "Steering Committee", link: "/steering-committee" },
-                { itemName: "Advisory Committee", link: "/advisorycommittee" },
+                { itemName: "Advisory Committee", link: "/advisory-committee" },
                 {
                   itemName: "Technical Committee",
                   link: "technical-program-committee",

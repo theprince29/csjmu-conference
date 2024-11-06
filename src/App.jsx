@@ -52,7 +52,7 @@ function AppContent() {
           <Routes location={location}>
             <Route path="/" element={<Home />} />
             <Route path="/steering-committee" element={<Committee/>} />
-            <Route path="/advisorycommittee" element={<AdvisoryCommittee/>} />
+            <Route path="/advisory-committee" element={<AdvisoryCommittee/>} />
             <Route path="/call-for-papers" element={<CallForPaper/>} />
             <Route path="/call-for-special-sessions" element={<CallForSpecialSessions/>} />
             <Route path="/important-dates" element={<Impdate/>} />
