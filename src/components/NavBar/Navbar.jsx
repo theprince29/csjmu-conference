@@ -354,7 +354,7 @@ const Navbar = ({ isSticky }) => {
               <Link
                 to="/registration"
                 className={`${
-                  isActive("/registeration")
+                  isActive("/registration")
                     ? "text-secondary"
                     : "hover:text-secondary"
                 } transition duration-300 ease-in-out`}
