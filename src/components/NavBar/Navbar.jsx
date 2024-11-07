@@ -85,7 +85,7 @@ const Navbar = ({ isSticky }) => {
                 },
                 {
                   itemName: "Call for Sponsorship",
-                  link: "#",
+                  link: "/call-for-sponsopship",
                 },
               ]}
             />
@@ -252,7 +252,7 @@ const Navbar = ({ isSticky }) => {
                       Call For Special Sessions
                     </Link></li>
                     <li><Link
-                      to="#"
+                      to="/call-for-sponsopship"
                       className="hover:text-secondary  transition duration-300"
                       onClick={toggleMenu}
                     >

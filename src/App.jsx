@@ -24,6 +24,7 @@ import CountdownTimer from './components/countdown/CountdownTimer';
 import SubmissionGuide from './pages/SubmissinGuide';
 import TechnicalProgramCommittee from './pages/TechnicalProgramCommittee';
 import CallForSpecialSessions from './pages/CallForSpecialSessions';
+import CallForSponser from './pages/CallForSponser';
 function AppContent() {
   const location = useLocation();
   const [isSticky, setIsSticky] = useState(false);
@@ -55,6 +56,7 @@ function AppContent() {
             <Route path="/advisory-committee" element={<AdvisoryCommittee/>} />
             <Route path="/call-for-papers" element={<CallForPaper/>} />
             <Route path="/call-for-special-sessions" element={<CallForSpecialSessions/>} />
+            <Route path="/call-for-sponsopship" element={<CallForSponser/>} />
             <Route path="/important-dates" element={<Impdate/>} />
             <Route path="/crc-guidelines" element={<AuthorInfo/>} />
             <Route path="/submission-guidelines" element={<SubmissionGuide/>} />
