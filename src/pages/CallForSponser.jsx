@@ -66,12 +66,10 @@ const CallForSponsor = () => {
           rabins@csjmu.ac.in
         </a>, <a href="mailto:alok@csjmu.ac.in" className="text-primary underline">
           alok@csjmu.ac.in
-        </a>,
-        <a
-          href="mailto:ajeetsrivastava@csjmu.ac.in"
+        </a>, <a href="mailto:ajeetsrivastava@csjmu.ac.in"
           className="text-primary underline"
         >
-          ajeetsrivastava@csjmu.ac.in
+        ajeetsrivastava@csjmu.ac.in
         </a>
           </li>
           <li>
