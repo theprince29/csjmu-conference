@@ -3,17 +3,17 @@ import React from "react";
 const CallForSponsor = () => {
   return (
     <div className="bg-gray-100 p-8 text-left mt-4 rounded-lg shadow-md">
-      <h1 className="text-4xl text-center font-semibold mb-6 text-third">
+      <h1 className="text-3xl text-center font-semibold mb-6 text-third">
         CALL FOR SPONSORSHIP
       </h1>
 
-      <div className="text-md text-justify text-gray-700">
+      <div className="text-md text-left text-gray-700">
         <p className="mb-2">
           With Greetings from the Department of Computer Application, Department
           of CSE & Department of ECE, UIET, CSJM University Kanpur, and Chairs
           of ICRAECCT - 2025.
         </p>
-        <p className="mb-2">
+        <p className="mb-2 text-justify">
           This conference will be one of the prominent meetings of international
           experts in the field exclusively dedicated to the advances and
           innovations in emerging computing and communication technologies,
@@ -38,7 +38,7 @@ const CallForSponsor = () => {
           setting the foundation for future advancements in computing and
           communication.
         </p>
-        <p className="mb-2">
+        <p className="mb-2 text-justify">
           This conference involves contributions in inter-disciplinary fields
           such as Role of Artificial Intelligence, Machine Learning, Emerging
           computing and communication technologies in different areas involving
@@ -51,26 +51,39 @@ const CallForSponsor = () => {
         </p>
         <p>
           We invite sponsorship for the said conference; interested sponsors are
-          requested to be a part of this conference and kindly intimate us via
-          {" "}
+          requested to be a part of this conference and kindly intimate us via{" "}
         </p>
-        
+
         <ul className="list-inside list-disc mb-2">
           <li>
-            Email: <a
-          href="mailto:icraecct@csjmu.ac.in"
-          className="text-primary underline"
-        >
-          icraecct@csjmu.ac.in
-        </a>, <a href="mailto:rabins@csjmu.ac.in" className="text-primary underline">
-          rabins@csjmu.ac.in
-        </a>, <a href="mailto:alok@csjmu.ac.in" className="text-primary underline">
-          alok@csjmu.ac.in
-        </a>, <a href="mailto:ajeetsrivastava@csjmu.ac.in"
-          className="text-primary underline"
-        >
-        ajeetsrivastava@csjmu.ac.in
-        </a>
+            Email:{" "}
+            <a
+              href="mailto:icraecct@csjmu.ac.in"
+              className="text-primary underline"
+            >
+              icraecct@csjmu.ac.in
+            </a>
+            ,{" "}
+            <a
+              href="mailto:rabins@csjmu.ac.in"
+              className="text-primary underline"
+            >
+              rabins@csjmu.ac.in
+            </a>
+            ,{" "}
+            <a
+              href="mailto:alok@csjmu.ac.in"
+              className="text-primary underline"
+            >
+              alok@csjmu.ac.in
+            </a>
+            ,{" "}
+            <a
+              href="mailto:ajeetsrivastava@csjmu.ac.in"
+              className="text-primary underline"
+            >
+              ajeetsrivastava@csjmu.ac.in
+            </a>
           </li>
           <li>
             Phone: Prof. Rabins Porwal +91 93698 84977, Dr. Alok Kumar +91 70077
@@ -88,9 +101,22 @@ const CallForSponsor = () => {
           </a>
         </p>
         <SponsorshipIntro />
-        <h2 className="text-2xl text-center font-semibold mb-6 text-third mt-4 uppercase">Sponsorship Categories</h2>
-        <SponsorshipCategory
-          type="Platinum"
+        
+        
+        <h2 className="text-2xl text-center font-semibold mb-6 text-third mt-4 uppercase">
+          Sponsorship Categories
+        </h2>
+        <p>
+          <strong>Details of sponsorship categories are as follows:</strong>
+        </p>
+        <p>
+          <strong>
+            There are currently five types of sponsorships available for
+            ICRAECCT-2025
+          </strong>
+        </p>
+         <SponsorshipCategory
+          type="A) Platinum"
           amount="Rupees 1 Lakh and above"
           benefits={[
             "3 Complimentary conference registrations",
@@ -103,7 +129,7 @@ const CallForSponsor = () => {
           ]}
         />
         <SponsorshipCategory
-          type="Diamond"
+          type="B) Diamond"
           amount="Rupees 50,000 and above"
           benefits={[
             "2 Complimentary conference registrations",
@@ -116,7 +142,7 @@ const CallForSponsor = () => {
           ]}
         />
         <SponsorshipCategory
-          type="Gold"
+          type="C) Gold"
           amount="Rupees 25,000-50,000"
           benefits={[
             "2 Complimentary conference registrations",
@@ -128,7 +154,7 @@ const CallForSponsor = () => {
           ]}
         />
         <SponsorshipCategory
-          type="Silver"
+          type="D) Silver"
           amount="Rupees 10,000-24,000"
           benefits={[
             "Acknowledgement during the opening and closing ceremony",
@@ -139,7 +165,7 @@ const CallForSponsor = () => {
           ]}
         />
         <SponsorshipCategory
-          type="Bronze"
+          type="E) Bronze"
           amount="Less than Rupees 10,000"
           benefits={[
             "Acknowledgement during the opening and closing ceremony",
@@ -182,11 +208,6 @@ const SponsorshipIntro = () => (
       operational efficiency, and addressing real-world challenges.
     </p>
 
-    <p>
-      <strong>Details of sponsorship categories are as follows:</strong> There
-      are currently five types of sponsorships available for ICRAECCT-2025.
-    </p>
-
     <p className="mt-4 font-semibold">
       With best regards,
       <br />
@@ -205,30 +226,20 @@ const SponsorshipForm = () => (
       declare that we are willing to sponsor the Conference with the following
       specifications.
     </p>
-    <p className="mt-2 ">Information about the Sponsor  Name of the company/organization: __________________
-      </p>
+    <p className="mt-2 ">
+      Information about the Sponsor Name of the company/organization:
+      __________________
+    </p>
     <ul className="list-none list-inside ">
-   
+      <li>Address: __________________</li>
+      <li>Website: __________________</li>
+      <li>Name of contact person: __________________</li>
+      <li>Email of contact person: __________________</li>
+      <li>Telephone number of contact person: __________________</li>
+      <li>Amount: __________________</li>
       <li>
-      Address: __________________
-      </li>
-      <li>
-       Website: __________________
-      </li>
-      <li>
-        Name of contact person: __________________
-      </li>
-      <li>
-        Email of contact person: __________________
-      </li>
-      <li>
-        Telephone number of contact person: __________________
-      </li>
-      <li>
-        Amount: __________________
-      </li>
-      <li>
-        Sponsorship Type: Diamond: ✷ | Platinum: ✷ | Gold: ✷ | Silver: ✷ | Bronze: ✷
+        Sponsorship Type: Diamond: ✷ | Platinum: ✷ | Gold: ✷ | Silver: ✷ |
+        Bronze: ✷
       </li>
       <li>
         <strong>Date:</strong> __________________
@@ -238,8 +249,8 @@ const SponsorshipForm = () => (
       </li>
     </ul>
     <p className="mt-4">
-      Important: You must include your payment confirmation. •
-      Reference of payment
+      Important: You must include your payment confirmation. • Reference of
+      payment
     </p>
     <p>
       <strong>Payment Link:</strong>
