@@ -4,7 +4,9 @@ const Registration = () => {
   return (
     <div className="mb-4">
       <div className="max-w-4xl mx-auto mt-12 text-center px-4">
-        <h1 className="text-3xl sm:text-4xl font-bold text-third mb-8">REGISTRATION</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold text-third mb-8">
+          REGISTRATION
+        </h1>
         <div className="overflow-x-auto">
           <table className="table-auto w-full text-center bg-white border-collapse shadow-lg">
             <thead className="bg-third text-white">
@@ -89,7 +91,7 @@ const Registration = () => {
               </tr>
               <tr>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 text-left border border-gray-300 text-xs sm:text-sm">
-                Foreign participant (Industry Expert/ Academician) online
+                  Foreign participant (Industry Expert/ Academician) online
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
                   USD $200
@@ -102,11 +104,20 @@ const Registration = () => {
           </table>
         </div>
 
-        <div className="max-w-2xl mx-auto bg-gray-100 border-4 border-third p-6 rounded-lg text-dark mt-10">
-          <div className="bg-third text-center text-white py-3 text-lg sm:text-xl font-bold rounded-md">
+        <div className="max-w-sm mx-auto bg-gray-100 border-4 border-third p-6 rounded-lg text-dark mt-10">
+          <a
+            href="https://paytm.me/PYTMPS/mLHf14E"
+            className="px-6 py-2 bg-third text-white font-semibold rounded-lg inline-block"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Pay Your Registration Fee
+          </a>
+
+          {/* <div className="bg-third text-center text-white py-3 text-lg sm:text-xl font-bold rounded-md">
             Mode of Payment
-          </div>
-          <div className="flex flex-col md:flex-row justify-between items-start mt-6">
+          </div> */}
+          {/* <div className="flex flex-col md:flex-row justify-between items-start mt-6">
             <div className="text-left space-y-2">
               <p>
                 <strong>
@@ -137,7 +148,10 @@ const Registration = () => {
                 alt="QR Code"
               />
             </div>
-          </div>
+          </div> */}
+          <p className="mt-4 text-sm text-gray-500">
+        * You will be redirected to the Paytm website to complete your payment.
+      </p>
         </div>
 
         <div className="mt-4">
