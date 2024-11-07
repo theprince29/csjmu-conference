@@ -10,15 +10,15 @@ const AboutConference = () => {
       <div className="text-md text-gray-700 text-justify">
         {/* Always visible content */}
         <p className="mb-2">
-          Chhatrapati Shahu Ji Maharaj University (CSJMU), Kanpur, is delighted to announce the 
-          <strong><em> International Conference on Recent Advances in Emerging Computing and Communication 
-          Technologies (IC-RAECCT)</em></strong>, to be held on April 11th-12th, 2025, at our campus.
+          Chhatrapati Shahu Ji Maharaj University (CSJMU), Kanpur, is delighted to announce it's 
+          <strong><em> First International Conference on Recent Advances in Emerging Computing and Communication 
+          Technologies (IC-RAECCT 2025)</em></strong>, to be held on April 11th-12th, 2025, at our campus.
         </p>
         
           <p className="mb-2">
             Jointly organized by the Department of Computer Applications, the Department of Computer 
             Science and Engineering, and the Department of Electronics and Communication Engineering, 
-            IC-RAECCT aims to create an international platform for researchers, academics, industry 
+            IC-RAECCT 2025 aims to create an international platform for researchers, academics, industry 
             professionals, and students to showcase and discuss pioneering developments in computing and 
             communication technologies.
           </p>
@@ -33,7 +33,7 @@ const AboutConference = () => {
             Attendees can look forward to a dynamic lineup, featuring keynote addresses from leading 
             experts, technical presentations, hands-on workshops, and thought-provoking panel discussions. 
             Designed to foster interdisciplinary collaboration and encourage the exchange of knowledge, 
-            IC-RAECCT will dive into both academic and industry-relevant challenges and solutions.
+            IC-RAECCT 2025 will dive into both academic and industry-relevant challenges and solutions.
           </p>
           <p className='mb-2'>
             Join us for an enriching experience at IC-RAECCT 2025, where innovation, networking, and 

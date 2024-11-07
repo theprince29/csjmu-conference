@@ -28,7 +28,7 @@ const Header = () => {
         </div>
         <div className="mt-6 sm:mt-4">
           <h1 className="text-2xl font-bold my-4 sm:text-3xl">
-            International Conference on Recent Advances in Emerging Computing and
+            First International Conference on Recent Advances in Emerging Computing and
             Communication Technologies
             <br />
             <span className="text-primary text-lg sm:text-xl">
