@@ -57,10 +57,10 @@ const AuthorInfo = () => {
           SpringerLink.
         </li>
         <li>
-          <strong>Formatting Template</strong>: "Will be updated soon after getting approval from publisher."
+          <strong>Formatting Template</strong>: Will be updated soon after getting approval from publisher.
         </li>
         <li>
-          <strong>Submission Version</strong>: "Will be updated soon after getting approval from publisher."
+          <strong>Submission Version</strong>: Will be updated soon after getting approval from publisher.
         </li>
       </ul>
 
