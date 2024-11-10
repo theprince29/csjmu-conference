@@ -7,6 +7,62 @@ const Registration = () => {
         <h1 className="text-3xl sm:text-4xl font-bold text-third mb-8">
           REGISTRATION
         </h1>
+        <div className="text-left mb-6">
+        
+        <div className="mb-2 w-100 border" style={{ height: "1px", borderColor: "#1B305C" }}></div>
+
+          <p className="font-semibold text-sm">
+            Author/Co-Author Registration Fee Includes:
+          </p>
+          <p className="text-sm font-semibold">
+            Participation in the technical program, participation certificate to
+            the presenter, and Pre-Proceeding e-copy.
+          </p>
+          <div className="mt-2 w-100 border" style={{ height: "1px", borderColor: "#1B305C" }}></div>
+
+
+          <p className="mt-4 font-semibold">Registration Process:</p>
+          <p className="text-sm">
+            Once your paper is accepted, the registration process begins. You
+            have to complete the following steps:
+          </p>
+
+          <ol className="list-decimal list-inside mt-2 text-sm">
+            <li>
+              <strong>Step 1 - Registration Fee:</strong> It is mandatory for at
+              least one author of an accepted paper to register in order for the
+              paper to appear in the proceedings and be included in the
+              Technical Program. If an author has more than one accepted paper,
+              there will be a discount on additional paper registration. Fee
+              includes listing the papers online in Scopus indexed conference
+              proceedings, lunch, and morning and evening snacks.
+            </li>
+          </ol>
+
+          <ul className="list-disc list-inside mt-2 text-sm">
+            <li>Access to Keynote talks</li>
+            <li>Access to paper presentation sessions</li>
+            <li>Networking sessions</li>
+            <li>Conference lunch and refreshment*</li>
+            <li>Tea and Coffee Breaks*</li>
+            <li>Conference kit*</li>
+            <li>Pre-Proceeding (collection of Abstracts only)*</li>
+            <li>Participation Certificate</li>
+          </ul>
+
+          <p className="mt-4 text-sm">
+            Note: The conference will be in Hybrid Mode.
+          </p>
+
+          <p className="mt-4 font-semibold text-lg">
+            Discount for Women Researchers:
+          </p>
+          <p className="text-sm">
+            ICRAECCT 2025 is committed to empowering women researchers. If the
+            paper includes a female author/coauthor, the paper is eligible for a
+            10% discount on total registration fees.
+          </p>
+        </div>
         <div className="overflow-x-auto">
           <table className="table-auto w-full text-center bg-white border-collapse shadow-lg">
             <thead className="bg-third text-white">
@@ -150,8 +206,9 @@ const Registration = () => {
             </div>
           </div> */}
           <p className="mt-4 text-sm text-gray-500">
-        * You will be redirected to the Paytm website to complete your payment.
-      </p>
+            * You will be redirected to the Paytm website to complete your
+            payment.
+          </p>
         </div>
 
         <div className="mt-4">

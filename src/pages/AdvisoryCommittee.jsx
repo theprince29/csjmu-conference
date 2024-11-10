@@ -52,6 +52,11 @@ const AdvisoryCommittee = () => {
                   University, Kufa (Main Campus), Kufa, Iraq
                 </li>
                 <li>
+                  Dr. Haider M. Al-Juboori, Dept. of Electronics Engineering and
+                  Communications, Faculty of Engineering & Built Environment,
+                  South East Technological University, Ireland,
+                </li>
+                <li>
                   Mr. Ibrahim Hayatu Hassan, Ahmadu Bello University, Nigeria
                 </li>
                 <li>Dr. Ali Guma, MUNI University, Uganda</li>
