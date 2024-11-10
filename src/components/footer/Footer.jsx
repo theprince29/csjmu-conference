@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-gray-800 text-white py-6">
       <div className="container mx-auto px-4 text-center space-y-4 md:space-y-2">
         <div className="flex flex-wrap justify-center space-x-4 sm:space-x-6 md:space-x-8">
-          <ul className="space-y-2 sm:space-y-0 flex flex-col sm:flex-row sm:space-x-6">
+          {/* <ul className="space-y-2 sm:space-y-0 flex flex-col sm:flex-row sm:space-x-6">
             <li>
               <a href="#terms" className="hover:underline text-sm md:text-base">
                 Terms & Conditions
@@ -31,7 +31,7 @@ const Footer = () => {
                 Publication Policy
               </a>
             </li>
-          </ul>
+          </ul> */}
         </div>
         <p className="text-xs">
           &copy; ICRAECCT 2025 - All Rights Reserved.

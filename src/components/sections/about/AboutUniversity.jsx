@@ -40,7 +40,7 @@ const AboutUniversity = () => {
           and workshops, fostering an environment where students can participate in extracurricular 
           activities. Located in Kanpur, a major industrial hub, the university benefits from its 
           proximity to industries, providing students with ample opportunities for internships and 
-          practical experience.
+          practical experience. 
         </p>
         </div>
         {/* Read More / Show Less button */}
@@ -72,6 +72,7 @@ const AboutUniversity = () => {
           activities such as cultural festivals (Spandan) and technical fests (Techmart), fostering well-rounded 
           personal development. With excellent infrastructure, including specialized labs and a dedicated library 
           section, UIET prepares its students to excel in the rapidly evolving field of engineering and technology.
+          Will be updated soon after getting approval from publisher.
         </p>
         </div>
         {/* Read More / Show Less button */}
