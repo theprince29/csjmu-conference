@@ -218,6 +218,7 @@ const AdvisoryCommittee = () => {
                 </li>
                 <li>Dr Binu Dennis, Resbee Info Technologies, India</li>
                 <li>Dr B R Rajakumar, Resbee Info Technologies, India</li>
+                <li>Mr. Ravendra Ratan Singh Jandail, South Asian University, Delhi</li>
               </ul>
             </div>
           </div>

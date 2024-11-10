@@ -57,14 +57,10 @@ const AuthorInfo = () => {
           SpringerLink.
         </li>
         <li>
-          <strong>Formatting Template</strong>: The Springer CRC formatting template
-          is available on the conference website.
+          <strong>Formatting Template</strong>: "Will be updated soon after getting approval from publisher."
         </li>
         <li>
-          <strong>Submission Version</strong>: The final CRC version submitted will
-          be used for conference scheduling, souvenir preparation, and inclusion in
-          the proceedings sent to Springer. Authors should not upload this version
-          to Microsoft CMT.
+          <strong>Submission Version</strong>: "Will be updated soon after getting approval from publisher."
         </li>
       </ul>
 
