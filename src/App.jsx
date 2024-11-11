@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 import './App.css';
 import Navbar from './components/NavBar/Navbar';
@@ -42,6 +43,7 @@ function AppContent() {
 
   return (
     <>
+    <SpeedInsights />
       <Header />
       <div className="flex justify-center mt-0">
         <CountdownTimer/>
