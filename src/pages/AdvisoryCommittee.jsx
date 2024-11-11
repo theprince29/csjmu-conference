@@ -202,6 +202,10 @@ const AdvisoryCommittee = () => {
                   Dr. Ajay Narayan Shukla, Graphic Era Hill University, Dehradun
                 </li>
                 <li>
+                  Dr. Shrawan Kumar, Indira Gandhi National Tribal University
+                  Regional Campus Manipur India
+                </li>
+                <li>
                   Dr. Manoj Kumar Misra, Director, Allenhouse Institute of
                   Technology, Kanpur
                 </li>
@@ -218,7 +222,10 @@ const AdvisoryCommittee = () => {
                 </li>
                 <li>Dr Binu Dennis, Resbee Info Technologies, India</li>
                 <li>Dr B R Rajakumar, Resbee Info Technologies, India</li>
-                <li>Mr. Ravendra Ratan Singh Jandail, South Asian University, Delhi</li>
+                <li>
+                  Mr. Ravendra Ratan Singh Jandail, South Asian
+                  University, Delhi
+                </li>
               </ul>
             </div>
           </div>
