@@ -6,7 +6,7 @@ const SubmissionGuide = () => {
       <h1 className="text-4xl font-bold text-center text-third mb-8">
         SUBMISSION GUIDELINES
       </h1>
-      <h3 className="text-2xl font-semibold mb-4">Disclaimer from Author</h3>
+      <h3 className="text-3xl font-semibold mb-4">Disclaimer from Author</h3>
       <p className="mb-4">
         <em>
           In line with our dedication to promoting innovation and upholding the
