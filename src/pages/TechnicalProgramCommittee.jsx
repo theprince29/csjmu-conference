@@ -27,6 +27,7 @@ const TechnicalProgramCommittee = () => {
         </li>
         <li>Prof. (Dr.) Manish Kumar, BBD University, Lucknow</li>
         <li>Prof. (Dr.) Saurabh Singh, Galgotias University</li>
+        <li>Dr Vibhav Prakash Singh, MNNIT Allahabad</li>
         <li>Dr. Tarun Kumar Gupta,University of Allahabad</li>
         <li>Dr. Ram Chandra Singh Chauhan, Department of ECE, IET Lucknow</li>
         <li>Dr. Rashi Agarwal, HBTU, Kanpur</li>
