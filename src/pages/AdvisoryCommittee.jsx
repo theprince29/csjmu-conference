@@ -43,6 +43,10 @@ const AdvisoryCommittee = () => {
                   Princess Nourah bint Abdulrahman University, Saudi Arabia
                 </li>
                 <li>
+                  Dr. Vinayakumar Ravi,  Center for Artificial Intelligence,
+                  Prince Mohammad Bin Fahd University, Khobar, Saudi Arabia
+                </li>
+                <li>
                   Dr. Naqqash Dilshad, College of AI Convergence, Department of
                   Computer Science and Engineering, Sejong University, South
                   Korea
@@ -50,6 +54,10 @@ const AdvisoryCommittee = () => {
                 <li>
                   Dr. Mukhalad Al-nasrwai, Al-Furat Al-Awsat Technical
                   University, Kufa (Main Campus), Kufa, Iraq
+                </li>
+                <li>
+                  Yasmin Makki Mohialden Computer Science Department, Collage of
+                  Science, Mustansiriyah University, Baghdad-Iraq
                 </li>
                 <li>
                   Dr. Haider M. Al-Juboori, Dept. of Electronics Engineering and
