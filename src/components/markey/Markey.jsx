@@ -5,7 +5,7 @@ const Markey = () => {
   return (
     <div className="overflow-hidden whitespace-nowrap font-bold text-third">
       <div className="inline-block text-lg pl-full animate-marquee">
-        Online Presentaion Allowed!! 
+        Online Presentation Allowed!! 
       </div>
     </div>
   );
