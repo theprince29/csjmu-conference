@@ -1,13 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
+import { Circles } from 'react-loader-spinner'; // Importing the loader
+
 import "./Card.css";
 
 const Card = ({ images, title, desc }) => {
+  const [isLoading, setIsLoading] = useState(true); // State to track image loading
+
+  // Function to handle when the image has loaded
+  const handleImageLoad = () => {
+    setIsLoading(false);
+  };
+
   return (
     <div className="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-8">
+      {isLoading && (
+        <div className="flex justify-center items-center h-48 w-full">
+          <Circles
+            height="50"
+            width="50"
+            color="grey"
+            ariaLabel="circles-loading"
+            visible={true}
+          />
+        </div>
+      )}
       <img
         className="rounded-t-lg h-48 w-full object-cover"
         src={images}
         alt={title}
+        onLoad={handleImageLoad} // Image loaded, remove loader
+        style={{ display: isLoading ? "none" : "block" }} // Hide image until loaded
       />
       <div className="p-5">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">

@@ -1,8 +1,19 @@
 import React from 'react';
-
+import { Helmet } from 'react-helmet-async';
 const Impdate = () => {
   return (
     <div className='mb-4'>
+      <Helmet>
+      <title>Important Dates - ICRAECCT'2025 Conference</title>
+        <meta
+          name="description"
+          content="Check the important dates for ICRAECCT 2025, including the last date for abstract submission, final paper submission, and registration deadlines."
+        />
+        <meta
+          name="keywords"
+          content="ICRAECCT 2025, important dates, abstract submission, paper submission, conference deadlines, ICRAECCT registration, conference dates"
+        />
+      </Helmet>
       <div className="max-w-4xl mx-auto mt-4 text-center px-4">
         <h1 className="text-3xl sm:text-4xl font-bold text-third mb-8">IMPORTANT DATES</h1>
         <table className="table-auto w-full text-left py-4 mb-8 bg-white border-collapse shadow-lg">

@@ -1,8 +1,19 @@
 import React from "react";
-
+import { Helmet } from "react-helmet-async";
 const CallForSponsor = () => {
   return (
     <div className="bg-gray-100 p-8 text-left mt-4 rounded-lg shadow-md">
+      <Helmet>
+        <title>Call for Sponsorship - ICRAECCT'2025 Conference</title>
+        <meta 
+          name="description" 
+          content="ICRAECCT-2025 invites sponsorship for its international conference focused on emerging computing and communication technologies, AI, IoT, 5G, and machine learning. Join us as a sponsor and enhance your brand visibility." 
+        />
+        <meta 
+          name="keywords" 
+          content="ICRAECCT 2025, Sponsorship, AI, IoT, 5G, Machine Learning, Emerging Technologies, Conference Sponsorship, CSJM University Kanpur" 
+        />
+      </Helmet>
       <h1 className="text-3xl text-center font-semibold mb-6 text-third">
         CALL FOR SPONSORSHIP
       </h1>

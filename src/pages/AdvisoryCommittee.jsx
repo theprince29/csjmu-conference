@@ -1,8 +1,12 @@
 import React from "react";
-
+import { Helmet } from "react-helmet-async";
 const AdvisoryCommittee = () => {
   return (
     <div className="bg-gray-100 text-left p-6 md:p-12 lg:p-16">
+      <Helmet>
+        <title>Advisory Committee Members - ICRAECCT'2025 Conference</title>
+        <meta name="description" content="Meet the Advisory committee members of ICRAECCT'2025 Conference" />
+      </Helmet>
       <h1 className="text-4xl font-bold text-center text-third mb-8">
         ADVISORY COMMITTEE MEMBERS
       </h1>

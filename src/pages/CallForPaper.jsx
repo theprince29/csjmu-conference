@@ -1,8 +1,20 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 
 const CallForPaper = () => {
   return (
     <div className="bg-gray-100 text-left p-6 ">
+      <Helmet>
+        <title>Call for Papers - ICRAECCT'2025 Conference</title>
+        <meta
+          name="description"
+          content="ICRAECCT 2025 invites global experts to submit papers on interdisciplinary advancements in computing and communication technologies including AI, IoT, 5G, and machine learning."
+        />
+        <meta
+          name="keywords"
+          content="ICRAECCT 2025, Call for Papers, AI, IoT, 5G, machine learning, computing technologies, conference"
+        />
+      </Helmet>
       <h1 className="text-4xl font-bold text-center text-third mb-8">
         CALL FOR PAPERS
       </h1>

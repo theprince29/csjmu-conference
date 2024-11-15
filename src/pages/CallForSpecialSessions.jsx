@@ -1,8 +1,14 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { DocumentArrowDownIcon } from '@heroicons/react/20/solid';
 const CallForSpecialSessions = () => {
   return (
     <div className="bg-gray-100 p-8 text-justify mt-4 rounded-lg shadow-md  list-inside">
+      <Helmet>
+        <title>Call for Special Sessions - ICRAECCT'2025 Conference</title>
+        <meta name="description" content="ICRAECCT-2025 invites experts to conduct special sessions at the conference, focusing on emerging computing and communication technologies. Submit proposals by January 30, 2025." />
+        <meta name="keywords" content="ICRAECCT 2025, Special Sessions, Emerging Technologies, Computing, Communication, Call for Proposals" />
+      </Helmet>
       <h1 className="text-2xl text-center font-semibold mb-8 text-third uppercase">
         Call for Special Sessions
       </h1>
