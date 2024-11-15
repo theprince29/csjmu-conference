@@ -1,8 +1,19 @@
 import React from "react";
-
+import { Helmet } from "react-helmet-async";
 const SubmissionGuide = () => {
   return (
     <div className="bg-gray-100 p-8 text-left mt-4 rounded-lg shadow-md  list-inside">
+      <Helmet>
+        <title>Submission guidelines - ICRAECCT'2025 Conference</title>
+        <meta
+          name="description"
+          content="Submission guidelines for ICRAECCT 2025 conference."
+        />
+        <meta
+          name="keywords"
+          content="conference, submission guidelines, ICRAECCT 2025, academic papers"
+        />
+      </Helmet>
       <h1 className="text-4xl font-bold text-center text-third mb-8">
         SUBMISSION GUIDELINES
       </h1>

@@ -1,8 +1,14 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 
 const AuthorInfo = () => {
   return (
     <div className="bg-gray-100 p-8 text-left mt-4 rounded-lg shadow-md">
+      <Helmet>
+        <title>CRC-guidelines - ICRAECCT'2025 Conference</title>
+        <meta name="description" content="Guidelines for preparing a camera-ready copy (CRC) for paper submission. Includes details on reviewer comments, author information, citations, and plagiarism check." />
+        <meta name="keywords" content="Camera-Ready Copy, Reviewer Comments, Author Information, Citations, Grammar, Originality, Plagiarism Check" />
+      </Helmet>
       <h1 className="text-2xl font-semibold mb-6 text-third">
         Guidelines for Preparing Camera-Ready Copy (CRC)
       </h1>

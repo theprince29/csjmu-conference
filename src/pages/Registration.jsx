@@ -1,8 +1,19 @@
 import React from "react";
-
+import { Helmet } from "react-helmet-async";
 const Registration = () => {
   return (
     <div className="mb-4">
+       <Helmet>
+        <title>Registration - ICRAECCT'2025 Conference</title>
+        <meta
+          name="description"
+          content="Register for ICRAECCT 2025 and participate in the technical program, get a certificate, and access to keynotes and networking sessions."
+        />
+        <meta
+          name="keywords"
+          content="ICRAECCT 2025, registration, technical conference, India conference, research conference, online registration, conference fee, Scopus indexed conference, keynote speakers, networking sessions"
+        />
+      </Helmet>
       <div className="max-w-4xl mx-auto mt-12 text-center px-4">
         <h1 className="text-3xl sm:text-4xl font-bold text-third mb-8">
           REGISTRATION

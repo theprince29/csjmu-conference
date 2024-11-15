@@ -1,8 +1,22 @@
 import React from "react";
-
+import { Helmet } from "react-helmet-async";
 const Contactus = () => {
   return (
     <div className="mb-4">
+      <Helmet>
+        <title>Contact Us - ICRAECCT'2025 Conference</title>
+        <meta
+          name="description"
+          content="Get in touch with the ICRAECCT 2025 Conference team. Find contact details for conference organizers, including email and phone numbers."
+        />
+        <meta
+          name="keywords"
+          content="Contact ICRAECCT 2025, ICRAECCT conference, conference organizers, email, phone numbers, contact details"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://csjmu-conference.vercel.app/contact-us" />
+      </Helmet>
+
       <div className="max-w-4xl mx-auto mt-12 text-center px-4">
         <h1 className="text-4xl font-bold text-third mb-8">CONTACT - US</h1>
 
@@ -40,7 +54,7 @@ const Contactus = () => {
                   +91 936 988 4977
                 </td>
               </tr>
-              <tr>
+              <tr className="bg-gray-200">
                 <td className="px-2 py-3 sm:px-6 sm:py-4 text-left border border-gray-300 text-sm sm:text-lg">
                 2.
                 </td>
