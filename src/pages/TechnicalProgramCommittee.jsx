@@ -4,8 +4,13 @@ const TechnicalProgramCommittee = () => {
   return (
     <div className="bg-gray-100 text-left p-6 md:p-12 lg:p-16">
       <Helmet>
-        <title>Technical Program Committee Members - ICRAECCT'2025 Conference</title>
-        <meta name="description" content="Meet the Technical Program Committee members of ICRAECCT'2025 Conference" />
+        <title>
+          Technical Program Committee Members - ICRAECCT'2025 Conference
+        </title>
+        <meta
+          name="description"
+          content="Meet the Technical Program Committee members of ICRAECCT'2025 Conference"
+        />
       </Helmet>
       <h1 className="text-4xl font-bold text-center text-third mb-8 uppercase">
         Technical Program Committee
@@ -14,16 +19,13 @@ const TechnicalProgramCommittee = () => {
         <li>Prof. (Dr.) Anita Yadav, HBTU, Kanpur</li>
         <li>Prof. (Dr.) Vandana Dixit Kaushik, HBTU, Kanpur</li>
         <li>Prof. (Dr.) A K Shankhwar, HBTU, Kanpur</li>
-        <li>Prof. (Dr.) Ashutosh Singh, HBTU, Kanpur</li>
         <li>Prof. (Dr.) Rachna Asthana, HBTU, Kanpur</li>
         <li>Prof. (Dr.) Y N Singh, Director, REC, Pratapgarh</li>
         <li>
-          Prof. (Dr.) Ashutosh Singh, Department of Eelectronics Engineering,
-          HBTU,
+          Prof. (Dr.) Ashutosh Singh, HBTU, Kanpur
         </li>
         <li>
-          Prof. (Dr.) Manoj Kumar Shukla, Department of Eelectronics
-          Engineering, HBTU, Kanpur
+          Prof. (Dr.) Manoj Kumar Shukla, HBTU, Kanpur
         </li>
         <li>
           Prof. (Dr.) Ganga Ram Mishra, Dr. Rammanohar Lohia Avadh University,
@@ -33,17 +35,16 @@ const TechnicalProgramCommittee = () => {
         <li>Prof. (Dr.) Saurabh Singh, Galgotias University</li>
         <li>Dr Vibhav Prakash Singh, MNNIT Allahabad</li>
         <li>Dr. Tarun Kumar Gupta,University of Allahabad</li>
-        <li>Dr. Ram Chandra Singh Chauhan, Department of ECE, IET Lucknow</li>
+        <li>Dr. Ram Chandra Singh Chauhan, IET Lucknow</li>
         <li>Dr. Rashi Agarwal, HBTU, Kanpur</li>
         <li>Dr. Pronaya Bhattacharya, Amity Uni., Kolkata</li>
-        <li>Dr. R C S Chauhan, IET, Lucknow</li>
-        <li>Dr. Rajender Kumar, ECE Department NIT Kurukshetra, Haryana</li>
+        <li>Dr. Rajender Kumar, NIT Kurukshetra, Haryana</li>
         <li>Dr. Vibhash Yadav, REC, Banda</li>
         <li>Dr. Keshav Kaushik, Amity Uni., Punjab</li>
         <li>Dr Prabhsimran Singh, G N D Uni., Amritsar</li>
         <li>Dr Imran Khan HBTU Kanpur</li>
         <li>Dr Deepak Kumar, Chitkara Uni., Punjab</li>
-        <li>Dr. Pronaya Bhattacharya, Amity University Kolkata</li>
+        
         <li>Dr. Kapil Joshi, Uttaranchal University, India</li>
         <li>
           Dr. Shrawan Trivedi, Rajiv Gandhi Institute of Petroleum Technology,
@@ -51,41 +52,29 @@ const TechnicalProgramCommittee = () => {
         </li>
         <li>Dr. Vivek Srivastava, REC Kannauj, India</li>
         <li>
-          Dr. Siddharth Singh, Department of Electronics and Communication
-          Engineering, Faculty of Engineering and Technology, University of
+          Dr. Siddharth Singh, Faculty of Engineering and Technology, University of
           Lucknow, Lucknow
         </li>
         <li>
-          Dr. Zeeshan Ali Siddiqui, Department of Computer Science and
-          Engineering, Faculty of Engineering and Technology, University of
-          Lucknow, Lucknow
-        </li>
-        <li>
-          Dr. Siddharth Singh, Department of Electronics and Communication
-          Engineering, Faculty of Engineering and Technology, University of
+          Dr. Zeeshan Ali Siddiqui, Faculty of Engineering and Technology, University of
           Lucknow, Lucknow
         </li>
         <li>Dr Saurabh Pandey, Vardhman Mahaveer Open University, Kota</li>
         <li>Dr. Vinolin V, Resbee Info Technologies, India</li>
         <li>Dr. Abhishek Prabhakar, AITH Kanpur</li>
-        <li>Dr. Ram Chandra Singh Chauhan, Department of ECE, IET, Lucknow</li>
-        <li>Dr. K K Singh, Department of ECE, Amity University, Lucknow</li>
+        <li>Dr. K K Singh, Amity University, Lucknow</li>
         <li>Dr. Deependra Pandey, Amity University, Lucknow</li>
         <li>
-          Dr. A. K. Shankhwar, Department Of Eelectronics Engineering, HBTU,
-          Kanpur
-        </li>
-        <li>
-          Dr. Himanshu Katiyar, Department of ECE, Rajkiya Engineering College
+          Dr. Himanshu Katiyar, Rajkiya Engineering College
           Sonbhadra
         </li>
         <li>
-          Dr. Monica Mehrotra, Director, Department of ECE, B.B.D. ESGI Lucknow
+          Dr. Monica Mehrotra, Director, B.B.D. ESGI Lucknow
         </li>
         <li>Mr. Ravendra Ratan Singh Jandail, South Asian University Delhi</li>
         <li>Mr. D. K. Nishad, Dr Shakuntala Mishra University, Lucknow</li>
         <li>Mr. Anil Singh Rathore, BBD, NIT&M, Lucknow</li>
-        <li>Mr. Prabhakar Dubey, Department of ECE, B.N.C.E.T.Lucknow</li>
+        <li>Mr. Prabhakar Dubey, B.N.C.E.T.Lucknow</li>
       </ul>
     </div>
   );
