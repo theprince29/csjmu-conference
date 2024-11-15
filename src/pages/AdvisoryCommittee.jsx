@@ -159,26 +159,14 @@ const AdvisoryCommittee = () => {
                   Technology, JK Lakshmipat University, Jaipur.
                 </li>
                 <li>
-                  Prof.(Dr.) Ajai Jain, Institute of Engineering and Technology,
-                  JK Lakshmipat University, Jaipur
-                </li>
-                <li>
                   Prof. (Dr.) R. K. Dwivedi, Director, Teerthanker Mahaveer
                   University, Moradabad
-                </li>
-                <li>
-                  Prof. (Dr.) Renu Jain, Institute of Engineering and
-                  Technology, JK Lakshmipat University, Jaipur
                 </li>
                 <li>
                   Prof. (Dr.) Brijesh Kumar, Professor & Director (Planning),
                   Indira Gandhi Delhi Technical University For Women, Delhi
                 </li>
                 <li>Dr. Anand Handa, C3i Hub, IIT Kanpur</li>
-                <li>
-                  Prof. (Dr.) R. K. Dwivedi, Director, Teerthanker Mahaveer
-                  University, Moradabad
-                </li>
                 <li>
                   Prof. (Dr.) Prashant Kumar Mishra, Pranveer Singh Institute of
                   Technology, Kanpur
@@ -195,10 +183,6 @@ const AdvisoryCommittee = () => {
                   Dr. Raghvendra Kumar Chaudhary, Indian Institute of Technology
                   (IIT) Kanpur, India
                 </li>
-                <li>
-                  Dr. Pramod Kumar Yadav, National Institute of Technology
-                  Srinagar
-                </li>
                 <li>Dr. Deepak Gupta, MNNIT Allahabad, India</li>
                 <li>Dr. Anshul Verma, IIT BHU</li>
                 <li>
@@ -206,9 +190,6 @@ const AdvisoryCommittee = () => {
                   Lucknow, India
                 </li>
                 <li>Dr. Durgesh Singh, IIIT Jabalpur, M.P. India</li>
-                <li>
-                  Dr. Ajay Narayan Shukla, Graphic Era Hill University, Dehradun
-                </li>
                 <li>
                   Dr. Shrawan Kumar, Indira Gandhi National Tribal University
                   Regional Campus Manipur India
@@ -220,10 +201,6 @@ const AdvisoryCommittee = () => {
                 <li>
                   Dr. Shrawan Trivedi, Rajiv Gandhi Institute of Petroleum
                   Technology, Amethi, India
-                </li>
-                <li>
-                  Dr. Manoj Kumar Misra, Director, Allenhouse Institute of
-                  Technology, Kanpur
                 </li>
                 <li>
                   Dr. Ajay Narayan Shukla, Graphic Era Hill University, Dehradun
