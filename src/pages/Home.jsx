@@ -13,6 +13,10 @@ const Home = () => {
           name="description"
           content="Join us at the ICRAECCT 2025 Conference hosted by Chhatrapati Shahu Ji Maharaj University, Kanpur. Discover pioneering advancements in computing and communication technologies."
         />
+        <meta
+          name="keywords"
+          content="ICRAECCT 2025, computing conference, communication technologies,csjmu conference, CSJMU, Kanpur, technology advancements, academic conference, research, computing, communication"
+        />
       </Helmet>
       <Carousel />
       <AboutConference />
