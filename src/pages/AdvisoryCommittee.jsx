@@ -5,7 +5,10 @@ const AdvisoryCommittee = () => {
     <div className="bg-gray-100 text-left p-6 md:p-12 lg:p-16">
       <Helmet>
         <title>Advisory Committee Members - ICRAECCT'2025 Conference</title>
-        <meta name="description" content="Meet the Advisory committee members of ICRAECCT'2025 Conference" />
+        <meta
+          name="description"
+          content="Meet the Advisory committee members of ICRAECCT'2025 Conference"
+        />
       </Helmet>
       <h1 className="text-4xl font-bold text-center text-third mb-8">
         ADVISORY COMMITTEE MEMBERS
@@ -25,9 +28,14 @@ const AdvisoryCommittee = () => {
                 </li>
                 <li>Prof. Simanta Mitra, Iowa State University, USA</li>
                 <li>
-                  Prof. Syed Akhter Hossain, Faculty of Science &Information
+                  Prof. Syed Akhter Hossain, Faculty of Science & Information
                   Technology (FSIT) Daffodil International University (DIU),
                   Bangladesh
+                </li>
+                <li>
+                  Prof (Dr.) Sergei Levashkin, Artificial Intelligence Research
+                  Lab, Povolzhskiy State University of Telecommunications and
+                  Informatics, Russia
                 </li>
                 <li>
                   Dr. Hari Mohan Pandey, Computer Science Department (Data
@@ -47,8 +55,8 @@ const AdvisoryCommittee = () => {
                   Princess Nourah bint Abdulrahman University, Saudi Arabia
                 </li>
                 <li>
-                  Dr. Vinayakumar Ravi,  Center for Artificial Intelligence,
-                  Prince Mohammad Bin Fahd University, Khobar, Saudi Arabia
+                  Dr. Vinayakumar Ravi, Center for Artificial Intelligence,
+                  Prince Mohammad Bin Fahd University, Khobar, Saudi Arabia
                 </li>
                 <li>
                   Dr. Naqqash Dilshad, College of AI Convergence, Department of
@@ -61,33 +69,12 @@ const AdvisoryCommittee = () => {
                 </li>
                 <li>
                   Yasmin Makki Mohialden Computer Science Department, Collage of
-                  Science, Mustansiriyah University, Baghdad-Iraq
+                  Science, Mustansiriyah University, Baghdad-Iraq
                 </li>
                 <li>
                   Dr. Haider M. Al-Juboori, Dept. of Electronics Engineering and
                   Communications, Faculty of Engineering & Built Environment,
-                  South East Technological University, Ireland,
-                </li>
-                <li>
-                  Mr. Ibrahim Hayatu Hassan, Ahmadu Bello University, Nigeria
-                </li>
-                <li>Dr. Ali Guma, MUNI University, Uganda</li>
-                <li>
-                  Prof (Dr.) Sergei Levashkin, Artificial Intelligence Research
-                  Lab, Povolzhskiy State University of Telecommunications and
-                  Informatics, Russia
-                </li>
-                <li>
-                  Dr. Rajeev Kumar Shakya, Department of Electronics and
-                  Communication Engineering, Adama Science and Technology
-                  University, Ethiopia
-                </li>
-                <li>
-                  Er. Himani, Wipro Limited, Project Manager, Chicago, IL, USA
-                </li>
-                <li>
-                  Er. Nirav Narendra Kumar Modh, Infosys Limited, Chicago, IL,
-                  USA
+                  South East Technological University, Ireland
                 </li>
                 <li>
                   Dr. Nuno Mateus-Coelho, Lusófona University, Porto, Portugal
@@ -96,14 +83,39 @@ const AdvisoryCommittee = () => {
                   Dr. Parvez Ali, Qassim University, Unaizah, Saudi Arabia
                 </li>
                 <li>
-                  Dr.Hari Mohan Gaur, Frankfurt Institute for Advanced Studies,
-                  Goethe-Uni Frankfurt , Germany.
+                  Dr. Hari Mohan Gaur, Frankfurt Institute for Advanced Studies,
+                  Goethe-Uni Frankfurt, Germany
+                </li>
+                <li>
+                  Dr. Rajeev Kumar Shakya, Department of Electronics and
+                  Communication Engineering, Adama Science and Technology
+                  University, Ethiopia
                 </li>
                 <li>
                   Dr. Dzati Athiar Ramli, School of Electrical & Electronic
                   Engineering, Universiti Sains, Malaysia
                 </li>
+                <li>Dr. Ali Guma, MUNI University, Uganda</li>
+                <li>Rajasekhar Chaganti, University of Texas at San Antonio</li>
+                <li>
+                  Nishchai J M - Amazon Web Services (AWS), Redmond, Washington,
+                  United States
+                </li>
+                <li>
+                  Er. Himani, Wipro Limited, Project Manager, Chicago, IL, USA
+                </li>
+                <li>
+                  Er. Nirav Narendra Kumar Modh, Infosys Limited, Chicago, IL,
+                  USA
+                </li>
                 <li>Dr. Shilpa Mehta, Freelancer Researcher, New Zealand</li>
+                <li>
+                  Mr. Ibrahim Hayatu Hassan, Ahmadu Bello University, Nigeria
+                </li>
+                <li>
+                  Atul Gupta, Associate Principal , Solution Architect,
+                  Enterprise CICD, USA
+                </li>
               </ul>
             </div>
 
