@@ -28,8 +28,7 @@ const Header = () => {
         </div>
         <div className="mt-6 sm:mt-4">
           <h1 className="text-2xl font-bold my-4 sm:text-3xl">
-            1<sup>st</sup> International Conference on Recent Advances in Emerging Computing and
-            Communication Technologies
+            International Conference on Recent Advances in Emerging Computing and Communication Technologies
             <br />
             <span className="text-primary text-lg sm:text-xl">
               (ICRAECCT) - 2025 Hybrid Mode

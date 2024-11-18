@@ -11,7 +11,7 @@ const AboutConference = () => {
         {/* Always visible content */}
         <p className="mb-2">
           Chhatrapati Shahu Ji Maharaj University (CSJMU), Kanpur, is delighted to announce it's 
-          <strong><em> First International Conference on Recent Advances in Emerging Computing and Communication 
+          <strong><em> International Conference on Recent Advances in Emerging Computing and Communication 
           Technologies (IC-RAECCT 2025)</em></strong>, to be held on April 11th-12th, 2025, at our campus.
         </p>
         
