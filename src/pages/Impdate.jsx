@@ -26,19 +26,19 @@ const Impdate = () => {
           <tbody>
             <tr>
               <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">Last Date For Abstract Submission:</td>
-              <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">10 December 2024</td>
+              <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">30 December 2024</td>
             </tr>
             <tr className='bg-gray-200'>
               <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">Notification of Tentative Acceptance:</td>
-              <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">20  December 2024</td>
+              <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">15 January 2025</td>
             </tr>
             <tr>
               <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">Last Date for Final Paper Submission:</td>
-              <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">15 January 2025</td>
+              <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">30 February 2025</td>
             </tr>
             <tr className='bg-gray-200'>
               <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">Notification of Acceptance:</td>
-              <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">15 February 2025</td>
+              <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">10 March 2025</td>
             </tr>
             <tr>
               <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">Last Date for Registration:</td>
