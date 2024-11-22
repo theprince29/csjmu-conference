@@ -340,10 +340,6 @@ const TechnicalProgramCommittee = () => {
         <li>
           Dr. Pramod Kumar Yadav, National Institute of Technology Srinagar
         </li>
-        <li>
-          Dr. Raghvendra Kumar Chaudhary, Indian Institute of Technology (IIT)
-          Kanpur, India
-        </li>
         <li>Dr. Deepak Gupta, MNNIT Allahabad, India</li>
         <li>
           Mr. Kural, Chief scientist, Central Drug Research Institute, Lucknow,
