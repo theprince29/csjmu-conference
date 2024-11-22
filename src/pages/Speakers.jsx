@@ -74,7 +74,7 @@ const SpeakerCard = ({ name, title, description, image }) => {
     {
       name: "Dr. Govind P Gupta",
       title: "NIT Raipur",
-      description: "Enlisted in Global AD (Alper-Doger) Scientific Index 2024 list.\nRanked within the 'Top 2% Global Scientists/Researchers in the World' (Published by Elsevier, on October 4, 2023)",
+      description: "Enlisted in Global AD (Alper-Doger) Scientific Index 2024 list.\nRanked within the 'Top 2% Global Scientists/Researchers in the World'\n(Published by Elsevier, on October 4, 2023)",
       image: Images.DrGovindPGupta,
     },
     
