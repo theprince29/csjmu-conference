@@ -31,6 +31,7 @@ import SubmissionGuide from "./pages/SubmissinGuide";
 import TechnicalProgramCommittee from "./pages/TechnicalProgramCommittee";
 import CallForSpecialSessions from "./pages/CallForSpecialSessions";
 import CallForSponser from "./pages/CallForSponser";
+import Speakers from "./pages/Speakers";
 function AppContent() {
   const location = useLocation();
   const [isSticky, setIsSticky] = useState(false);
@@ -82,7 +83,7 @@ function AppContent() {
             />
             <Route path="/registration" element={<Registration />} />
             <Route path="/publications" element={<Publication />} />
-            <Route path="/speakers" element={<Willbesoon />} />
+            <Route path="/speakers" element={<Speakers />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/nearby-attractions" element={<TouristSpots />} />
             <Route path="/contact-us" element={<Contactus />} />
