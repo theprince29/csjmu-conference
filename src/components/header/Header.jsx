@@ -9,7 +9,7 @@ const Header = () => {
           <img
             src="images/logo_csjmu.png"
             alt="University Logo 1"
-            className="w-20 h-20 object-contain mb-4 sm:mb-0 sm:mr-4"
+            className="w-40 h-20 object-contain mb-4 sm:mb-0 sm:mr-1"
           />
           <div className="text-center sm:text-center">
             <h1 className="text-2xl font-bold text-black">
@@ -23,7 +23,7 @@ const Header = () => {
           <img
             src="images/logo_naac.jpg"
             alt="NAAC Logo"
-            className="w-20 h-20 object-contain mt-4 sm:mt-0 sm:ml-4"
+            className="w-20 h-20 object-contain mt-4 sm:mt-0 sm:mr-20"
           />
         </div>
         <div className="mt-6 sm:mt-4">
