@@ -49,9 +49,7 @@ const AdvisoryCommittee = () => {
                   Dr. Nahed Tawfik, Computers and Systems Department,
                   Electronics Research Institute, Cairo, Egypt
                 </li>
-                <li>
-                Dr. Hameed Mutlag Farhan Altinbas University, Turkey
-                </li>
+                <li>Dr. Hameed Mutlag Farhan Altinbas University, Turkey</li>
                 <li>
                   Dr. Badria Sulaiman Alfurhood, Department of Computer
                   Sciences, College of Computer and Information Sciences,
@@ -133,6 +131,13 @@ const AdvisoryCommittee = () => {
                 </li>
                 <li>Prof.(Dr.) Pabitra Mitra, IIT Kharagpur, India</li>
                 <li>Prof. (Dr.) Surya Prakash, IIT Indore, India</li>
+                <li>Prof. Rajeev Srivastava, IIT BHU</li>
+                <li>Prof. Arpan Kumar Kar, Professor, IIT Delhi</li>
+                <li>Prof. Prabodh Bajpai, IIT Kanpur</li>
+                <li>Dr. Ankush Sharma, IIT Kanpur</li>
+                <li>Dr. Vipul Arora, IIT Kanpur</li>
+                <li>Dr. Ruchir Gupta, IIT BHU</li>
+                <li>Dr. Praveen Tripathi, IIT Guwahati</li>
                 <li>Prof. (Dr.) Manish Gaur, IIIT Una, India</li>
                 <li>Prof. (Dr.) Vineet Kansal, IET Lucknow, India</li>
                 <li>
