@@ -16,65 +16,147 @@ const TechnicalProgramCommittee = () => {
         Technical Program Committee
       </h1>
       <ul className=" list-disc space-y-2 text-gray-700 text-left">
-        <li>Prof. (Dr.) Anita Yadav, HBTU, Kanpur</li>
-        <li>Prof. (Dr.) Vandana Dixit Kaushik, HBTU, Kanpur</li>
-        <li>Prof. (Dr.) A K Shankhwar, HBTU, Kanpur</li>
-        <li>Prof. (Dr.) Rachna Asthana, HBTU, Kanpur</li>
-        <li>Prof. (Dr.) Y N Singh, Director, REC, Pratapgarh</li>
         <li>
-          Prof. (Dr.) Ashutosh Singh, HBTU, Kanpur
+          Prof (Dr.) Valentina Emilia Balas, Aurel Vlaicu University of Arad /
+          Academy of Romanian Scientists, ROMANIA
+        </li>
+        <li>Prof. Simanta Mitra, Iowa State University, USA</li>
+        <li>
+          Prof. Syed Akhter Hossain, Faculty of Science & Information Technology
+          (FSIT) Daffodil International University (DIU), Bangladesh
         </li>
         <li>
-          Prof. (Dr.) Manoj Kumar Shukla, HBTU, Kanpur
+          Prof. (Dr.) Phalguni Gupta, Vice Chancellor GLA University Mathura
         </li>
         <li>
-          Prof. (Dr.) Ganga Ram Mishra, Dr. Rammanohar Lohia Avadh University,
-          Ayodhya
+          Prof (Dr.) Sergei Levashkin, Artificial Intelligence Research Lab,
+          Povolzhskiy State University of Telecommunications and Informatics,
+          Russia
         </li>
-        <li>Prof. (Dr.) Manish Kumar, BBD University, Lucknow</li>
-        <li>Prof. (Dr.) Saurabh Singh, Galgotias University</li>
-        <li>Dr Vibhav Prakash Singh, MNNIT Allahabad</li>
-        <li>Dr. Tarun Kumar Gupta,University of Allahabad</li>
-        <li>Dr. Ram Chandra Singh Chauhan, IET Lucknow</li>
-        <li>Dr. Rashi Agarwal, HBTU, Kanpur</li>
-        <li>Dr. Pronaya Bhattacharya, Amity Uni., Kolkata</li>
-        <li>Dr. Rajender Kumar, NIT Kurukshetra, Haryana</li>
-        <li>Dr. Vibhash Yadav, REC, Banda</li>
-        <li>Dr. Keshav Kaushik, Amity Uni., Punjab</li>
-        <li>Dr Prabhsimran Singh, G N D Uni., Amritsar</li>
-        <li>Dr Imran Khan HBTU Kanpur</li>
-        <li>Dr Deepak Kumar, Chitkara Uni., Punjab</li>
-        
-        <li>Dr. Kapil Joshi, Uttaranchal University, India</li>
         <li>
-          Dr. Shrawan Trivedi, Rajiv Gandhi Institute of Petroleum Technology,
+          Prof. K. K. Aggarwal, Former Chairman, National Board of Accreditation
+          (NBA) and Former Founder Vice-Chancellor, GGSIP University, New Delhi,
           India
         </li>
-        <li>Dr. Vivek Srivastava, REC Kannauj, India</li>
         <li>
-          Dr. Siddharth Singh, Faculty of Engineering and Technology, University of
-          Lucknow, Lucknow
+          Prof. Shunmuga Velayutham C., Vice Chairperson, School of Computing,
+          AMRITA Vishwa Vidyapeetham, Coimbatore, Tamil Nadu, India
         </li>
         <li>
-          Dr. Zeeshan Ali Siddiqui, Faculty of Engineering and Technology, University of
-          Lucknow, Lucknow
-        </li>
-        <li>Dr Saurabh Pandey, Vardhman Mahaveer Open University, Kota</li>
-        <li>Dr. Vinolin V, Resbee Info Technologies, India</li>
-        <li>Dr. Abhishek Prabhakar, AITH Kanpur</li>
-        <li>Dr. K K Singh, Amity University, Lucknow</li>
-        <li>Dr. Deependra Pandey, Amity University, Lucknow</li>
-        <li>
-          Dr. Himanshu Katiyar, Rajkiya Engineering College
-          Sonbhadra
+          Prof. Deepak Garg, Vice-Chancellor, SR University, Telangana, India
         </li>
         <li>
-          Dr. Monica Mehrotra, Director, B.B.D. ESGI Lucknow
+          Prof. Parma Nand, Pro Vice-Chancellor, Sharda University, Greater
+          Noida (UP), India
         </li>
-        <li>Mr. Ravendra Ratan Singh Jandail, South Asian University Delhi</li>
-        <li>Mr. D. K. Nishad, Dr Shakuntala Mishra University, Lucknow</li>
-        <li>Mr. Anil Singh Rathore, BBD, NIT&M, Lucknow</li>
-        <li>Mr. Prabhakar Dubey, B.N.C.E.T.Lucknow</li>
+        <li>Prof. Rajeev Srivastava, IIT BHU</li>
+        <li>Prof. Arpan Kumar Kar, Professor, IIT Delhi</li>
+        <li>Prof. Prabodh Bajpai, IIT Kanpur</li>
+        <li>Prof. Pabitra Mitra, IIT BHU</li>
+        <li>Prof. Surya Prakash, IIT Indore, India</li>
+        <li>Prof. Manish Gaur, IIIT Una, India</li>
+        <li>Dr. Ankush Sharma, IIT Kanpur</li>
+        <li>Dr. Raghvendra Kumar Chaudhary, IIT Kanpur</li>
+        <li>Dr. Vipul Arora, IIT Kanpur</li>
+        <li>Dr. Ruchir Gupta, IIT BHU</li>
+        <li>Dr. Praveen Tripathi, IIT Guwahati</li>
+        <li>Dr. Anshul Verma, IIT BHU</li>
+        <li>Dr. Anand Handa, C3i Hub, IIT Kanpur</li>
+        <li>Dr. Durgesh Singh, IIIT Jabalpur, M.P. India</li>
+        <li>Dr. Ashutosh Kumar Singh, IIIT Allahabad</li>
+        <li>Dr. Deepak Gupta, MAIT Delhi</li>
+        <li>
+          Dr. Hari Mohan Pandey, Computer Science Department (Data Science and
+          AI), Bournemouth University, UK
+        </li>
+        <li>
+          Dr. Muhammad Anshari bin Ali, Universiti Brunei Darussalam, Brunei
+        </li>
+        <li>
+          Dr. Nahed Tawfik, Computers and Systems Department, Electronics
+          Research Institute, Cairo, Egypt
+        </li>
+        <li>
+          Dr. Abhay Srivastava, Space & Atmospheric Science Division (SASD),
+          North Eastern Space Applications Centre (NESAC), Department of Space,
+          Government of India, Meghalaya
+        </li>
+        <li>
+          Dr. Badria Sulaiman Alfurhood, Department of Computer Sciences,
+          College of Computer and Information Sciences, Princess Nourah bint
+          Abdulrahman University, Saudi Arabia
+        </li>
+        <li>
+          Dr. Vinayakumar Ravi, Center for Artificial Intelligence, Prince
+          Mohammad Bin Fahd University, Khobar, Saudi Arabia
+        </li>
+        <li>
+          Dr. Naqqash Dilshad, College of AI Convergence, Department of Computer
+          Science and Engineering, Sejong University, South Korea
+        </li>
+        <li>
+          Dr. Mukhalad Al-nasrwai, Al-Furat Al-Awsat Technical University, Kufa
+          (Main Campus), Kufa, Iraq
+        </li>
+        <li>
+          Yasmin Makki Mohialden, Computer Science Department, College of
+          Science, Mustansiriyah University, Baghdad-Iraq
+        </li>
+        <li>
+          Dr. Haider M. Al-Juboori, Dept. of Electronics Engineering and
+          Communications, Faculty of Engineering & Built Environment, South East
+          Technological University, Ireland
+        </li>
+        <li>Dr. Nuno Mateus-Coelho, Lusófona University, Porto, Portugal</li>
+        <li>Dr. Parvez Ali, Qassim University, Unaizah, Saudi Arabia</li>
+        <li>
+          Dr. Hari Mohan Gaur, Frankfurt Institute for Advanced Studies,
+          Goethe-Uni Frankfurt, Germany
+        </li>
+        <li>
+          Dr. Rajeev Kumar Shakya, Department of Electronics and Communication
+          Engineering, Adama Science and Technology University, Ethiopia
+        </li>
+        <li>
+          Dr. Dzati Athiar Ramli, School of Electrical & Electronic Engineering,
+          Universiti Sains, Malaysia
+        </li>
+        <li>Dr. Ali Guma, MUNI University, Uganda</li>
+        <li>Rajasekhar Chaganti, University of Texas at San Antonio</li>
+        <li>
+          Nishchai J M - Amazon Web Services (AWS), Redmond, Washington, United
+          States
+        </li>
+        <li>Dr. Hameed Mutlag Farhan, Altinbas University, Turkey</li>
+        <li>Er. Himani, Wipro Limited, Project Manager, Chicago, IL, USA</li>
+        <li>
+          Er. Nirav Narendra Kumar Modh, Infosys Limited, Chicago, IL, USA
+        </li>
+        <li>Dr. Shilpa Mehta, Freelancer Researcher, New Zealand</li>
+        <li>
+          Prof.(Dr.) Brijesh Kumar, Indira Gandhi Delhi Technical University For
+          Women, Delhi
+        </li>
+        <li>
+          Prof. (Dr.) Ravinder Singh Sawhney, Guru Nanak Dev University,
+          Amritsar, Punjab, India
+        </li>
+        <li>
+          Prof. (Dr.) Vishal Singh Chandel, Rajkiya Engineering College,
+          Ambedkar Nagar, U.P. India
+        </li>
+        <li>
+          Prof. (Dr.) Ashok Kumar Shankhwa, Harcourt Butler Technical
+          University, India
+        </li>
+        <li>
+          Prof. (Dr.) M Hima Bindu, Department of Computer Science and
+          Applications, North Orissa University, India
+        </li>
+        <li>
+          Prof. (Dr.) Deepa Raj, School of Information Science and Technology,
+          Baba Saheb Bhimrao Ambedkar University, Lucknow (A Central University)
+        </li>
       </ul>
     </div>
   );
