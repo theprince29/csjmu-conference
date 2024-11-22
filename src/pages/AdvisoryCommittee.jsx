@@ -50,6 +50,9 @@ const AdvisoryCommittee = () => {
                   Electronics Research Institute, Cairo, Egypt
                 </li>
                 <li>
+                Dr. Hameed Mutlag Farhan Altinbas University, Turkey
+                </li>
+                <li>
                   Dr. Badria Sulaiman Alfurhood, Department of Computer
                   Sciences, College of Computer and Information Sciences,
                   Princess Nourah bint Abdulrahman University, Saudi Arabia
