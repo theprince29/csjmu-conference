@@ -14,7 +14,8 @@ const Committee = () => {
         STEERING COMMITTEE
       </h1>
 
-      <div className="space-y-8 space-x-8">
+      <div className="space-y-8 space-x-8 ">
+        <section></section>
         <section>
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
             Chief Patron
