@@ -264,6 +264,10 @@ const CallForPaper = () => {
               <li>Telematics and its future </li>
               <li>Mobility Management in Next Generation Networks </li>
               <li>Optical networking and applications </li>
+              <li className="text-200 font-semibold mt-4">
+              TRACK 11: Emerging Computing and Communication Technologies: MISCELLANEOUS
+              </li>
+
 
               <li className="text-justify">
                 The papers submitted to the conference will be peer-reviewed and
