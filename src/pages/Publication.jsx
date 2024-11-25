@@ -9,7 +9,10 @@ const Publication = () => {
       </h1>
       <div className="max-w-lg text-center bg-white shadow-lg rounded-lg p-8">
         <p className="text-gray-700 mb-2">
-          Subject to Approval
+        All accepted and presented papers will be published in a
+        Scopus-indexed conference proceeding.**
+        
+        **Subject to Approval
         </p>
         <p className="text-primary text-4xl">Details will be shared soon</p>
       </div>

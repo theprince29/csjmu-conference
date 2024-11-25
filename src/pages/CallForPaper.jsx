@@ -269,7 +269,7 @@ const CallForPaper = () => {
               </li>
 
 
-              <li className="text-justify">
+              <li className="text-justify mt-4">
                 The papers submitted to the conference will be peer-reviewed and
                 published as SCOPUS indexed proceedings.{" "}
               </li>
