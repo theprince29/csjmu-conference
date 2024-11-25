@@ -287,6 +287,8 @@ const CallForPaper = () => {
                 consideration.{" "}
               </li>
             </ul>
+
+            **subject to approval
           </p>
         </div>
       </div>
