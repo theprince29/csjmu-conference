@@ -110,6 +110,7 @@ const AdvisoryCommittee = () => {
                   USA
                 </li>
                 <li>Dr. Shilpa Mehta, Freelancer Researcher, New Zealand</li>
+                <li>Tim Seleznev, Far Eastern Federal University, Russia</li>
                 <li>
                   Mr. Ibrahim Hayatu Hassan, Ahmadu Bello University, Nigeria
                 </li>

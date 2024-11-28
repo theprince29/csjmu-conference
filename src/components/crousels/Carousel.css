@@ -24,7 +24,7 @@
   }
 
   .slide-2{
-    background-image: url(../../assets/crousers-3.png);
+    background-image: url(../../assets/steering_committee.png);
     background-size: cover; 
     background-position: center;
     image-rendering: -webkit-optimize-contrast; 
@@ -60,4 +60,13 @@
     -webkit-backface-visibility: hidden; 
     transform: translateZ(0); 
     filter: brightness(1.1) contrast(1.05); 
+  }
+
+  @media (max-width: 768px) {
+    .slide-2 {
+      background-image: url(../../assets/mob_sterring_committee.png);
+      background-size: cover;
+      background-position: center;
+      transform: translateZ(-10px);
+    }
   }
