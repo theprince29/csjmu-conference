@@ -159,6 +159,8 @@ const TechnicalProgramCommittee = () => {
         </li>
         <li>Prof Raghuraj Singh, HBTU Kanpur</li>
         <li>Prof N K Kohli, HBTU Kanpur</li>
+        <li>Prof. Prabhat Verma HBTU Kanpur 
+        </li>
         <li>
           Prof. Rajeev Kumar Upadhyay, Director, KNIT, Sultanpur (UP), India
         </li>
