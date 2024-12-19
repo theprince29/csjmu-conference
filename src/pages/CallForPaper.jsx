@@ -303,7 +303,7 @@ const CallForPaper = () => {
               published as SCOPUS indexed proceedings.**{" "}
             </p>
             <p className="mb-8">
-              All papers will undergo a single-blind peer-review process, and
+              All papers will undergo a double-blind-peer-review process, and
               all accepted papers will be published in the SCOPUS-indexed
               conference proceedings. The conference organizers encourage the
               submission of academic and research papers that address
