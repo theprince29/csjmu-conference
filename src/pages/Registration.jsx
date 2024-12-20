@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet-async";
 const Registration = () => {
   return (
     <div className="mb-4">
-       <Helmet>
+      <Helmet>
         <title>Registration - ICRAECCT'2025 Conference</title>
         <meta
           name="description"
@@ -19,8 +19,10 @@ const Registration = () => {
           REGISTRATION
         </h1>
         <div className="text-left mb-6">
-        
-        <div className="mb-2 w-100 border" style={{ height: "1px", borderColor: "#1B305C" }}></div>
+          <div
+            className="mb-2 w-100 border"
+            style={{ height: "1px", borderColor: "#1B305C" }}
+          ></div>
 
           <p className="font-semibold text-sm">
             Author/Co-Author Registration Fee Includes:
@@ -29,8 +31,10 @@ const Registration = () => {
             Participation in the technical program, participation certificate to
             the presenter, and Pre-Proceeding e-copy.
           </p>
-          <div className="mt-2 w-100 border" style={{ height: "1px", borderColor: "#1B305C" }}></div>
-
+          <div
+            className="mt-2 w-100 border"
+            style={{ height: "1px", borderColor: "#1B305C" }}
+          ></div>
 
           <p className="mt-4 font-semibold">Registration Process:</p>
           <p className="text-sm">
@@ -78,14 +82,37 @@ const Registration = () => {
           <table className="table-auto w-full text-center bg-white border-collapse shadow-lg">
             <thead className="bg-third text-white">
               <tr>
-                <th className="px-2 py-3 sm:px-6 sm:py-4 text-sm sm:text-base font-semibold border border-gray-300">
+                <th
+                  rowSpan="2"
+                  className="px-2 py-3 sm:px-6 sm:py-4 text-sm sm:text-base font-semibold border border-gray-300"
+                >
                   CATEGORY
                 </th>
-                <th className="px-2 py-3 sm:px-6 sm:py-4 text-sm sm:text-base font-semibold border border-gray-300">
+                <th
+                  colSpan="2"
+                  className="px-2 py-3 sm:px-6 sm:py-4 text-sm sm:text-base font-semibold border border-gray-300"
+                >
                   EARLY BIRD REGISTRATION
                 </th>
-                <th className="px-2 py-3 sm:px-6 sm:py-4 text-sm sm:text-base font-semibold border border-gray-300">
+                <th
+                  colSpan="2"
+                  className="px-2 py-3 sm:px-6 sm:py-4 text-sm sm:text-base font-semibold border border-gray-300"
+                >
                   REGISTRATION AFTER DUE DATE
+                </th>
+              </tr>
+              <tr>
+                <th className="px-2 py-3 sm:px-6 sm:py-4 text-sm sm:text-base font-semibold border border-gray-300">
+                  Offline Mode
+                </th>
+                <th className="px-2 py-3 sm:px-6 sm:py-4 text-sm sm:text-base font-semibold border border-gray-300">
+                  Online Mode
+                </th>
+                <th className="px-2 py-3 sm:px-6 sm:py-4 text-sm sm:text-base font-semibold border border-gray-300">
+                  Offline Mode
+                </th>
+                <th className="px-2 py-3 sm:px-6 sm:py-4 text-sm sm:text-base font-semibold border border-gray-300">
+                  Online Mode
                 </th>
               </tr>
             </thead>
@@ -95,7 +122,13 @@ const Registration = () => {
                   Industry Experts
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
+                  INR 12,000
+                </td>
+                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
                   INR 10,000
+                </td>
+                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
+                  INR 14,000
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
                   INR 12,000
@@ -106,7 +139,13 @@ const Registration = () => {
                   Academician
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
+                  INR 10,000
+                </td>
+                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
                   INR 8,000
+                </td>
+                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
+                  INR 12,000
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
                   INR 10,000
@@ -114,10 +153,16 @@ const Registration = () => {
               </tr>
               <tr>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 text-left border border-gray-300 text-xs sm:text-sm">
-                  Research Scholars
+                  Research Scholars/Students
+                </td>
+                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
+                  INR 9,000
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
                   INR 7,000
+                </td>
+                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
+                  INR 11,000
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
                   INR 9,000
@@ -125,46 +170,36 @@ const Registration = () => {
               </tr>
               <tr className="bg-gray-200">
                 <td className="px-2 py-3 sm:px-6 sm:py-4 text-left border border-gray-300 text-xs sm:text-sm">
-                  Students
-                </td>
-                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
-                  INR 7,000
-                </td>
-                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
-                  INR 9,000
-                </td>
-              </tr>
-              <tr>
-                <td className="px-2 py-3 sm:px-6 sm:py-4 text-left border border-gray-300 text-xs sm:text-sm">
-                  Foreign Participant (offline mode)
+                  Foreign participant (Industry Expert/ Academician)
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
                   USD $300
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
+                  USD $200
+                </td>
+                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
                   USD $350
                 </td>
-              </tr>
-              <tr className="bg-gray-200">
-                <td className="px-2 py-3 sm:px-6 sm:py-4 text-left border border-gray-300 text-xs sm:text-sm">
-                  Foreign Participant (research scholar/student) (online mode)
-                </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
-                  USD $100
-                </td>
-                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
-                  USD $150
+                  USD $250
                 </td>
               </tr>
               <tr>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 text-left border border-gray-300 text-xs sm:text-sm">
-                  Foreign participant (Industry Expert/ Academician) online
+                  Foreign Participant (research scholar/student)
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
                   USD $200
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
+                  USD $100
+                </td>
+                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
                   USD $250
+                </td>
+                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
+                  USD $150
                 </td>
               </tr>
             </tbody>
