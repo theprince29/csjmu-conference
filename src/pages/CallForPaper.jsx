@@ -20,13 +20,16 @@ const CallForPaper = () => {
       </h1>
       <div className="space-y-4">
         <div className="text-center">
-          {/* <a className="text-2xl underline" href="https://forms.gle/yHQCmGUhhSe4zPiL9" target="_blank">
-            Click here to submit your paper 
-          </a> */}
+        <a
+            href="https://cmt3.research.microsoft.com/ICRAECCT2025/Submission/Index"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-6 py-3 bg-third text-white font-semibold text-sm rounded-lg shadow hover:bg-third focus:outline-none focus:ring-2 focus:ring-third focus:ring-offset-2"
+          >
+            Submit Paper
+          </a>
         </div>
-        {/* <h2 className="text-3xl font-bold text-left mb-6 text-dark">
-          Call for Papers
-        </h2> */}
+      
         <div className="mt-4 md:p-2 p-8 text-md text-gray-700 text-justify">
           International Conference on Recent Advances in Emerging Computing and
           Communication Technologies (ICRAECCT-2025) brings together global
