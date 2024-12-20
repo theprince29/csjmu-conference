@@ -21,13 +21,14 @@ const CallForPaper = () => {
       <div className="space-y-4">
         <div className="text-center">
         <a
-            href="https://cmt3.research.microsoft.com/ICRAECCT2025/Submission/Index"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block px-6 py-3 bg-third text-white font-semibold text-sm rounded-lg shadow hover:bg-third focus:outline-none focus:ring-2 focus:ring-third focus:ring-offset-2"
-          >
-            Submit Paper
-          </a>
+  href="https://cmt3.research.microsoft.com/ICRAECCT2025/Submission/Index"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block px-6 py-3 bg-third text-white font-semibold text-sm rounded-lg shadow hover:bg-third hover:scale-105 focus:outline-none focus:ring-2 focus:ring-third focus:ring-offset-2 transition-transform"
+>
+  Submit Paper
+</a>
+
         </div>
       
         <div className="mt-4 md:p-2 p-8 text-md text-gray-700 text-justify">
