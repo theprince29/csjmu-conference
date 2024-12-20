@@ -1,41 +1,37 @@
 import React from "react";
 
-
 const Header = () => {
   return (
     <header className="header bg-white text-dark py-6 px-2 sm:py-8 sm:px-4 pb-0">
       <div className="max-w-4xl mx-auto text-center">
-        <div className="flex justify-center items-center flex-col sm:flex-row sm:justify-between">
+        <div className="flex justify-center items-center gap-4">
+          <img
+            src="images/icraecct-logo.png"
+            alt="University Logo 1"
+            className="w-20 h-20 object-contain"
+          />
           <img
             src="images/logo_csjmu.png"
-            alt="University Logo 1"
-            className="w-40 h-20 object-contain mb-4 sm:mb-0 sm:mr-1"
+            alt="University Logo 2"
+            className="w-24 h-24 object-contain"
           />
-          <div className="text-center sm:text-center">
-            <h1 className="text-2xl font-bold text-black">
-              Chhatrapati Shahu Ji Maharaj University, Kanpur
-            </h1>
-            <p className="text-gray-600 text-base">
-              Uttar Pradesh State University (Formerly Kanpur University, Kanpur)
-            </p>
-            <p className="text-gray-600 text-base font-semibold"><span className="bg-primary-600 text-white p-1 rounded-sm">UGC Category - I</span></p>
-          </div>
           <img
             src="images/logo_naac.jpg"
             alt="NAAC Logo"
-            className="w-20 h-20 object-contain mt-4 sm:mt-0 sm:mr-20"
+            className="w-28 h-28 object-contain"
           />
         </div>
         <div className="mt-6 sm:mt-4">
           <h1 className="text-2xl font-bold my-4 sm:text-3xl">
-            International Conference on Recent Advances in Emerging Computing and Communication Technologies
+            International Conference on Recent Advances in Emerging Computing
+            and Communication Technologies
             <br />
             <span className="text-primary text-lg sm:text-xl">
               (ICRAECCT) - 2025 Hybrid Mode
             </span>
             <br />
           </h1>
-          <p className="font-semibold text-purple-700 text-md sm:text-lg">
+          <p className="font-semibold text-third text-md sm:text-lg">
             Jointly organized by:
           </p>
           <ul className="list-none list-inside mt-4 text-gray-700 font-semibold text-sm sm:text-base">
@@ -44,8 +40,20 @@ const Header = () => {
             <li>Department of Electronics and Communication Engineering</li>
             <li>
               <span className="text-lg sm:text-2xl mb-2">
-                School of Engineering and Technology (UIET)
+                School of Engineering and Technology (UIET) ,
               </span>
+              <h2 className="text-2xl font-bold text-gray-700">
+                Chhatrapati Shahu Ji Maharaj University, Kanpur
+              </h2>
+              <p className="text-gray-600 text-base">
+                Uttar Pradesh State University (Formerly Kanpur University,
+                Kanpur)
+              </p>
+              <p className="text-gray-600 text-base font-semibold">
+                <span className="bg-primary-600 text-white p-1 rounded-sm">
+                  UGC Category - I
+                </span>
+              </p>
             </li>
           </ul>
           <div className="flex justify-center mt-4">

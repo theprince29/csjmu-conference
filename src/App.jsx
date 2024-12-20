@@ -58,7 +58,17 @@ function AppContent() {
         <CountdownTimer />
       </div>
       <Markey />
+      {location.pathname === '/' && (
+        <a
+          href="https://cmt3.research.microsoft.com/ICRAECCT2025/Submission/Index"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-6 py-3 mb-4 bg-primary text-white font-semibold text-sm rounded-lg shadow hover:bg-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+        >
+          Submit Paper
+        </a>)}
       <Navbar isSticky={isSticky} />
+   
       <TransitionGroup>
         <CSSTransition key={location.key} classNames="fade" timeout={300}>
           <Routes location={location}>
