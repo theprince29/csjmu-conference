@@ -38,6 +38,10 @@ const AdvisoryCommittee = () => {
                   Informatics, Russia
                 </li>
                 <li>
+                  Prof. (Dr.) Marius M. Balas, Aurel Vlaicu University of Arad,
+                  Romania
+                </li>
+                <li>
                   Dr. Hari Mohan Pandey, Computer Science Department (Data
                   Science and AI), Bournemouth University, UK
                 </li>
@@ -97,10 +101,6 @@ const AdvisoryCommittee = () => {
                   Engineering, Universiti Sains, Malaysia
                 </li>
                 <li>Dr. Ali Guma, MUNI University, Uganda</li>
-                <li>
-                  Prof. (Dr.) Marius M. Balas, Aurel Vlaicu University of Arad,
-                  Romania
-                </li>
                 <li>
                   Dr. Cornel Barna, Aurel Vlaicu University of Arad, Romania
                 </li>
