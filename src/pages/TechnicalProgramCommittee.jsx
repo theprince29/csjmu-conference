@@ -55,84 +55,6 @@ const TechnicalProgramCommittee = () => {
         <li>Prof. Pabitra Mitra, IIT BHU</li>
         <li>Prof. Surya Prakash, IIT Indore, India</li>
         <li>Prof. Manish Gaur, IIIT Una, India</li>
-        <li>Dr. Ankush Sharma, IIT Kanpur</li>
-        <li>Dr. Raghvendra Kumar Chaudhary, IIT Kanpur</li>
-        <li>Dr. Vipul Arora, IIT Kanpur</li>
-        <li>Dr. Ruchir Gupta, IIT BHU</li>
-        <li>Dr. Praveen Tripathi, IIT Guwahati</li>
-        <li>Dr. Anshul Verma, IIT BHU</li>
-        <li>Dr. Anand Handa, C3i Hub, IIT Kanpur</li>
-        <li>Dr. Durgesh Singh, IIIT Jabalpur, M.P. India</li>
-        <li>Dr. Ashutosh Kumar Singh, IIIT Allahabad</li>
-        <li>Dr. Deepak Gupta, MAIT Delhi</li>
-        <li>
-          Dr. Hari Mohan Pandey, Computer Science Department (Data Science and
-          AI), Bournemouth University, UK
-        </li>
-        <li>
-          Dr Muhammad Anshari bin Ali, Universiti Brunei Darussalam, Brunei
-        </li>
-        <li>
-          Dr. Nahed Tawfik, Computers and Systems Department, Electronics
-          Research Institute, Cairo, Egypt
-        </li>
-        <li>
-          Dr. Abhay Srivastava, Space & Atmospheric Science Division (SASD),
-          North Eastern Space Applications Centre (NESAC), Department of Space,
-          Government of India, Meghalaya
-        </li>
-        <li>
-          Dr. Badria Sulaiman Alfurhood, Department of Computer Sciences,
-          College of Computer and Information Sciences, Princess Nourah bint
-          Abdulrahman University, Saudi Arabia
-        </li>
-        <li>
-          Dr. Vinayakumar Ravi, Center for Artificial Intelligence, Prince
-          Mohammad Bin Fahd University, Khobar, Saudi Arabia
-        </li>
-        <li>
-          Dr. Naqqash Dilshad, College of AI Convergence, Department of Computer
-          Science and Engineering, Sejong University, South Korea
-        </li>
-        <li>
-          Dr. Mukhalad Al-nasrwai, Al-Furat Al-Awsat Technical University, Kufa
-          (Main Campus), Kufa, Iraq
-        </li>
-        <li>
-          Yasmin Makki Mohialden Computer Science Department, Collage of
-          Science, Mustansiriyah University, Baghdad-Iraq
-        </li>
-        <li>
-          Dr. Haider M. Al-Juboori, Dept. of Electronics Engineering and
-          Communications, Faculty of Engineering & Built Environment, South East
-          Technological University, Ireland,
-        </li>
-        <li>Dr. Nuno Mateus-Coelho, Lusófona University, Porto, Portugal</li>
-        <li>Dr. Parvez Ali, Qassim University, Unaizah, Saudi Arabia</li>
-        <li>
-          Dr. Hari Mohan Gaur, Frankfurt Institute for Advanced Studies,
-          Goethe-Uni Frankfurt , Germany.
-        </li>
-        <li>
-          Dr. Rajeev Kumar Shakya, Department of Electronics and Communication
-          Engineering, Adama Science and Technology University, Ethiopia
-        </li>
-        <li>
-          Dr. Dzati Athiar Ramli, School of Electrical & Electronic Engineering,
-          Universiti Sains, Malaysia
-        </li>
-        <li>Dr. Ali Guma, MUNI University, Uganda</li>
-        <li>Rajasekhar Chaganti, University of Texas at San Antonio</li>
-        <li>
-          Nishchai J M - Amazon Web Services (AWS), Redmond, Washington, United
-          States
-        </li>
-        <li>Dr. Hameed Mutlag Farhan Altinbas University, Turkey</li>
-        <li>Er. Himani, Wipro Limited, Project Manager, Chicago, IL, USA</li>
-        <li>
-          Er. Nirav Narendra Kumar Modh, Infosys Limited, Chicago, IL, USA
-        </li>
-        <li>Dr. Shilpa Mehta, Freelancer Researcher, New Zealand</li>
         <li>
           Prof.(Dr.) Brijesh Kumar, Indira Gandhi Delhi Technical University For
           Women, Delhi
@@ -328,6 +250,84 @@ const TechnicalProgramCommittee = () => {
         <li>
           Prof. V M Mishra, G.B. Pant Engineering College, Garhwal, Uttarakhand
         </li>
+        <li>Dr. Ankush Sharma, IIT Kanpur</li>
+        <li>Dr. Raghvendra Kumar Chaudhary, IIT Kanpur</li>
+        <li>Dr. Vipul Arora, IIT Kanpur</li>
+        <li>Dr. Ruchir Gupta, IIT BHU</li>
+        <li>Dr. Praveen Tripathi, IIT Guwahati</li>
+        <li>Dr. Anshul Verma, IIT BHU</li>
+        <li>Dr. Anand Handa, C3i Hub, IIT Kanpur</li>
+        <li>Dr. Durgesh Singh, IIIT Jabalpur, M.P. India</li>
+        <li>Dr. Ashutosh Kumar Singh, IIIT Allahabad</li>
+        <li>Dr. Deepak Gupta, MAIT Delhi</li>
+        <li>
+          Dr. Hari Mohan Pandey, Computer Science Department (Data Science and
+          AI), Bournemouth University, UK
+        </li>
+        <li>
+          Dr Muhammad Anshari bin Ali, Universiti Brunei Darussalam, Brunei
+        </li>
+        <li>
+          Dr. Nahed Tawfik, Computers and Systems Department, Electronics
+          Research Institute, Cairo, Egypt
+        </li>
+        <li>
+          Dr. Abhay Srivastava, Space & Atmospheric Science Division (SASD),
+          North Eastern Space Applications Centre (NESAC), Department of Space,
+          Government of India, Meghalaya
+        </li>
+        <li>
+          Dr. Badria Sulaiman Alfurhood, Department of Computer Sciences,
+          College of Computer and Information Sciences, Princess Nourah bint
+          Abdulrahman University, Saudi Arabia
+        </li>
+        <li>
+          Dr. Vinayakumar Ravi, Center for Artificial Intelligence, Prince
+          Mohammad Bin Fahd University, Khobar, Saudi Arabia
+        </li>
+        <li>
+          Dr. Naqqash Dilshad, College of AI Convergence, Department of Computer
+          Science and Engineering, Sejong University, South Korea
+        </li>
+        <li>
+          Dr. Mukhalad Al-nasrwai, Al-Furat Al-Awsat Technical University, Kufa
+          (Main Campus), Kufa, Iraq
+        </li>
+        <li>
+          Yasmin Makki Mohialden Computer Science Department, Collage of
+          Science, Mustansiriyah University, Baghdad-Iraq
+        </li>
+        <li>
+          Dr. Haider M. Al-Juboori, Dept. of Electronics Engineering and
+          Communications, Faculty of Engineering & Built Environment, South East
+          Technological University, Ireland,
+        </li>
+        <li>Dr. Nuno Mateus-Coelho, Lusófona University, Porto, Portugal</li>
+        <li>Dr. Parvez Ali, Qassim University, Unaizah, Saudi Arabia</li>
+        <li>
+          Dr. Hari Mohan Gaur, Frankfurt Institute for Advanced Studies,
+          Goethe-Uni Frankfurt , Germany.
+        </li>
+        <li>
+          Dr. Rajeev Kumar Shakya, Department of Electronics and Communication
+          Engineering, Adama Science and Technology University, Ethiopia
+        </li>
+        <li>
+          Dr. Dzati Athiar Ramli, School of Electrical & Electronic Engineering,
+          Universiti Sains, Malaysia
+        </li>
+        <li>Dr. Ali Guma, MUNI University, Uganda</li>
+        <li>Rajasekhar Chaganti, University of Texas at San Antonio</li>
+        <li>
+          Nishchai J M - Amazon Web Services (AWS), Redmond, Washington, United
+          States
+        </li>
+        <li>Dr. Hameed Mutlag Farhan Altinbas University, Turkey</li>
+        <li>Er. Himani, Wipro Limited, Project Manager, Chicago, IL, USA</li>
+        <li>
+          Er. Nirav Narendra Kumar Modh, Infosys Limited, Chicago, IL, USA
+        </li>
+        <li>Dr. Shilpa Mehta, Freelancer Researcher, New Zealand</li>
         <li>Dr Vibhav Prakash Singh, MNNIT Allahabad</li>
         <li>Dr. Tarun Kumar Gupta, University of Allahabad</li>
         <li>Dr. Ram Chandra Singh Chauhan, IET Lucknow</li>
