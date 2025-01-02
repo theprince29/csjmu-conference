@@ -97,6 +97,16 @@ const AdvisoryCommittee = () => {
                   Engineering, Universiti Sains, Malaysia
                 </li>
                 <li>Dr. Ali Guma, MUNI University, Uganda</li>
+                <li>
+                  Prof. (Dr.) Marius M. Balas, Aurel Vlaicu University of Arad,
+                  Romania
+                </li>
+                <li>
+                  Dr. Cornel Barna, Aurel Vlaicu University of Arad, Romania
+                </li>
+                <li>
+                  Dr. Flavius Petcut, Aurel Vlaicu University of Arad, Romania
+                </li>
                 <li>Rajasekhar Chaganti, University of Texas at San Antonio</li>
                 <li>
                   Nishchai J M - Amazon Web Services (AWS), Redmond, Washington,
