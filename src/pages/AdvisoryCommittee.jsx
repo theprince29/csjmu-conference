@@ -246,6 +246,9 @@ const AdvisoryCommittee = () => {
                   Mr. Ravendra Ratan Singh Jandail, South Asian
                   University, Delhi
                 </li>
+                <li>
+                Vaishnavi Pandey, Software Engineer, Google, Bengaluru, Karnataka
+                </li>
               </ul>
             </div>
           </div>

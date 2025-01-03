@@ -250,6 +250,9 @@ const TechnicalProgramCommittee = () => {
         <li>
           Prof. V M Mishra, G.B. Pant Engineering College, Garhwal, Uttarakhand
         </li>
+        <li>
+        Prof. C. S. Raghuvanshi, Rama University, Kanpur
+        </li>
         <li>Dr. Ankush Sharma, IIT Kanpur</li>
         <li>Dr. Raghvendra Kumar Chaudhary, IIT Kanpur</li>
         <li>Dr. Vipul Arora, IIT Kanpur</li>
@@ -431,6 +434,9 @@ const TechnicalProgramCommittee = () => {
         </li>
         <li>Dr. Prashant Giridhar Shambharkar, DTU, New Delhi, India</li>
         <li>Mr. Ibrahim Hayatu Hassan, Ahmadu Bello University, Nigeria</li>
+        <li>
+        Vaishnavi Pandey, Software Engineer, Google, Bengaluru, Karnataka
+        </li>
       </ul>
     </div>
   );
