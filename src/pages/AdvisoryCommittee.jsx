@@ -125,6 +125,10 @@ const AdvisoryCommittee = () => {
                   Mr. Ibrahim Hayatu Hassan, Ahmadu Bello University, Nigeria
                 </li>
                 <li>
+                Nuzhat Prova, Pace University, New York, United States
+                </li>
+                <li>Saurabh Yadav, Cloud solution architect, Amazon USA</li>
+                <li>
                   Atul Gupta, Associate Principal , Solution Architect,
                   Enterprise CICD, USA
                 </li>

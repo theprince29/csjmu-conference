@@ -434,6 +434,8 @@ const TechnicalProgramCommittee = () => {
         </li>
         <li>Dr. Prashant Giridhar Shambharkar, DTU, New Delhi, India</li>
         <li>Mr. Ibrahim Hayatu Hassan, Ahmadu Bello University, Nigeria</li>
+        <li>Nuzhat Prova, Pace University, New York, United States</li>
+        <li>Saurabh Yadav, Cloud solution architect, Amazon USA</li>
         <li>
         Vaishnavi Pandey, Software Engineer, Google, Bengaluru, Karnataka
         </li>
