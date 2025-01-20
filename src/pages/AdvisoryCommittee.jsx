@@ -85,6 +85,10 @@ const AdvisoryCommittee = () => {
                   Dr. Nuno Mateus-Coelho, Lusófona University, Porto, Portugal
                 </li>
                 <li>
+                  Dr. Akhila Reddy Yadulla,University of the Cumberlands,
+                  Williamsburg, USA
+                </li>
+                <li>
                   Dr. Parvez Ali, Qassim University, Unaizah, Saudi Arabia
                 </li>
                 <li>
@@ -124,13 +128,14 @@ const AdvisoryCommittee = () => {
                 <li>
                   Mr. Ibrahim Hayatu Hassan, Ahmadu Bello University, Nigeria
                 </li>
-                <li>
-                Nuzhat Prova, Pace University, New York, United States
-                </li>
+                <li>Nuzhat Prova, Pace University, New York, United States</li>
                 <li>Saurabh Yadav, Cloud solution architect, Amazon USA</li>
                 <li>
                   Atul Gupta, Associate Principal , Solution Architect,
                   Enterprise CICD, USA
+                </li>
+                <li>
+                  Siva Krishna Jampani, Senior Software Engineer, Asurion, USA
                 </li>
               </ul>
             </div>
@@ -251,7 +256,8 @@ const AdvisoryCommittee = () => {
                   University, Delhi
                 </li>
                 <li>
-                Vaishnavi Pandey, Software Engineer, Google, Bengaluru, Karnataka
+                  Vaishnavi Pandey, Software Engineer, Google, Bengaluru,
+                  Karnataka
                 </li>
               </ul>
             </div>

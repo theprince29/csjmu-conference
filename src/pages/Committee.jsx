@@ -133,7 +133,7 @@ const Committee = () => {
             <li>Dr. Ankush Sharma, IIT Kanpur</li>
             <li>Dr. Deepak Gupta, MAIT Delhi</li>
             <li>Dr. Keshav Kaushik, Amity University Punjab</li>
-            <li>Dr. Kapil Joshi Uttaranchal, University Dehradun</li>
+            <li>Dr. Kapil Joshi, Uttaranchal University Dehradun</li>
           </ul>
         </section>
 
@@ -156,7 +156,7 @@ const Committee = () => {
             <li>Dr. Pushpa Mamoriya</li>
             <li>Dr. Vineeta Singh</li>
             <li>Dr. Ajay Tiwari</li>
-            <li>Dr. Kapil Joshi Uttaranchal, University Dehradun</li>
+            <li>Dr. Kapil Joshi, Uttaranchal University Dehradun</li>
           </ul>
         </section>
 

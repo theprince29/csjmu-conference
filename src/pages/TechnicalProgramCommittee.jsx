@@ -432,12 +432,18 @@ const TechnicalProgramCommittee = () => {
         <li>
           Dr. Jitendra Singh, SRMIST, Delhi-NCR Campus, Ghaziabad (UP), India
         </li>
+        <li>
+        Dr. Akhila Reddy Yadulla,University of the Cumberlands, Williamsburg,  USA
+        </li>
         <li>Dr. Prashant Giridhar Shambharkar, DTU, New Delhi, India</li>
         <li>Mr. Ibrahim Hayatu Hassan, Ahmadu Bello University, Nigeria</li>
         <li>Nuzhat Prova, Pace University, New York, United States</li>
         <li>Saurabh Yadav, Cloud solution architect, Amazon USA</li>
         <li>
         Vaishnavi Pandey, Software Engineer, Google, Bengaluru, Karnataka
+        </li>
+        <li>
+        Siva Krishna Jampani, Senior Software Engineer, Asurion, USA
         </li>
       </ul>
     </div>
