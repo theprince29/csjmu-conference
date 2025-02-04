@@ -137,6 +137,9 @@ const AdvisoryCommittee = () => {
                 <li>
                   Siva Krishna Jampani, Senior Software Engineer, Asurion, USA
                 </li>
+                <li>
+                Vinay Kumar Kasula, Department of Information Technology, University of the Cumberlands, Williamsburg,  USA
+                </li>
               </ul>
             </div>
 
