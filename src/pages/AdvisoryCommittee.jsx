@@ -111,6 +111,14 @@ const AdvisoryCommittee = () => {
                 <li>
                   Dr. Flavius Petcut, Aurel Vlaicu University of Arad, Romania
                 </li>
+                <li>
+                  Dr. Vinay Kumar Kasula, Department of Information Technology,
+                  University of the Cumberlands, Williamsburg, USA
+                </li>
+                <li>
+                  Dr. Vitri Tundjungsari, Computer Science Department, Esa
+                  Unggul University Jakarta, Indonesia
+                </li>
                 <li>Rajasekhar Chaganti, University of Texas at San Antonio</li>
                 <li>
                   Nishchai J M - Amazon Web Services (AWS), Redmond, Washington,
@@ -138,7 +146,8 @@ const AdvisoryCommittee = () => {
                   Siva Krishna Jampani, Senior Software Engineer, Asurion, USA
                 </li>
                 <li>
-                Vinay Kumar Kasula, Department of Information Technology, University of the Cumberlands, Williamsburg,  USA
+                  Hritesh Yadav, Senior Principal Software Engineer, Palo Alto
+                  Networks Inc., USA
                 </li>
               </ul>
             </div>
