@@ -149,7 +149,12 @@ const AdvisoryCommittee = () => {
                   Hritesh Yadav, Senior Principal Software Engineer, Palo Alto
                   Networks Inc., USA
                 </li>
-                <li>Balaji Shesharao Ingole, Gainwell Technologies, USA</li>
+                <li>
+                  Balaji Shesharao Ingole, Senior Project Manager, Gainwell
+                  Technologies LLC USA
+                </li>
+                <li>Tarun Eldho Alias, Co-founder & CTO of Neem Inc., USA</li>
+                <li>Abhinav Mehta, Amazon, USA</li>
               </ul>
             </div>
 
