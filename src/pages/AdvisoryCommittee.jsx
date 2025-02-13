@@ -155,8 +155,18 @@ const AdvisoryCommittee = () => {
                 </li>
                 <li>Tarun Eldho Alias, Co-founder & CTO of Neem Inc., USA</li>
                 <li>Abhinav Mehta, Amazon, USA</li>
-                <li>Damodaran Chingleput Sathyakumar, Software Engineer at eBay Inc., UT, USA</li>
-                <li>Manoj Varma Lakhamraju, Manager, Digital Product, HR Technology, CVS Health, Charlotte, North Carolina, US</li>
+                <li>
+                  Damodaran Chingleput Sathyakumar, Software Engineer at
+                  eBay Inc., UT, USA
+                </li>
+                <li>
+                  Manoj Varma Lakhamraju, Manager, Digital Product, HR
+                  Technology, CVS Health, Charlotte, North Carolina, US
+                </li>
+                <li>
+                  Shashidhar Reddy Polepalli, Senior Principal Software
+                  Engineer, Fortinet, Sunnyvale, California, US
+                </li>
               </ul>
             </div>
 
