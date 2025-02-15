@@ -34,11 +34,11 @@ const Impdate = () => {
             </tr> */}
             <tr>
               <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">Last Date for Final Paper Submission:</td>
-              <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg"><span className='line-through text-red-500'>20 January  2025</span><br /><span> 20 February 2025</span></td>
+              <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg"><span className='line-through text-red-500'>20 January  2025</span><br /><span className='line-through text-red-500'> 20 February 2025</span><br /><span> 28 February 2025</span></td>
             </tr>
             <tr className='bg-gray-200'>
               <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">Notification of Acceptance:</td>
-              <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg"><span className='line-through text-red-500'>15 February  2025</span><br /><span> 28 February 2025</span></td>
+              <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg"><span className='line-through text-red-500'>15 February  2025</span><br /><span className='line-through text-red-500'> 28 February 2025</span><br /><span>10 March 2025</span></td>
             </tr>
             <tr>
               <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">Last Date for Registration:</td>
