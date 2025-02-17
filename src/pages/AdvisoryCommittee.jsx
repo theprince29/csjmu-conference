@@ -167,6 +167,10 @@ const AdvisoryCommittee = () => {
                   Shashidhar Reddy Polepalli, Senior Principal Software
                   Engineer, Fortinet, Sunnyvale, California, US
                 </li>
+                <li>
+                  Mr. Ganapathy Subramanian Ramachandran, Palo Alto
+                  Networks, USA
+                </li>
               </ul>
             </div>
 
