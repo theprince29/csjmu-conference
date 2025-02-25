@@ -176,6 +176,10 @@ const AdvisoryCommittee = () => {
                   Mr. Niranjan Reddy Kotha, Charter Communications,
                   Colorado, USA
                 </li>
+                <li>
+                  Mr. Kathyayan Mula, Tech Lead Manager at Chime, San
+                  Francisco, USA
+                </li>
               </ul>
             </div>
 
