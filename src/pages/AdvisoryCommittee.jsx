@@ -171,6 +171,11 @@ const AdvisoryCommittee = () => {
                   Mr. Ganapathy Subramanian Ramachandran, Palo Alto
                   Networks, USA
                 </li>
+                <li>Mr. Isan Sahoo, Oracle, California, USA</li>
+                <li>
+                  Mr. Niranjan Reddy Kotha, Charter Communications,
+                  Colorado, USA
+                </li>
               </ul>
             </div>
 
