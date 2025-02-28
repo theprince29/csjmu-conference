@@ -180,6 +180,10 @@ const AdvisoryCommittee = () => {
                   Mr. Kathyayan Mula, Tech Lead Manager at Chime, San
                   Francisco, USA
                 </li>
+                <li>
+                  Mr. Sudheer Kolla, Senior PostgreSQL DBA at Centers for
+                  Medicare & Medicaid Services, USA
+                </li>
               </ul>
             </div>
 
