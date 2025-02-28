@@ -42,7 +42,7 @@ const Impdate = () => {
             </tr>
             <tr>
               <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">Last Date for Registration:</td>
-              <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">15 March 2025</td>
+              <td className="px-4 py-4 border border-gray-300 text-base sm:text-lg">25 March 2025</td>
             </tr>
           </tbody>
         </table>
