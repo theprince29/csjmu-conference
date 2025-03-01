@@ -184,6 +184,11 @@ const AdvisoryCommittee = () => {
                   Mr. Sudheer Kolla, Senior PostgreSQL DBA at Centers for
                   Medicare & Medicaid Services, USA
                 </li>
+                <li>
+                Mr. Manas Srivastava, SAP Specialist at Google Cloud, Seattle, USA
+                </li>
+
+
               </ul>
             </div>
 
