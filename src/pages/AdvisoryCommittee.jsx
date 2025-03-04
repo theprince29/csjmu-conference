@@ -185,10 +185,13 @@ const AdvisoryCommittee = () => {
                   Medicare & Medicaid Services, USA
                 </li>
                 <li>
-                Mr. Manas Srivastava, SAP Specialist at Google Cloud, Seattle, USA
+                  Mr. Manas Srivastava, SAP Specialist at Google
+                  Cloud, Seattle, USA
                 </li>
-
-
+                <li>Sai Kiran Karumuri, Centerfield Media, Texas, USA</li>
+                <li>
+                  Ramya K R Vuyyuru, Wesley, Chapel, Floria, United States
+                </li>
               </ul>
             </div>
 
