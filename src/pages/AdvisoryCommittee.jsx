@@ -192,6 +192,9 @@ const AdvisoryCommittee = () => {
                 <li>
                   Ramya K R Vuyyuru, Wesley, Chapel, Floria, United States
                 </li>
+                <li>
+                  Faiz Gouri, IEEE, Seattle, United States
+                </li>
               </ul>
             </div>
 
