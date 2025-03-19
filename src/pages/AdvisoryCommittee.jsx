@@ -195,6 +195,9 @@ const AdvisoryCommittee = () => {
                 <li>
                   Faiz Gouri, IEEE, Seattle, United States
                 </li>
+                <li>
+                  Midhun Prabhu Chinta Technical Lead, Chime Financial Inc, California, United States
+                </li>
               </ul>
             </div>
 

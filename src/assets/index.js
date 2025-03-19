@@ -7,6 +7,8 @@ import DrGovindPGupta from "./Dr-Govind-P-Gupta.png";
 import ErHimaniFnu from "./Er-Himani-Fnu.png";
 import ErNiravNarendrakumarModh from "./Er-Nirav-Narendra-kumar-Modh.png";
 import DrRajeevkshakya from "./Dr-Rajeev-K-Shakya.jpg";
+import PrasadYacham from "./Prasad-Yacham.jpg";
+import FaizGouri from "./Faiz-Gouri.jpg";
 
 export {
   DrRajeevkshakya,
@@ -18,4 +20,6 @@ export {
   DrGovindPGupta,
   ErHimaniFnu,
   ErNiravNarendrakumarModh,
+  PrasadYacham,
+  FaizGouri
 };
