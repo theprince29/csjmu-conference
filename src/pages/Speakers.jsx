@@ -83,12 +83,12 @@ const SpeakerCard = ({ name, title, description, image }) => {
       description: "Adama Science & Technology University, Adama Ethiopia",
       image: Images.DrRajeevkshakya,
     },
-    {
-      name: "Prasad Yacham",
-      title: "Senior SDET, Amazon USA",
-      description: "Area of Expertise: Robotics Automation",
-      image: Images.PrasadYacham,
-    },
+    // {
+    //   name: "Prasad Yacham",
+    //   title: "Senior SDET, Amazon USA",
+    //   description: "Area of Expertise: Robotics Automation",
+    //   image: Images.PrasadYacham,
+    // },
     {
       name: "Faiz Gouri ",
       title: "Lead Software Engineer",
