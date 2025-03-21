@@ -10,6 +10,9 @@ import DrRajeevkshakya from "./Dr-Rajeev-K-Shakya.jpg";
 import PrasadYacham from "./Prasad-Yacham.jpg";
 import FaizGouri from "./Faiz-Gouri.jpg";
 import DrVinayKumarKasula from "./Vinay-Kumar-Kasula.jpg";
+import DrAkhilaReddyYadulla from "./Dr-Akhila-Reddy-Yadulla.jpg";
+import AmitSingh from "./Amit-Singh.jpg";
+
 
 
 export {
@@ -24,5 +27,7 @@ export {
   ErNiravNarendrakumarModh,
   PrasadYacham,
   FaizGouri,
-  DrVinayKumarKasula
+  DrVinayKumarKasula,
+  DrAkhilaReddyYadulla,
+  AmitSingh
 };

@@ -47,6 +47,31 @@ const SpeakerCard = ({ name, title, description, image }) => {
       description: "Top 2% scientist (2022 World Ranking list by Stanford University)",
       image: Images.DrHariMohanPandey,
     },
+   
+    {
+      name: "Dr. Govind P Gupta",
+      title: "NIT Raipur",
+      description: "Enlisted in Global AD (Alper-Doger) Scientific Index 2024 list.\nRanked within the 'Top 2% Global Scientists/Researchers in the World'\n(Published by Elsevier, on October 4, 2023)",
+      image: Images.DrGovindPGupta,
+    },
+    {
+      name: "Dr. Rajeev K Shakya",
+      title: "Department of Electrical Engineering & Computing Engineering",
+      description: "Adama Science & Technology University, Adama Ethiopia",
+      image: Images.DrRajeevkshakya,
+    },
+    {
+      name: "Dr. Vinay Kumar Kasula",
+      title: "Sr. Systems Application Analyst",
+      description: "Visa Inc, Ashburn, Virginia, USA",
+      image: Images.DrVinayKumarKasula,
+    },
+    {
+      name: "Dr. Akhila Reddy Yadulla",
+      title: "Department of Information Technology",
+      description: "University of the Cumberlands, Williamsburg, Kentucky, USA",
+      image: Images.DrAkhilaReddyYadulla,
+    },
     {
       name: "Er. Abhinav Tripathi",
       title: "Senior Director",
@@ -72,34 +97,16 @@ const SpeakerCard = ({ name, title, description, image }) => {
       image: Images.ErNiravNarendrakumarModh,
     },
     {
-      name: "Dr. Govind P Gupta",
-      title: "NIT Raipur",
-      description: "Enlisted in Global AD (Alper-Doger) Scientific Index 2024 list.\nRanked within the 'Top 2% Global Scientists/Researchers in the World'\n(Published by Elsevier, on October 4, 2023)",
-      image: Images.DrGovindPGupta,
+      name: "Amit Singh",
+      title: "Lead Architect, Secure Networking",
+      description: "Cisco Systems Inc. USA",
+      image: Images.AmitSingh,
     },
-    {
-      name: "Dr. Rajeev K Shakya",
-      title: "Department of Electrical Engineering & Computing Engineering",
-      description: "Adama Science & Technology University, Adama Ethiopia",
-      image: Images.DrRajeevkshakya,
-    },
-    // {
-    //   name: "Prasad Yacham",
-    //   title: "Senior SDET, Amazon USA",
-    //   description: "Area of Expertise: Robotics Automation",
-    //   image: Images.PrasadYacham,
-    // },
     {
       name: "Faiz Gouri ",
       title: "Lead Software Engineer",
       description: "Microsoft, Seattle, USA",
       image: Images.FaizGouri,
-    },
-    {
-      name: "Dr. Vinay Kumar Kasula",
-      title: "Sr. Systems Application Analyst",
-      description: "Visa Inc, Ashburn, Virginia, USA",
-      image: Images.DrVinayKumarKasula,
     },
   ];
 
@@ -122,7 +129,7 @@ const Speakers = () => {
   return (
     <div className="bg-gray-100 p-8 text-left mt-4 rounded-lg shadow-md list-inside">
     <h1 className="text-4xl font-bold text-center text-third mb-8 uppercase">Keynote Speakers</h1>
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 max-w-5xl mx-auto">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-8xl mx-auto">
       {speakers.map((speaker, index) => (
         <SpeakerCard
           key={index}
