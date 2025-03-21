@@ -128,7 +128,7 @@ const CallForSponsor = () => {
         </p>
          <SponsorshipCategory
           type="A) Platinum"
-          amount="Rupees 1 Lakh and above"
+          amount="Rupees 4 Lakhs and above"
           benefits={[
             "3 Complimentary conference registrations",
             "Complimentary Lunch, Coffee Break, and Dinner",
@@ -141,7 +141,7 @@ const CallForSponsor = () => {
         />
         <SponsorshipCategory
           type="B) Diamond"
-          amount="Rupees 50,000 and above"
+          amount="Rupees 2 Lakhs and above"
           benefits={[
             "2 Complimentary conference registrations",
             "Complimentary Lunch, Coffee Break, and Dinner",
@@ -154,7 +154,7 @@ const CallForSponsor = () => {
         />
         <SponsorshipCategory
           type="C) Gold"
-          amount="Rupees 25,000-50,000"
+          amount="Rupees 1.5 lakh and above"
           benefits={[
             "2 Complimentary conference registrations",
             "Complimentary Lunch, Coffee Break, and Dinner",
@@ -166,7 +166,7 @@ const CallForSponsor = () => {
         />
         <SponsorshipCategory
           type="D) Silver"
-          amount="Rupees 10,000-24,000"
+          amount="Rupees 1 lakh and above"
           benefits={[
             "Acknowledgement during the opening and closing ceremony",
             "Complimentary Lunch, Coffee Break, and Dinner",
@@ -175,7 +175,7 @@ const CallForSponsor = () => {
             "Logo in booklets, flyers, and proceedings",
           ]}
         />
-        <SponsorshipCategory
+        {/* <SponsorshipCategory
           type="E) Bronze"
           amount="Less than Rupees 10,000"
           benefits={[
@@ -185,7 +185,7 @@ const CallForSponsor = () => {
             "Logo in social media publications for the event",
             "Logo in booklets, flyers, and proceedings",
           ]}
-        />
+        /> */}
         <SponsorshipForm />
         {/* <p>
           <strong>Payment Link:</strong>
@@ -249,8 +249,7 @@ const SponsorshipForm = () => (
       <li>Telephone number of contact person: __________________</li>
       <li>Amount: __________________</li>
       <li>
-        Sponsorship Type: Diamond: ✷ | Platinum: ✷ | Gold: ✷ | Silver: ✷ |
-        Bronze: ✷
+        Sponsorship Type: Diamond: ✷ | Platinum: ✷ | Gold: ✷ | Silver: ✷ 
       </li>
       <li>
         <strong>Date:</strong> __________________
