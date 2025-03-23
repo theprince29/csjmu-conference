@@ -8,7 +8,7 @@ const publications = [
     issn: "1573-4056 / 1875-6603",
     publisher: "BENTHAM SCIENCE PUBLISHER",
     indexing: "SCIE Indexed Journal",
-    coverImage: "https://i.ibb.co/rR4r1t7C/Computer-Aided-Drug-Design.jpg",
+    coverImage: "https://i.ibb.co/k2RCJj46/CURRENT-MEDICAL-IMAGING.jpg",
     journalLink: "https://www.benthamscience.com/journal/33/indexing-agency"
   },
   {
@@ -16,10 +16,9 @@ const publications = [
     issn: "1573-4099 / 1875-6697",
     publisher: "BENTHAM SCIENCE PUBLISHER",
     indexing: "SCIE Indexed Journal",
-    coverImage: "https://i.ibb.co/k2RCJj46/CURRENT-MEDICAL-IMAGING.jpg",
-    journalLink: "https://www.benthamscience.com/journal/33/indexing-agency"
-  },
-
+    coverImage: "https://i.ibb.co/rR4r1t7C/Computer-Aided-Drug-Design.jpg",
+    journalLink: "https://www.benthamscience.com/journals/current-computer-aided-drug-design"
+  }
 ];
 
 const Publication = () => {
