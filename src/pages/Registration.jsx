@@ -122,23 +122,6 @@ const Registration = () => {
                   Industry Experts
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
-                  INR 12,000
-                </td>
-                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
-                  INR 10,000
-                </td>
-                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
-                  INR 14,000
-                </td>
-                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
-                  INR 12,000
-                </td>
-              </tr>
-              <tr className="bg-gray-200">
-                <td className="px-2 py-3 sm:px-6 sm:py-4 text-left border border-gray-300 text-xs sm:text-sm">
-                  Academician
-                </td>
-                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
                   INR 10,000
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
@@ -151,9 +134,32 @@ const Registration = () => {
                   INR 10,000
                 </td>
               </tr>
+              <tr className="bg-gray-200">
+                <td className="px-2 py-3 sm:px-6 sm:py-4 text-left border border-gray-300 text-xs sm:text-sm">
+                  Academician
+                </td>
+                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
+                  INR 8,000
+                </td>
+                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
+                  INR 6,000
+                </td>
+                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
+                  INR 10,000
+                </td>
+                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
+                  INR 8,000
+                </td>
+              </tr>
               <tr>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 text-left border border-gray-300 text-xs sm:text-sm">
                   Research Scholars/Students
+                </td>
+                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
+                  INR 7,000
+                </td>
+                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
+                  INR 5,000
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
                   INR 9,000
@@ -161,28 +167,22 @@ const Registration = () => {
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
                   INR 7,000
                 </td>
-                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
-                  INR 11,000
-                </td>
-                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
-                  INR 9,000
-                </td>
               </tr>
               <tr className="bg-gray-200">
                 <td className="px-2 py-3 sm:px-6 sm:py-4 text-left border border-gray-300 text-xs sm:text-sm">
                   Foreign participant (Industry Expert/ Academician)
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
-                  USD $300
+                  USD $275
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
-                  USD $200
+                  USD $175
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
-                  USD $350
+                  USD $325
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
-                  USD $250
+                  USD $225
                 </td>
               </tr>
               <tr>
@@ -190,16 +190,16 @@ const Registration = () => {
                   Foreign Participant (research scholar/student)
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
-                  USD $200
+                  USD $175
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
-                  USD $100
+                  USD $75
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
-                  USD $250
+                  USD $225
                 </td>
                 <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-xs sm:text-sm">
-                  USD $150
+                  USD $125
                 </td>
               </tr>
             </tbody>
