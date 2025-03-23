@@ -12,7 +12,8 @@ import FaizGouri from "./Faiz-Gouri.jpg";
 import DrVinayKumarKasula from "./Vinay-Kumar-Kasula.jpg";
 import DrAkhilaReddyYadulla from "./Dr-Akhila-Reddy-Yadulla.jpg";
 import AmitSingh from "./Amit-Singh.jpg";
-
+import BKComing from "./willbook.png";
+import BOKComing from "./willbook-1.png";
 
 
 export {
@@ -29,5 +30,7 @@ export {
   FaizGouri,
   DrVinayKumarKasula,
   DrAkhilaReddyYadulla,
-  AmitSingh
+  AmitSingh,
+  BKComing,
+  BOKComing
 };
