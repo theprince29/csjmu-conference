@@ -48,11 +48,15 @@ const Home = () => {
               </p>
               <p className="mb-2">
                 CURRENT MEDICAL IMAGING (ISSN / eISSN: 1573-4056 / 1875-6603) <br />
-                (BENTHAM SCIENCE PUBLISHER) SCIE Indexed Journal
+                (BENTHAM SCIENCE PUBLISHER) <br />SCIE Indexed Journal
               </p>
               <p className="mb-2">
                 CURRENT COMPUTER-AIDED DRUG DESIGN (ISSN / eISSN: 1573-4099 / 1875-6697) <br />
-                (BENTHAM SCIENCE PUBLISHER) SCIE Indexed Journal
+                (BENTHAM SCIENCE PUBLISHER) <br />SCIE Indexed Journal
+              </p>
+              <p className="mb-2">
+                FRANKLIN OPEN (ISSN / Print ISSN: 1879-2693 / 0016-0032) <br />
+                (ELSEVIER PUBLISHER) <br />SCOPUS Indexed Journal
               </p>
               <p className="mb-2">
                 2. Selected quality papers of ICRAECCT-2025 will be published as a Book Chapters in **Scopus Indexed Edited Books with IGI Global, Bentham Science, CRC Press, Wiley-Scrivener Publishers.

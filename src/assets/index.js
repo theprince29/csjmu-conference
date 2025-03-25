@@ -14,8 +14,9 @@ import DrAkhilaReddyYadulla from "./Dr-Akhila-Reddy-Yadulla.jpg";
 import AmitSingh from "./Amit-Singh.jpg";
 import BKComing from "./willbook.png";
 import BOKComing from "./willbook-1.png";
-
-
+import FEFUlogo from "./FEFU-logo.png";
+import FranklinOpen from "./franklinOpen.jpg";
+import ARADlogo from "./arad-logo.png";
 export {
   DrRajeevkshakya,
   DrHariMohanPandey,
@@ -32,5 +33,8 @@ export {
   DrAkhilaReddyYadulla,
   AmitSingh,
   BKComing,
-  BOKComing
+  BOKComing,
+  FEFUlogo,
+  FranklinOpen,
+  ARADlogo,
 };

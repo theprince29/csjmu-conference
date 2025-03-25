@@ -5,7 +5,7 @@ import * as Images from "../assets";
 const publications = [
   {
     title: "CURRENT MEDICAL IMAGING",
-    issn: "1573-4056 / 1875-6603",
+    issn: "ISSN / eISSN: 1573-4056 / 1875-6603",
     publisher: "BENTHAM SCIENCE PUBLISHER",
     indexing: "SCIE Indexed Journal",
     coverImage: "https://i.ibb.co/k2RCJj46/CURRENT-MEDICAL-IMAGING.jpg",
@@ -13,11 +13,19 @@ const publications = [
   },
   {
     title: "CURRENT COMPUTER-AIDED DRUG DESIGN ",
-    issn: "1573-4099 / 1875-6697",
+    issn: "ISSN / eISSN: 1573-4099 / 1875-6697",
     publisher: "BENTHAM SCIENCE PUBLISHER",
     indexing: "SCIE Indexed Journal",
     coverImage: "https://i.ibb.co/rR4r1t7C/Computer-Aided-Drug-Design.jpg",
     journalLink: "https://www.benthamscience.com/journals/current-computer-aided-drug-design"
+  },
+  {
+    title: "FRANKLIN OPEN",
+    issn: "ISSN / Print ISSN: 1879-2693 / 0016-0032",
+    publisher: "ELSEVIER PUBLISHER",
+    indexing: "Scopus Indexed Journal",
+    coverImage: Images.FranklinOpen,
+    journalLink: "https://www.sciencedirect.com/journal/journal-of-the-franklin-institute"
   }
 ];
 
@@ -56,10 +64,11 @@ const Publication = () => {
                       />
                     </div>
                     <p className="text-gray-600 text-sm md:text-base text-center">
-                      (ISSN / eISSN: {pub.issn})
+                      ( {pub.issn})
                     </p>
                     <p className="text-gray-600 text-sm md:text-base text-center">
-                      ({pub.publisher}) {pub.indexing}
+                      ({pub.publisher}) <br />
+                      {pub.indexing}
                     </p>
                   </div>
 

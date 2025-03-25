@@ -1,4 +1,5 @@
 import React from "react";
+import * as Images from "../../assets";
 
 const Header = () => {
   return (
@@ -20,6 +21,12 @@ const Header = () => {
             alt="NAAC Logo"
             className="w-28 h-28 object-contain"
           />
+          <img src={Images.FEFUlogo} alt="FEFU-logo" className="w-28 h-28 object-contain" />
+          <img
+            src={Images.ARADlogo}
+            alt="ARAD Logo"
+            className="w-20 h-20 object-contain"
+          />
         </div>
         <div className="mt-6 sm:mt-4">
           <h1 className="text-2xl font-bold my-4 sm:text-3xl">
@@ -39,21 +46,35 @@ const Header = () => {
             <li>Department of Computer Science & Engineering</li>
             <li>Department of Electronics and Communication Engineering</li>
             <li>
-              <span className="text-lg sm:text-2xl mb-2">
+              <span className="text-lg sm:text-2xl mb-2 text-third-600">
                 School of Engineering and Technology (UIET) ,
               </span>
-              <h2 className="text-2xl font-bold text-gray-700">
+              <h2 className="text-2xl font-bold text-third-600">
                 Chhatrapati Shahu Ji Maharaj University, Kanpur
               </h2>
+
               <p className="text-gray-600 text-base">
+                UGC Category - I <br />
                 Uttar Pradesh State University (Formerly Kanpur University,
-                Kanpur)
+                Kanpur, India)
               </p>
-              <p className="text-gray-600 text-base font-semibold">
+              {/* <p className="text-gray-600 text-base font-semibold">
                 <span className="bg-primary-600 text-white p-1 rounded-sm">
                   UGC Category - I
                 </span>
+              </p> */}
+              <p className="text-gray-700 font-semibold text-sm sm:text-base">
+                in association with
               </p>
+              <h2 className="text-2xl font-bold text-third-600">
+                Far Eastern Federal University, Russia
+              </h2>
+              <p>&</p>
+              <h2 className="text-2xl font-bold text-third-600">
+                Aurel Vlaicu University of Arad, Romania
+              </h2>
+
+
             </li>
           </ul>
           <div className="flex justify-center mt-4">
