@@ -46,11 +46,11 @@ const Header = () => {
             <li>Department of Computer Science & Engineering</li>
             <li>Department of Electronics and Communication Engineering</li>
             <li>
-              <span className="text-lg sm:text-2xl mb-2 text-third-600">
+              <span className="text-lg sm:text-2xl mb-2 text-primary">
                 School of Engineering and Technology (UIET) ,
               </span>
-              <h2 className="text-2xl font-bold text-third-600">
-                Chhatrapati Shahu Ji Maharaj University, Kanpur
+              <h2 className="text-2xl font-bold text-primary">
+                Chhatrapati Shahu Ji Maharaj University, Kanpur (Venue partner)
               </h2>
 
               <p className="text-gray-600 text-base">
@@ -58,19 +58,15 @@ const Header = () => {
                 Uttar Pradesh State University (Formerly Kanpur University,
                 Kanpur, India)
               </p>
-              {/* <p className="text-gray-600 text-base font-semibold">
-                <span className="bg-primary-600 text-white p-1 rounded-sm">
-                  UGC Category - I
-                </span>
-              </p> */}
-              <p className="text-gray-700 font-semibold text-sm sm:text-base">
+              
+              <p className="text-primary font-semibold text-sm sm:text-base">
                 in association with
               </p>
-              <h2 className="text-2xl font-bold text-third-600">
+              <h2 className="text-2xl font-bold text-primary">
                 Far Eastern Federal University, Russia
               </h2>
               <p>&</p>
-              <h2 className="text-2xl font-bold text-third-600">
+              <h2 className="text-2xl font-bold text-primary">
                 Aurel Vlaicu University of Arad, Romania
               </h2>
 

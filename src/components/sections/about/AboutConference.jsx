@@ -12,7 +12,7 @@ const AboutConference = () => {
         <p className="mb-2">
           Chhatrapati Shahu Ji Maharaj University (CSJMU), Kanpur, is delighted to announce it's
           <strong><em> International Conference on Recent Advances in Emerging Computing and Communication
-            Technologies (IC-RAECCT 2025) </em></strong> in association with Far Eastern Federal University Russia & Aurel Vlaicu University of Arad, Romania , to be held on April 11th-12th, 2025, at our campus.
+            Technologies (IC-RAECCT 2025) </em></strong> in association with <em>Far Eastern Federal University, Russia</em> & <em>Aurel Vlaicu University of Arad, Romania</em>, to be held on April 11th-12th, 2025, at our campus.
         </p>
 
         <p className="mb-2">
