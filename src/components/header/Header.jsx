@@ -1,6 +1,7 @@
 import React from "react";
 import * as Images from "../../assets";
 
+
 const Header = () => {
   return (
     <header className="header bg-white text-dark py-6 px-2 sm:py-8 sm:px-4 pb-0">
@@ -27,6 +28,11 @@ const Header = () => {
             alt="ARAD Logo"
             className="w-20 h-20 object-contain"
           />
+          <img
+            src={Images.av}
+            alt="ARAD Logo"
+            className="w-20 h-20 object-contain"
+          />
         </div>
         <div className="mt-6 sm:mt-4">
           <h1 className="text-2xl font-bold my-4 sm:text-3xl">
@@ -50,7 +56,7 @@ const Header = () => {
                 School of Engineering and Technology (UIET) ,
               </span>
               <h2 className="text-2xl font-bold text-primary">
-                Chhatrapati Shahu Ji Maharaj University, Kanpur (Venue partner)
+                Chhatrapati Shahu Ji Maharaj University, Kanpur (Venue Partner)
               </h2>
 
               <p className="text-gray-600 text-base">

@@ -17,6 +17,7 @@ import BOKComing from "./willbook-1.png";
 import FEFUlogo from "./FEFU-logo.png";
 import FranklinOpen from "./franklinOpen.jpg";
 import ARADlogo from "./arad-logo.png";
+import av from "./av-logo.jpg";
 export {
   DrRajeevkshakya,
   DrHariMohanPandey,
@@ -37,4 +38,5 @@ export {
   FEFUlogo,
   FranklinOpen,
   ARADlogo,
+  av,
 };
