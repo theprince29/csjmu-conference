@@ -22,7 +22,7 @@ const Header = () => {
             alt="NAAC Logo"
             className="w-28 h-28 object-contain"
           />
-          <img src={Images.FEFUlogo} alt="FEFU-logo" className="w-28 h-28 object-contain" />
+{/*           <img src={Images.FEFUlogo} alt="FEFU-logo" className="w-28 h-28 object-contain" /> */}
           <img
             src={Images.ARADlogo}
             alt="ARAD Logo"
@@ -68,10 +68,10 @@ const Header = () => {
               <p className="text-primary font-semibold text-sm sm:text-base">
                 in association with
               </p>
-              <h2 className="text-2xl font-bold text-primary">
+{/*               <h2 className="text-2xl font-bold text-primary">
                 Far Eastern Federal University, Russia
               </h2>
-              <p>&</p>
+              <p>&</p> */}
               <h2 className="text-2xl font-bold text-primary">
                 Aurel Vlaicu University of Arad, Romania
               </h2>
