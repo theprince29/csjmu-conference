@@ -108,6 +108,48 @@ const SpeakerCard = ({ name, title, description, image }) => {
       description: "Microsoft, Seattle, USA",
       image: Images.FaizGouri,
     },
+    {
+      name: "Sudheer Kolla ",
+      title: "Database Administrator",
+      description: "Unisoft Technology Inc, Texas, USA",
+      image: Images.SudheerKolla,
+    },
+    {
+      name: "Sai Vinod Vangavolu",
+      title: "Sr. Software Engineer",
+      description: "CVS Health, TX, USA",
+      image: Images.SaiVinodVangavolu,
+    },
+    {
+      name: "Ummer khan Asif Bangalore Ghouse khan",
+      title: "Associate General Manager, HCL ",
+      description: "Tech, New Jersey, USA",
+      image: Images.UmmerkhanAsif,
+    },
+    {
+      name: "Vishnuvardhan Reddy Goli",
+      title: "Lead Mobile Developer",
+      description: "UHG(Optum), MN, USA",
+      image: Images.VishnuvardhanReddy,
+    },
+    {
+      name: "Jyotirmay Jena",
+      title: "Sr Cyber Security Architect",
+      description: "HCLTech, Frisco, USA",
+      image: Images.JyotirmayJena,
+    },
+    {
+      name: "Jyotirmay Jena",
+      title: "Sr Cyber Security Architect",
+      description: "HCLTech, Frisco, USA",
+      image: Images.JyotirmayJena,
+    },
+    {
+      name: "Niranjan Reddy Kotha",
+      title: "Sr. Cloud Infrastructure Security Engineer",
+      description: "Cod Cores Inc, Englewood, CO",
+      image: Images.NiranjanReddy,
+    },
   ];
 
 

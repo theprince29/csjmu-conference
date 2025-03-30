@@ -18,6 +18,12 @@ import FEFUlogo from "./FEFU-logo.png";
 import FranklinOpen from "./franklinOpen.jpg";
 import ARADlogo from "./arad-logo.png";
 import av from "./av-logo.jpg";
+import NiranjanReddy from "./niranjan.jpg";
+import JyotirmayJena from "./jyotirmayjena.jpg";
+import VishnuvardhanReddy from "./vishnuvardhan.jpg";
+import UmmerkhanAsif from "./ummerkhan.jpg";
+import SaiVinodVangavolu from "./saivinod.jpg";
+import SudheerKolla from "./sudhirkolla.jpg";
 export {
   DrRajeevkshakya,
   DrHariMohanPandey,
@@ -39,4 +45,10 @@ export {
   FranklinOpen,
   ARADlogo,
   av,
+  NiranjanReddy,
+  SudheerKolla,
+  JyotirmayJena,
+  VishnuvardhanReddy,
+  UmmerkhanAsif,
+  SaiVinodVangavolu,
 };
