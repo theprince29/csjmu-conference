@@ -139,12 +139,6 @@ const SpeakerCard = ({ name, title, description, image }) => {
       image: Images.JyotirmayJena,
     },
     {
-      name: "Jyotirmay Jena",
-      title: "Sr Cyber Security Architect",
-      description: "HCLTech, Frisco, USA",
-      image: Images.JyotirmayJena,
-    },
-    {
       name: "Niranjan Reddy Kotha",
       title: "Sr. Cloud Infrastructure Security Engineer",
       description: "Cod Cores Inc, Englewood, CO",
