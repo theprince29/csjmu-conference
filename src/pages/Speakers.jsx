@@ -121,7 +121,7 @@ const SpeakerCard = ({ name, title, description, image }) => {
       image: Images.SaiVinodVangavolu,
     },
     {
-      name: "Ummer khan Asif Bangalore Ghouse khan",
+      name: "Ummer khan Asif",
       title: "Associate General Manager, HCL ",
       description: "Tech, New Jersey, USA",
       image: Images.UmmerkhanAsif,
