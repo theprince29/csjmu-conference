@@ -144,6 +144,12 @@ const SpeakerCard = ({ name, title, description, image }) => {
       description: "Cod Cores Inc, Englewood, CO",
       image: Images.NiranjanReddy,
     },
+    {
+      name: "Ratnadeep Simhadri",
+      title: "Software Engineer",
+      description: "PayPal, USA",
+      image: Images.RatnadeepSimhadri,
+    },
   ];
 
 

@@ -24,6 +24,9 @@ import VishnuvardhanReddy from "./vishnuvardhan.jpg";
 import UmmerkhanAsif from "./ummerkhan.jpg";
 import SaiVinodVangavolu from "./saivinod.jpg";
 import SudheerKolla from "./sudhirkolla.jpg";
+import RatnadeepSimhadri from "./Ratnadeep_Simhadri.jpg";
+
+
 export {
   DrRajeevkshakya,
   DrHariMohanPandey,
@@ -51,4 +54,5 @@ export {
   VishnuvardhanReddy,
   UmmerkhanAsif,
   SaiVinodVangavolu,
+  RatnadeepSimhadri,
 };
