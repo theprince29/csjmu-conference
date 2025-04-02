@@ -150,6 +150,12 @@ const SpeakerCard = ({ name, title, description, image }) => {
       description: "PayPal, USA",
       image: Images.RatnadeepSimhadri,
     },
+    {
+      name: "Prof. Seleznev Tim",
+      title: "AI and Robotics Lab",
+      description: "Far Eastern Federal University, Russia",
+      image: Images.DrSeleznevTim,
+    },
   ];
 
 

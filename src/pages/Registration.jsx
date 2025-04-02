@@ -92,13 +92,17 @@ const Registration = () => {
                   colSpan="2"
                   className="px-2 py-3 sm:px-6 sm:py-4 text-sm sm:text-base font-semibold border border-gray-300"
                 >
-                  EARLY BIRD REGISTRATION
+                  EARLY BIRD REGISTRATION <br />DEADLINE
+                  <strong > 02 APRIL 12:00AM MIDNIGHT</strong>
+
+
                 </th>
                 <th
                   colSpan="2"
                   className="px-2 py-3 sm:px-6 sm:py-4 text-sm sm:text-base font-semibold border border-gray-300"
                 >
-                  REGISTRATION AFTER DUE DATE
+                  LATE BIRD REGISTRATION <br /> DEADLINE
+                  <strong> 04 APRIL 12:00AM MIDNIGHT</strong>
                 </th>
               </tr>
               <tr>
