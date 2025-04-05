@@ -156,6 +156,12 @@ const SpeakerCard = ({ name, title, description, image }) => {
       description: "Far Eastern Federal University, Russia",
       image: Images.DrSeleznevTim,
     },
+    {
+      name: "Dr. Bhargavi Konda",
+      title: "Senior Systems Analyst ",
+      description: "HRIS, Atrius Health, USA",
+      image: Images.DrBhargaviKonda,
+    },
   ];
 
 
