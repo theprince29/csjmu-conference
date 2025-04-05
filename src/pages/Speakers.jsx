@@ -163,7 +163,7 @@ const SpeakerCard = ({ name, title, description, image }) => {
       image: Images.DrBhargaviKonda,
     },
   ];
-
+// test
 
 
 
