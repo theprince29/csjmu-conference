@@ -162,6 +162,12 @@ const SpeakerCard = ({ name, title, description, image }) => {
       description: "HRIS, Atrius Health, USA",
       image: Images.DrBhargaviKonda,
     },
+    {
+      name: "Kathyayan Goud Mula",
+      title: "Technical lead manager ",
+      description: "Chime, USA",
+      image: Images.KathyayanGoudMula,
+    },
   ];
 
 
