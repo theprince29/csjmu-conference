@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import Dropdown from "../dropdown/Dropdown";
+import DropdownFiles from "../dropdown/DropdownFiles"
 import { Link, useLocation } from "react-router-dom";
 
 const Navbar = ({ isSticky }) => {
@@ -168,6 +169,23 @@ const Navbar = ({ isSticky }) => {
             >
               Nearby Attractions
             </Link>
+            {/* <Link to="/call-for-papers" className={`${isActive('/call-for-papers') ? 'text-secondary' : 'hover:text-secondary'} transition duration-300 ease-in-out`}>Call for Papers</Link> */}
+            <DropdownFiles
+              name={"Downloads"}
+              items={[
+                { itemName: "Technical Schedule Website Upload 8 April 2025", link: "files/Technical_schedule-Website-Upload-8-April-2025" },
+                { itemName: "PAPER PRESENTATION TEMPLATE FORMAT", link: "files/ICRAECCT_2025_TEMPLATE_FOR_PAPER_PRESENTATION.pptx" },
+
+                // {
+                //   itemName: "Call For Special Sessions",
+                //   link: "/call-for-special-sessions",
+                // },
+                // {
+                //   itemName: "Call for Sponsorship",
+                //   link: "/call-for-sponsopship",
+                // },
+              ]}
+            />
             <Link
               to="/contact-us"
               className={`${
