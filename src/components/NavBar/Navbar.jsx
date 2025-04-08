@@ -424,10 +424,10 @@ const Navbar = ({ isSticky }) => {
               >
                 Nearby Attractions
               </Link>
-              <DropdownFiles
+              <DropdownFiles 
               name={"Downloads"}
               items={[
-                { itemName: "Technical Schedule Website Upload 8 April 2025", link: "files/Technical_schedule-Website-Upload-8-April-2025" },
+                { itemName: "PAPER Presentation Schedule", link: "files/Technical_schedule-Website-Upload-8-April-2025" },
                 { itemName: "PAPER PRESENTATION TEMPLATE FORMAT", link: "files/ICRAECCT_2025_TEMPLATE_FOR_PAPER_PRESENTATION.pptx" },
 
                 // {
