@@ -32,6 +32,7 @@ import TechnicalProgramCommittee from "./pages/TechnicalProgramCommittee";
 import CallForSpecialSessions from "./pages/CallForSpecialSessions";
 import CallForSponser from "./pages/CallForSponser";
 import Speakers from "./pages/Speakers";
+import { Downloads } from "./pages/Downloads";
 function AppContent() {
   const location = useLocation();
   const [isSticky, setIsSticky] = useState(false);
@@ -73,6 +74,7 @@ function AppContent() {
         <CSSTransition key={location.key} classNames="fade" timeout={300}>
           <Routes location={location}>
             <Route path="/" element={<Home />} />
+            <Route path="/downloads" element={<Downloads />} />
             <Route path="/steering-committee" element={<Committee />} />
             <Route path="/advisory-committee" element={<AdvisoryCommittee />} />
             <Route path="/call-for-papers" element={<CallForPaper />} />

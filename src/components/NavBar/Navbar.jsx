@@ -22,9 +22,8 @@ const Navbar = ({ isSticky }) => {
   return (
     <>
       <nav
-        className={`${
-          isSticky ? "fixed top-0 left-0 z-50" : ""
-        } bg-primary text-white w-full py-3 shadow-md rounded transition duration-300`}
+        className={`${isSticky ? "fixed top-0 left-0 z-50" : ""
+          } bg-primary text-white w-full py-3 shadow-md rounded transition duration-300`}
       >
         <div className="container mx-auto flex lg:justify-center items-center px-4">
           {/* Hamburger Menu for Mobile */}
@@ -63,15 +62,13 @@ const Navbar = ({ isSticky }) => {
 
           {/* Left: Links Section */}
           <div
-            className={`hidden lg:flex space-x-4 justify-around text-base font-semibold ${
-              isOpen ? "hidden" : "block"
-            }`}
+            className={`hidden lg:flex space-x-4 justify-around text-base font-semibold ${isOpen ? "hidden" : "block"
+              }`}
           >
             <Link
               to="/"
-              className={`${
-                isActive("/") ? "text-secondary" : "hover:text-secondary"
-              } transition duration-300 ease-in-out`}
+              className={`${isActive("/") ? "text-secondary" : "hover:text-secondary"
+                } transition duration-300 ease-in-out`}
             >
               Home
             </Link>
@@ -92,11 +89,10 @@ const Navbar = ({ isSticky }) => {
             />
             <Link
               to="/important-dates"
-              className={`${
-                isActive("/important-dates")
+              className={`${isActive("/important-dates")
                   ? "text-secondary"
                   : "hover:text-secondary"
-              } transition duration-300 ease-in-out`}
+                } transition duration-300 ease-in-out`}
             >
               Important Dates
             </Link>
@@ -123,67 +119,70 @@ const Navbar = ({ isSticky }) => {
             />
             <Link
               to="/registration"
-              className={`${
-                isActive("/registration")
+              className={`${isActive("/registration")
                   ? "text-secondary"
                   : "hover:text-secondary"
-              } transition duration-300 ease-in-out`}
+                } transition duration-300 ease-in-out`}
             >
               Registration
             </Link>
             <Link
               to="/publications"
-              className={`${
-                isActive("/publications")
+              className={`${isActive("/publications")
                   ? "text-secondary"
                   : "hover:text-secondary"
-              } transition duration-300 ease-in-out`}
+                } transition duration-300 ease-in-out`}
             >
               Publications
             </Link>
             <Link
               to="/speakers"
-              className={`${
-                isActive("/speakers")
+              className={`${isActive("/speakers")
                   ? "text-secondary"
                   : "hover:text-secondary"
-              } transition duration-300 ease-in-out`}
+                } transition duration-300 ease-in-out`}
             >
               Speakers
             </Link>
             <Link
               to="/gallery"
-              className={`${
-                isActive("/gallery") ? "text-secondary" : "hover:text-secondary"
-              } transition duration-300 ease-in-out`}
+              className={`${isActive("/gallery") ? "text-secondary" : "hover:text-secondary"
+                } transition duration-300 ease-in-out`}
             >
               Gallery
             </Link>
             <Link
               to="/nearby-attractions"
-              className={`${
-                isActive("/nearby-attractions")
+              className={`${isActive("/nearby-attractions")
                   ? "text-secondary"
                   : "hover:text-secondary"
-              } transition duration-300 ease-in-out`}
+                } transition duration-300 ease-in-out`}
             >
               Nearby Attractions
             </Link>
             {/* <Link to="/call-for-papers" className={`${isActive('/call-for-papers') ? 'text-secondary' : 'hover:text-secondary'} transition duration-300 ease-in-out`}>Call for Papers</Link> */}
-            <DropdownFiles
+            {/* <DropdownFiles
               name={"Downloads"}
               items={[
                 { itemName: "PAPER Presentation Schedule", link: "files/Technical_schedule-Website-Upload-8-April-2025" },
                 { itemName: "PAPER PRESENTATION TEMPLATE FORMAT", link: "files/ICRAECCT_2025_TEMPLATE_FOR_PAPER_PRESENTATION.pptx" },
               ]}
-            />
+            /> */}
             <Link
-              to="/contact-us"
-              className={`${
-                isActive("/contact-us")
+              to="/downloads"
+              className={`${isActive("/downloads")
                   ? "text-secondary"
                   : "hover:text-secondary"
-              } transition duration-300 ease-in-out`}
+                } transition duration-300 ease-in-out`}
+            >
+              Downloads
+            </Link>
+            <Link
+              to="/contact-us"
+              className={`${isActive("/contact-us")
+                  ? "text-secondary"
+                  : "hover:text-secondary"
+                } transition duration-300 ease-in-out`}
             >
               Contact Us
             </Link>
@@ -223,9 +222,8 @@ const Navbar = ({ isSticky }) => {
             <div className="flex flex-col space-y-4 text-md text-left mt-4 p-4 ">
               <Link
                 to="/"
-                className={`${
-                  isActive("/") ? "text-secondary" : "hover:text-secondary"
-                } transition duration-300 ease-in-out`}
+                className={`${isActive("/") ? "text-secondary" : "hover:text-secondary"
+                  } transition duration-300 ease-in-out`}
                 onClick={toggleMenu}
               >
                 Home
@@ -273,11 +271,10 @@ const Navbar = ({ isSticky }) => {
 
               <Link
                 to="/important-dates"
-                className={`${
-                  isActive("/important-dates")
+                className={`${isActive("/important-dates")
                     ? "text-secondary"
                     : "hover:text-secondary"
-                } transition duration-300 ease-in-out`}
+                  } transition duration-300 ease-in-out`}
                 onClick={toggleMenu}
               >
                 Important Dates
@@ -297,31 +294,31 @@ const Navbar = ({ isSticky }) => {
                 {isCommitteeOpen && (
                   <ul className="list ml-4 bg-primary-600 p-2 rounded  text-sm">
                     <li className="pb-2">
-                    <Link
-                      to="/steering-committee"
-                      className="hover:text-secondary transition duration-300 "
-                      onClick={toggleMenu}
-                    >
-                      Steering Committee
-                    </Link>
+                      <Link
+                        to="/steering-committee"
+                        className="hover:text-secondary transition duration-300 "
+                        onClick={toggleMenu}
+                      >
+                        Steering Committee
+                      </Link>
                     </li>
                     <li className="pb-2">
-                    <Link
-                      to="/advisory-committee"
-                      className="hover:text-secondary transition duration-300"
-                      onClick={toggleMenu}
-                    >
-                      Advisory Committee
-                    </Link>
+                      <Link
+                        to="/advisory-committee"
+                        className="hover:text-secondary transition duration-300"
+                        onClick={toggleMenu}
+                      >
+                        Advisory Committee
+                      </Link>
                     </li>
                     <li>
-                    <Link
-                      to="/technical-program-committee"
-                      className="hover:text-secondary transition duration-300"
-                      onClick={toggleMenu}
-                    >
-                      Technical Committee
-                    </Link>
+                      <Link
+                        to="/technical-program-committee"
+                        className="hover:text-secondary transition duration-300"
+                        onClick={toggleMenu}
+                      >
+                        Technical Committee
+                      </Link>
                     </li>
                   </ul>
                 )}
@@ -341,15 +338,15 @@ const Navbar = ({ isSticky }) => {
                 {isAuthorInfoOpen && (
                   <ul className="list bg-primary-600 ml-4 rounded p-2 text-sm">
                     <li className="pb-2">
-                    <Link
-                      to="/crc-guidelines"
-                      className="hover:text-secondary transition duration-300"
-                      onClick={toggleMenu}
-                    >
-                    CRC Info
-                    </Link>
+                      <Link
+                        to="/crc-guidelines"
+                        className="hover:text-secondary transition duration-300"
+                        onClick={toggleMenu}
+                      >
+                        CRC Info
+                      </Link>
                     </li>
-                   <li> <Link
+                    <li> <Link
                       to="/submission-guidelines"
                       className={"hover:text-secondary transition duration-300"}
                       onClick={toggleMenu}
@@ -362,82 +359,87 @@ const Navbar = ({ isSticky }) => {
 
               <Link
                 to="/registration"
-                className={`${
-                  isActive("/registration")
+                className={`${isActive("/registration")
                     ? "text-secondary"
                     : "hover:text-secondary"
-                } transition duration-300 ease-in-out`}
+                  } transition duration-300 ease-in-out`}
                 onClick={toggleMenu}
               >
                 Registration
               </Link>
               <Link
                 to="/publications"
-                className={`${
-                  isActive("/publications")
+                className={`${isActive("/publications")
                     ? "text-secondary"
                     : "hover:text-secondary"
-                } transition duration-300 ease-in-out`}
+                  } transition duration-300 ease-in-out`}
                 onClick={toggleMenu}
               >
                 Publications
               </Link>
               <Link
                 to="/speakers"
-                className={`${
-                  isActive("/speakers")
+                className={`${isActive("/speakers")
                     ? "text-secondary"
                     : "hover:text-secondary"
-                } transition duration-300 ease-in-out`}
+                  } transition duration-300 ease-in-out`}
                 onClick={toggleMenu}
               >
                 Speakers
               </Link>
               <Link
                 to="/gallery"
-                className={`${
-                  isActive("/gallery")
+                className={`${isActive("/gallery")
                     ? "text-secondary"
                     : "hover:text-secondary"
-                } transition duration-300 ease-in-out`}
+                  } transition duration-300 ease-in-out`}
                 onClick={toggleMenu}
               >
                 Gallery
               </Link>
               <Link
                 to="/nearby-attractions"
-                className={`${
-                  isActive("/nearby-attractions")
+                className={`${isActive("/nearby-attractions")
                     ? "text-secondary"
                     : "hover:text-secondary"
-                } transition duration-300 ease-in-out`}
+                  } transition duration-300 ease-in-out`}
                 onClick={toggleMenu}
               >
                 Nearby Attractions
               </Link>
-              <DropdownFiles 
-              name={"Downloads"}
-              items={[
-                { itemName: "PAPER Presentation Schedule", link: "files/Technical_schedule-Website-Upload-8-April-2025" },
-                { itemName: "PAPER PRESENTATION TEMPLATE FORMAT", link: "files/ICRAECCT_2025_TEMPLATE_FOR_PAPER_PRESENTATION.pptx" },
-
-                // {
-                //   itemName: "Call For Special Sessions",
-                //   link: "/call-for-special-sessions",
-                // },
-                // {
-                //   itemName: "Call for Sponsorship",
-                //   link: "/call-for-sponsopship",
-                // },
-              ]}
-            />
               <Link
-                to="/contact-us"
-                className={`${
-                  isActive("/contact-us")
+                to="/downloads"
+                className={`${isActive("/downloads")
                     ? "text-secondary"
                     : "hover:text-secondary"
-                } transition duration-300 ease-in-out`}
+                  } transition duration-300 ease-in-out`}
+                onClick={toggleMenu}
+              >
+                Downloads
+              </Link>
+              
+              {/* <DropdownFiles
+                name={"Downloads"}
+                items={[
+                  { itemName: "PAPER Presentation Schedule", link: "files/Technical_schedule-Website-Upload-8-April-2025" },
+                  { itemName: "PAPER PRESENTATION TEMPLATE FORMAT", link: "files/ICRAECCT_2025_TEMPLATE_FOR_PAPER_PRESENTATION.pptx" },
+
+                  // {
+                  //   itemName: "Call For Special Sessions",
+                  //   link: "/call-for-special-sessions",
+                  // },
+                  // {
+                  //   itemName: "Call for Sponsorship",
+                  //   link: "/call-for-sponsopship",
+                  // },
+                ]}
+              /> */}
+              <Link
+                to="/contact-us"
+                className={`${isActive("/contact-us")
+                    ? "text-secondary"
+                    : "hover:text-secondary"
+                  } transition duration-300 ease-in-out`}
                 onClick={toggleMenu}
               >
                 Contact Us
