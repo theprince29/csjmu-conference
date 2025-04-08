@@ -424,6 +424,22 @@ const Navbar = ({ isSticky }) => {
               >
                 Nearby Attractions
               </Link>
+              <DropdownFiles
+              name={"Downloads"}
+              items={[
+                { itemName: "Technical Schedule Website Upload 8 April 2025", link: "files/Technical_schedule-Website-Upload-8-April-2025" },
+                { itemName: "PAPER PRESENTATION TEMPLATE FORMAT", link: "files/ICRAECCT_2025_TEMPLATE_FOR_PAPER_PRESENTATION.pptx" },
+
+                // {
+                //   itemName: "Call For Special Sessions",
+                //   link: "/call-for-special-sessions",
+                // },
+                // {
+                //   itemName: "Call for Sponsorship",
+                //   link: "/call-for-sponsopship",
+                // },
+              ]}
+            />
               <Link
                 to="/contact-us"
                 className={`${
