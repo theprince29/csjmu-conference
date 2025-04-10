@@ -168,6 +168,8 @@ const Navbar = ({ isSticky }) => {
                 { itemName: "PAPER PRESENTATION TEMPLATE FORMAT", link: "files/ICRAECCT_2025_TEMPLATE_FOR_PAPER_PRESENTATION.pptx" },
               ]}
             /> */}
+            <div className=" relative">
+
             <Link
               to="/downloads"
               className={`${isActive("/downloads")
@@ -176,7 +178,11 @@ const Navbar = ({ isSticky }) => {
                 } transition duration-300 ease-in-out`}
             >
               Downloads
+              <span className="absolute -top-3 -left-4 text-[10px]   rounded-full animate-pulse text-blue-800 ">
+      New
+    </span>
             </Link>
+            </div>
             <Link
               to="/contact-us"
               className={`${isActive("/contact-us")
