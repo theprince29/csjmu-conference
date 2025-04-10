@@ -90,8 +90,8 @@ const Navbar = ({ isSticky }) => {
             <Link
               to="/important-dates"
               className={`${isActive("/important-dates")
-                  ? "text-secondary"
-                  : "hover:text-secondary"
+                ? "text-secondary"
+                : "hover:text-secondary"
                 } transition duration-300 ease-in-out`}
             >
               Important Dates
@@ -120,8 +120,8 @@ const Navbar = ({ isSticky }) => {
             <Link
               to="/registration"
               className={`${isActive("/registration")
-                  ? "text-secondary"
-                  : "hover:text-secondary"
+                ? "text-secondary"
+                : "hover:text-secondary"
                 } transition duration-300 ease-in-out`}
             >
               Registration
@@ -129,8 +129,8 @@ const Navbar = ({ isSticky }) => {
             <Link
               to="/publications"
               className={`${isActive("/publications")
-                  ? "text-secondary"
-                  : "hover:text-secondary"
+                ? "text-secondary"
+                : "hover:text-secondary"
                 } transition duration-300 ease-in-out`}
             >
               Publications
@@ -138,8 +138,8 @@ const Navbar = ({ isSticky }) => {
             <Link
               to="/speakers"
               className={`${isActive("/speakers")
-                  ? "text-secondary"
-                  : "hover:text-secondary"
+                ? "text-secondary"
+                : "hover:text-secondary"
                 } transition duration-300 ease-in-out`}
             >
               Speakers
@@ -154,8 +154,8 @@ const Navbar = ({ isSticky }) => {
             <Link
               to="/nearby-attractions"
               className={`${isActive("/nearby-attractions")
-                  ? "text-secondary"
-                  : "hover:text-secondary"
+                ? "text-secondary"
+                : "hover:text-secondary"
                 } transition duration-300 ease-in-out`}
             >
               Nearby Attractions
@@ -169,25 +169,24 @@ const Navbar = ({ isSticky }) => {
               ]}
             /> */}
             <div className=" relative">
-
-            <Link
-              to="/downloads"
-              className={`${isActive("/downloads")
+              <Link
+                to="/downloads"
+                className={`${isActive("/downloads")
                   ? "text-secondary"
                   : "hover:text-secondary"
-                } transition duration-300 ease-in-out`}
-            >
-              Downloads
-              <span className="absolute -top-3 -left-4 text-[10px]   rounded-full animate-pulse text-blue-800 ">
-      New
-    </span>
-            </Link>
+                  } transition duration-300 ease-in-out`}
+              >
+                Downloads
+                <span className="absolute -top-3 -left-4 text-[10px] px-1 py-[1px] rounded-full animate-pulse  text-gray-200 shadow-md font-semibold">
+                  New
+                </span>
+              </Link>
             </div>
             <Link
               to="/contact-us"
               className={`${isActive("/contact-us")
-                  ? "text-secondary"
-                  : "hover:text-secondary"
+                ? "text-secondary"
+                : "hover:text-secondary"
                 } transition duration-300 ease-in-out`}
             >
               Contact Us
@@ -278,8 +277,8 @@ const Navbar = ({ isSticky }) => {
               <Link
                 to="/important-dates"
                 className={`${isActive("/important-dates")
-                    ? "text-secondary"
-                    : "hover:text-secondary"
+                  ? "text-secondary"
+                  : "hover:text-secondary"
                   } transition duration-300 ease-in-out`}
                 onClick={toggleMenu}
               >
@@ -366,8 +365,8 @@ const Navbar = ({ isSticky }) => {
               <Link
                 to="/registration"
                 className={`${isActive("/registration")
-                    ? "text-secondary"
-                    : "hover:text-secondary"
+                  ? "text-secondary"
+                  : "hover:text-secondary"
                   } transition duration-300 ease-in-out`}
                 onClick={toggleMenu}
               >
@@ -376,8 +375,8 @@ const Navbar = ({ isSticky }) => {
               <Link
                 to="/publications"
                 className={`${isActive("/publications")
-                    ? "text-secondary"
-                    : "hover:text-secondary"
+                  ? "text-secondary"
+                  : "hover:text-secondary"
                   } transition duration-300 ease-in-out`}
                 onClick={toggleMenu}
               >
@@ -386,8 +385,8 @@ const Navbar = ({ isSticky }) => {
               <Link
                 to="/speakers"
                 className={`${isActive("/speakers")
-                    ? "text-secondary"
-                    : "hover:text-secondary"
+                  ? "text-secondary"
+                  : "hover:text-secondary"
                   } transition duration-300 ease-in-out`}
                 onClick={toggleMenu}
               >
@@ -396,8 +395,8 @@ const Navbar = ({ isSticky }) => {
               <Link
                 to="/gallery"
                 className={`${isActive("/gallery")
-                    ? "text-secondary"
-                    : "hover:text-secondary"
+                  ? "text-secondary"
+                  : "hover:text-secondary"
                   } transition duration-300 ease-in-out`}
                 onClick={toggleMenu}
               >
@@ -406,8 +405,8 @@ const Navbar = ({ isSticky }) => {
               <Link
                 to="/nearby-attractions"
                 className={`${isActive("/nearby-attractions")
-                    ? "text-secondary"
-                    : "hover:text-secondary"
+                  ? "text-secondary"
+                  : "hover:text-secondary"
                   } transition duration-300 ease-in-out`}
                 onClick={toggleMenu}
               >
@@ -416,14 +415,14 @@ const Navbar = ({ isSticky }) => {
               <Link
                 to="/downloads"
                 className={`${isActive("/downloads")
-                    ? "text-secondary"
-                    : "hover:text-secondary"
+                  ? "text-secondary"
+                  : "hover:text-secondary"
                   } transition duration-300 ease-in-out`}
                 onClick={toggleMenu}
               >
                 Downloads
               </Link>
-              
+
               {/* <DropdownFiles
                 name={"Downloads"}
                 items={[
@@ -443,8 +442,8 @@ const Navbar = ({ isSticky }) => {
               <Link
                 to="/contact-us"
                 className={`${isActive("/contact-us")
-                    ? "text-secondary"
-                    : "hover:text-secondary"
+                  ? "text-secondary"
+                  : "hover:text-secondary"
                   } transition duration-300 ease-in-out`}
                 onClick={toggleMenu}
               >

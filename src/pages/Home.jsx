@@ -44,7 +44,7 @@ const Home = () => {
             </div>
             <div className="mt-4 text-gray-700 text-left text-sm sm:text-base">
                 <div className="mt-3 mb-4">
-                  <p>For paper presentation schedule and paper presentation template format, please refer downloads (please refer link: <a className="text-blue-600 cursor-pointer hover:text-blue-750" href="https://csjmu-conference.vercel.app/downloads ">https://csjmu-conference.vercel.app/downloads </a> ) page of the Website.</p>
+                  <p>For <strong>Paper presentation schedule</strong> and <strong>Paper presentation template format</strong>, please refer downloads (please refer link: <a className="text-blue-600 cursor-pointer hover:text-blue-750" href="https://csjmu-conference.vercel.app/downloads ">https://csjmu-conference.vercel.app/downloads </a> ) page of the Website.</p>
                 </div>
               <p className="mb-2">
                 1. High-quality selected extended papers of the conference will be invited to submit for publication in the special issues of the following *journals:
