@@ -199,6 +199,7 @@ const AdvisoryCommittee = () => {
                   Midhun Prabhu Chinta Technical Lead, Chime Financial Inc, California, United States
                 </li>
                 <li>Prasad Yacham, Senior SDET, Amazon USA</li>
+                <li>Raviteja Yalamanchili,  Lead Software Engineer at Microsoft USA</li>
               </ul>
             </div>
 
