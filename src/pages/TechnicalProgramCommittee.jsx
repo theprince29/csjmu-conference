@@ -445,6 +445,7 @@ const TechnicalProgramCommittee = () => {
         <li>
         Siva Krishna Jampani, Senior Software Engineer, Asurion, USA
         </li>
+        <li>Raviteja Yalamanchili,  Lead Software Engineer at Microsoft USA</li>
       </ul>
     </div>
   );
