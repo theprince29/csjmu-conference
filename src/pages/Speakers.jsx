@@ -163,9 +163,9 @@ const SpeakerCard = ({ name, title, description, image }) => {
       image: Images.DrBhargaviKonda,
     },
     {
-      name: "Kathyayan Goud Mula",
-      title: "Technical lead manager ",
-      description: "Chime, USA",
+      name: "Raviteja Yalamanchili",
+      title: "Lead Software Engineer",
+      description: "Microsoft, USA",
       image: Images.KathyayanGoudMula,
     },
   ];

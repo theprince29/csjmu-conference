@@ -28,7 +28,7 @@ import RatnadeepSimhadri from "./Ratnadeep_Simhadri.jpg";
 import DrSeleznevTim from "./Dr_Seleznev_Tim.jpg";
 import DrBhargaviKonda from "./DrBhargaviKonda.jpg";
 import KathyayanGoudMula from "./KathyayanGoudMula.jpg";
-
+import RavitejaYalamanchili from "./Raviteja-Yalamanchili.jpg";
 
 
 export {
@@ -61,5 +61,6 @@ export {
   RatnadeepSimhadri,
   DrSeleznevTim,
   DrBhargaviKonda,
-  KathyayanGoudMula
+  KathyayanGoudMula,
+  RavitejaYalamanchili 
 };
