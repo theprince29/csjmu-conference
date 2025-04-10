@@ -5,7 +5,7 @@ import AboutConference from "../components/sections/about/AboutConference";
 import { Helmet } from "react-helmet-async";
 
 const Home = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
   return (
     <>
       <Helmet>
@@ -38,11 +38,14 @@ const Home = () => {
               <button
                 onClick={() => setIsOpen(false)}
                 className="text-gray-500 hover:text-gray-700 text-lg"
-              >
+                >
                 ✖
               </button>
             </div>
             <div className="mt-4 text-gray-700 text-left text-sm sm:text-base">
+                <div className="mt-3 mb-4">
+                  <p>For paper presentation schedule and paper presentation template format, please refer downloads (please refer link: <a className="text-blue-600 cursor-pointer hover:text-blue-750" href="https://csjmu-conference.vercel.app/downloads ">https://csjmu-conference.vercel.app/downloads </a> ) page of the Website.</p>
+                </div>
               <p className="mb-2">
                 1. High-quality selected extended papers of the conference will be invited to submit for publication in the special issues of the following *journals:
               </p>
