@@ -38,14 +38,14 @@ const Home = () => {
               <button
                 onClick={() => setIsOpen(false)}
                 className="text-gray-500 hover:text-gray-700 text-lg"
-                >
+              >
                 ✖
               </button>
             </div>
             <div className="mt-4 text-gray-700 text-left text-sm sm:text-base">
-                <div className="mt-3 mb-4">
-                  <p>For <strong>Paper Presentation Schedule</strong> and <strong>Paper Presentation Template Format</strong>, please refer downloads (please refer link: <a className="text-blue-600 cursor-pointer hover:text-blue-750" href="https://csjmu-conference.vercel.app/downloads ">https://csjmu-conference.vercel.app/downloads </a> ) page of the Website.</p>
-                </div>
+              {/* <div className="mt-3 mb-4">
+                <p>For <strong>Paper Presentation Schedule</strong> and <strong>Paper Presentation Template Format</strong>, please refer downloads (please refer link: <a className="text-blue-600 cursor-pointer hover:text-blue-750" href="https://csjmu-conference.vercel.app/downloads ">https://csjmu-conference.vercel.app/downloads </a> ) page of the Website.</p>
+              </div>
               <p className="mb-2">
                 1. High-quality selected extended papers of the conference will be invited to submit for publication in the special issues of the following *journals:
               </p>
@@ -77,7 +77,17 @@ const Home = () => {
               <p className="text-xs text-third-600 mt-8 sm:mt-16">
                 NOTE: <br /> *Journals are Open Access and have Article Processing Charges, Authors have to bear the journal APC (or they can refer to fee waiver policy of journal) <br />
                 **Inclusion in Scopus depends on paper quality and various evaluation criteria by Scopus.
-              </p>
+              </p> */}
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/Jwg_MALcLrg?si=su_FYcAxnII0Kyg_&autoplay=1"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
             </div>
             <div className="mt-4 flex justify-end">
               <button
