@@ -39,7 +39,7 @@ const Footer = () => {
         <p className="text-xs">
           Maintained by UIET CSJM University.
         </p>
-        <p className="text-xs text-gray-700">
+        <p className="text-xs text-gray-300">
           Developed By <a href="https://theprince29.netlify.app" target="_blank">theprince29</a>
         </p>
       </div>
